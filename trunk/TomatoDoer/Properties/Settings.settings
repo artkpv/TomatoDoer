@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TomatoDoer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EvernoteUserEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EvernoteMailTag" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Pomodoro</Value>
+    </Setting>
+    <Setting Name="EvernoteMailNotebook" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Done</Value>
+    </Setting>
+    <Setting Name="EvernoteMailSubject" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{0} tomato(es) — at {1}.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="08c3daec-d8ca-4717-a544-5178cfed73f4" name="wild@AKA 2012-01-10 17:31:31" runUser="aka\wild" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0258f68d-d693-419d-9c59-4c795b299bbf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="wild_AKA 2012-01-10 17_31_31">
+      <DeploymentItem filename="F:\coding\TomatoDoer\External\Rhino.Mocks-3.6\Rhino.Mocks.dll" />
+      <DeploymentItem filename="F:\coding\TomatoDoer\TomatoDoer\bin\Release\TomatoDoer.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-10T17:31:31.0940364+04:00" queuing="2012-01-10T17:31:32.5281184+04:00" start="2012-01-10T17:31:32.7421307+04:00" finish="2012-01-10T17:31:34.9982597+04:00" />
+  <ResultSummary outcome="Aborted">
+    <Counters total="46" executed="26" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="25" notRunnable="0" notExecuted="20" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Returns_Started_If_Squashed_Before_Started_And_Not_Ended" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="c5283ac8-bd91-7034-0b9f-9637e57aa3fd">
+      <Execution id="34534dfc-6c7b-42a9-b9f6-220b186594f4" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimeSpanStateTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Returns_Started_If_Squashed_Before_Started_And_Not_Ended" />
+    </UnitTest>
+    <UnitTest name="Should_Report_Started" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="354a7ff6-f13e-c9eb-5e93-bc8640576e6f">
+      <Execution id="744d27e7-87f2-4fcd-92a2-564e96870088" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_Report_Started" />
+    </UnitTest>
+    <UnitTest name="Timer_Should_Not_Write_To_Log_Twice_About_Ending_After_ENd_Tick_And_Reset" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="f3c4ad49-f5da-099c-b5f7-e1b6635eaa26">
+      <Execution id="de5e5e50-2955-4594-a494-e99746b1e81d" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Timer_Should_Not_Write_To_Log_Twice_About_Ending_After_ENd_Tick_And_Reset" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="90fb368a-9031-5fac-018c-d4e894b3e61c">
+      <Execution id="885c2049-40f4-4cfd-adc4-0760460a0082" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.MVPBuilderTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="Timer_Should_Not_Increase_Number_Of_Done_Tomatoes_When_Reset" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="b63461dd-a28e-05b0-6a3f-a6d1bb8755d4">
+      <Execution id="dff8f6c1-d560-49b5-a32f-7df262f073ba" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Timer_Should_Not_Increase_Number_Of_Done_Tomatoes_When_Reset" />
+    </UnitTest>
+    <UnitTest name="Timer_Should_Log_Tomato_Squashed" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="c784ea9e-d67c-ce07-987f-c343801040e6">
+      <Execution id="365db91e-eaef-4b7a-9b46-a3adf09ad852" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Timer_Should_Log_Tomato_Squashed" />
+    </UnitTest>
+    <UnitTest name="Returns_Ready_If_Not_Started" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="bfa85e27-1668-b0fe-5ca1-3038a2e134de">
+      <Execution id="c00fe29a-1184-4906-8ca7-7c08071de92c" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimeSpanStateTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Returns_Ready_If_Not_Started" />
+    </UnitTest>
+    <UnitTest name="Timer_Should_Log_Tomato_Done" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="89a5c046-852d-1e41-5161-1f238de29583">
+      <Execution id="f1523eb4-695b-45d1-b09e-bfc050869823" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Timer_Should_Log_Tomato_Done" />
+    </UnitTest>
+    <UnitTest name="Presenter_Should_Suspend_And_Resume_Log_Update_Notification_While_Updating_Log" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="3175de47-47b5-1357-60af-27fb09d811ca">
+      <Execution id="7435813d-36c2-4236-a12c-030501305970" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerFormPresenterTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Presenter_Should_Suspend_And_Resume_Log_Update_Notification_While_Updating_Log" />
+    </UnitTest>
+    <UnitTest name="Inner_Timer_Could_Be_Started" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="7b66e6e8-1ac7-ccc9-f3df-fede418dbe1d">
+      <Execution id="6c90f36d-cb4d-4f9b-b986-b84f84f2220c" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Inner_Timer_Could_Be_Started" />
+    </UnitTest>
+    <UnitTest name="Could_Flush_To_Disk" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="eeacab21-fbbb-1fd2-ffa4-430bebd9e87d">
+      <Execution id="ce39150e-2376-467a-8db7-71137e378416" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoLogTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Could_Flush_To_Disk" />
+    </UnitTest>
+    <UnitTest name="Returns_Squashed_If_Squashed_While_Started" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="f7258637-bb56-fa47-ae12-b6f013dc69e9">
+      <Execution id="507593c1-21f3-44e1-82e1-2806d86463b8" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimeSpanStateTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Returns_Squashed_If_Squashed_While_Started" />
+    </UnitTest>
+    <UnitTest name="Returns_Ended_If_Squashed_Before_Started_And_Ended" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="b68c6d91-390c-f30d-55ff-e5fe0e8346b6">
+      <Execution id="aeb168af-20e1-4908-afec-53561de5d8d6" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimeSpanStateTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Returns_Ended_If_Squashed_Before_Started_And_Ended" />
+    </UnitTest>
+    <UnitTest name="Presenter_Should_Start_Tomato" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="899a53cc-b12f-eb16-f243-e253871a2bc1">
+      <Execution id="cd0c3ba2-30b4-484b-a11b-0c50deda6061" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerFormPresenterTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Presenter_Should_Start_Tomato" />
+    </UnitTest>
+    <UnitTest name="Presenter_Should_Take_Tomato_Duration_Before_Starting_New_One" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="6bb12e7e-e63e-a2dd-c7ba-7f78703d3d85">
+      <Execution id="a839bd25-3cd2-44a1-9bda-c630636b3689" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerFormPresenterTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Presenter_Should_Take_Tomato_Duration_Before_Starting_New_One" />
+    </UnitTest>
+    <UnitTest name="Presenter_Should_Bind_View" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="79548e17-4007-dd42-d2af-335e66269562">
+      <Execution id="dd6312be-6115-4438-bee1-444738d0e634" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerFormPresenterTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Presenter_Should_Bind_View" />
+    </UnitTest>
+    <UnitTest name="Should_Report_Ending_Somewhere" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="c0de3645-fe8a-1897-e9d7-b2f1475bb3ea">
+      <Execution id="ac4793ac-6ba0-4849-8fcf-c20b18319f88" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_Report_Ending_Somewhere" />
+    </UnitTest>
+    <UnitTest name="Could_Be_Started" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="e66e9cec-b1ca-8c01-bf9d-99c4492a3aea">
+      <Execution id="bd996bf1-e374-44b6-ad77-4507b3376329" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Could_Be_Started" />
+    </UnitTest>
+    <UnitTest name="Presenter_Should_Update_Log_If_Log_Test_Changed" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="6479b6ee-53dc-27fa-fc18-6b398d2616a1">
+      <Execution id="ed643e0a-419f-4908-820f-bc9ff4e71d92" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerFormPresenterTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Presenter_Should_Update_Log_If_Log_Test_Changed" />
+    </UnitTest>
+    <UnitTest name="Could_Not_Start_Two_Tomatoes_At_The_Same_Time" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="2adf42cf-4608-2955-f1b3-bff64ca882d9">
+      <Execution id="0ef20b08-0b34-46a5-a8a1-6889a6650d74" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Could_Not_Start_Two_Tomatoes_At_The_Same_Time" />
+    </UnitTest>
+    <UnitTest name="Should_Report_Squashing" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="744db440-87a7-5ed5-661c-95cb8ffb2a09">
+      <Execution id="e6f78078-d132-4bdd-9c27-ef9002592378" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_Report_Squashing" />
+    </UnitTest>
+    <UnitTest name="Presenter_Should_Flush_Log_If_Log_Text_Changed" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="d9510f8c-0dd7-f720-419a-abc6115870c3">
+      <Execution id="9c073f60-a59f-4fdc-b3e7-3e56419866fe" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerFormPresenterTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Presenter_Should_Flush_Log_If_Log_Text_Changed" />
+    </UnitTest>
+    <UnitTest name="Returns_Ended_If_Is_Started_And_Duration_Is_Zero" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="6f11a8c5-052a-773a-6967-6e41f6487c68">
+      <Execution id="a0f48508-06d1-412c-a4c9-605b0ec4c155" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimeSpanStateTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Returns_Ended_If_Is_Started_And_Duration_Is_Zero" />
+    </UnitTest>
+    <UnitTest name="Inner_Timer_Stopped_If_Tomato_Squashed" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="03abc43b-dd64-37c0-dcb1-826d90beb3a3">
+      <Execution id="8a3ebbf5-f00c-4e5f-bab5-84e813de7f29" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Inner_Timer_Stopped_If_Tomato_Squashed" />
+    </UnitTest>
+    <UnitTest name="Could_Be_Reset" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="3767236a-a099-f8ad-5857-3e7762df2c12">
+      <Execution id="6f7442b5-714b-4a2c-8655-453cc809055e" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Could_Be_Reset" />
+    </UnitTest>
+    <UnitTest name="Presenter_Should_Squash_Tomato" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="359858b9-43d2-9b67-40c2-88a9f23da6c2">
+      <Execution id="65a6cfae-b288-4bd2-8c3e-ca58cc8b6f29" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerFormPresenterTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Presenter_Should_Squash_Tomato" />
+    </UnitTest>
+    <UnitTest name="Could_Load_From_Disk" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="53bba681-a09d-4806-a029-f3a2d85e82ea">
+      <Execution id="ee1f87f8-b025-4deb-a9a4-dfeeaaaa7c64" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoLogTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Could_Load_From_Disk" />
+    </UnitTest>
+    <UnitTest name="Should_Return_Number_Of_Done_Tomatoes" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="8ac4e091-d1ed-b7a5-d5af-1332b5ec7288">
+      <Execution id="5789a094-a5ba-47ff-b998-52bd4ecd582f" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_Return_Number_Of_Done_Tomatoes" />
+    </UnitTest>
+    <UnitTest name="Could_Be_Squashed" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="290cb0fc-97b2-0f79-a143-343d5d9f6aee">
+      <Execution id="bbea4458-c9b0-4785-b550-59ff4a0885ed" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Could_Be_Squashed" />
+    </UnitTest>
+    <UnitTest name="Timer_Ended_Duration_Remains_The_Last_Specified" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="560e2f35-2db1-6a95-17f6-2a55ad2fc944">
+      <Execution id="4bc0b1de-6160-4157-86b9-8691b96e925a" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Timer_Ended_Duration_Remains_The_Last_Specified" />
+    </UnitTest>
+    <UnitTest name="Inner_Timer_Stopped_If_Reseting" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="20207d4f-deb9-4bd5-0b9a-430faea6bcea">
+      <Execution id="33bf953d-98f0-4f40-8eb4-331515f23a72" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Inner_Timer_Stopped_If_Reseting" />
+    </UnitTest>
+    <UnitTest name="Returns_Ready_If_It_Is_In_Future_And_Started" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="9b890da0-ea39-c6b1-d1e5-1115bc1b4ce3">
+      <Execution id="dcc1b90f-26fd-45cf-933f-45c81d0db25f" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimeSpanStateTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Returns_Ready_If_It_Is_In_Future_And_Started" />
+    </UnitTest>
+    <UnitTest name="Presenter_SHould_Hide_REset_Button_When_It_Is_Pressed" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="7ceb47ff-7163-9531-5d94-da3a4b12a816">
+      <Execution id="fc3df07f-99b4-43ff-99e8-12c3155361c9" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerFormPresenterTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Presenter_SHould_Hide_REset_Button_When_It_Is_Pressed" />
+    </UnitTest>
+    <UnitTest name="Timer_Creates_Spans_If_Log_Has_Other_Last_Done_Tomator_Number" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="f0d622a6-fcef-794f-b92c-684237ae91a5">
+      <Execution id="1f5c0c85-2691-4446-9d22-41b671e23e47" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Timer_Creates_Spans_If_Log_Has_Other_Last_Done_Tomator_Number" />
+    </UnitTest>
+    <UnitTest name="Should_Report_Tick" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="82a80e2e-e9ab-0ca2-ae57-9ee23d1b5beb">
+      <Execution id="dc19acd5-f6ab-4a99-af3a-5a1e70bb5b74" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_Report_Tick" />
+    </UnitTest>
+    <UnitTest name="Presenter_Should_Reset_Tomatoes" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="0c384aca-f38c-aaa8-a42c-194f30fd39f2">
+      <Execution id="b6963824-dcb1-4366-8cc2-6870716f2896" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerFormPresenterTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Presenter_Should_Reset_Tomatoes" />
+    </UnitTest>
+    <UnitTest name="Returns_Started_If_Started" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="73ca3d2d-d44c-68a4-9370-3001a14cc469">
+      <Execution id="2b13b90c-c187-4f2f-ac4f-ad6e9d400402" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimeSpanStateTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Returns_Started_If_Started" />
+    </UnitTest>
+    <UnitTest name="Could_Write" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="ff5ea537-2230-7692-f466-a85d13ccb37b">
+      <Execution id="d60f21b4-166c-40dc-ac20-431deadef252" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoLogTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Could_Write" />
+    </UnitTest>
+    <UnitTest name="Could_Not_Squash_Ended_Tomato" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="9ad240ca-976d-d104-ab31-31e78aa2cd3d">
+      <Execution id="82f6ba9e-206f-4b71-b464-59e4062251ca" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Could_Not_Squash_Ended_Tomato" />
+    </UnitTest>
+    <UnitTest name="Returns_Time_Remains" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="e34d0ecc-a3d7-89d8-8ba9-371a9927b918">
+      <Execution id="d71c3173-2192-4d95-ac2a-b0d1aa40b6cf" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoSpanTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Returns_Time_Remains" />
+    </UnitTest>
+    <UnitTest name="Returns_Started_If_Negative_Duration_And_Started" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="6328c0e0-0a18-49ab-fa87-4b5f2e1bdc86">
+      <Execution id="22774384-34c3-4bd5-9d70-0ee9b222cc04" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimeSpanStateTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Returns_Started_If_Negative_Duration_And_Started" />
+    </UnitTest>
+    <UnitTest name="Could_Notify_Updating" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="1c200d2b-ca31-a1f3-2db0-ea7496bd703f">
+      <Execution id="083ca856-2090-42b2-9fa4-cf815b23de97" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoLogTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Could_Notify_Updating" />
+    </UnitTest>
+    <UnitTest name="Timer_Should_Display_Progress" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="3bc44ade-77df-9aaf-ee38-4d3d3a56922e">
+      <Execution id="1b69e291-944c-47bd-b3d4-91ca06423c56" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Timer_Should_Display_Progress" />
+    </UnitTest>
+    <UnitTest name="Returns_Ended_If_Ended" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="d5b93794-ba9f-9250-a66d-fc7f2d27639f">
+      <Execution id="8cee88a8-fd98-415b-9775-00afceec4847" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimeSpanStateTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Returns_Ended_If_Ended" />
+    </UnitTest>
+    <UnitTest name="Returns_Ended_If_Squashed_After_Started" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="279e1f05-405d-876d-1c08-8f9601184f6f">
+      <Execution id="325fbf9b-e417-4c15-9d65-19b545a3b24c" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimeSpanStateTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Returns_Ended_If_Squashed_After_Started" />
+    </UnitTest>
+    <UnitTest name="Should_Not_Tick_If_Null_Tomato" storage="f:\coding\tomatodoer\tomatodoer.tests.unit\bin\release\tomatodoer.tests.unit.dll" id="87756baf-74b5-434d-e72a-0b6fce071a68">
+      <Execution id="aba61096-1bc8-4b91-a062-4e8e58d5d5cc" />
+      <TestMethod codeBase="F:/coding/TomatoDoer/TomatoDoer.Tests.Unit/bin/Release/TomatoDoer.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TomatoDoer.Tests.Unit.TomatoTimerTests, TomatoDoer.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_Not_Tick_If_Null_Tomato" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="03abc43b-dd64-37c0-dcb1-826d90beb3a3" executionId="8a3ebbf5-f00c-4e5f-bab5-84e813de7f29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c384aca-f38c-aaa8-a42c-194f30fd39f2" executionId="b6963824-dcb1-4366-8cc2-6870716f2896" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c200d2b-ca31-a1f3-2db0-ea7496bd703f" executionId="083ca856-2090-42b2-9fa4-cf815b23de97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20207d4f-deb9-4bd5-0b9a-430faea6bcea" executionId="33bf953d-98f0-4f40-8eb4-331515f23a72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="279e1f05-405d-876d-1c08-8f9601184f6f" executionId="325fbf9b-e417-4c15-9d65-19b545a3b24c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="290cb0fc-97b2-0f79-a143-343d5d9f6aee" executionId="bbea4458-c9b0-4785-b550-59ff4a0885ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2adf42cf-4608-2955-f1b3-bff64ca882d9" executionId="0ef20b08-0b34-46a5-a8a1-6889a6650d74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3175de47-47b5-1357-60af-27fb09d811ca" executionId="7435813d-36c2-4236-a12c-030501305970" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="354a7ff6-f13e-c9eb-5e93-bc8640576e6f" executionId="744d27e7-87f2-4fcd-92a2-564e96870088" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="359858b9-43d2-9b67-40c2-88a9f23da6c2" executionId="65a6cfae-b288-4bd2-8c3e-ca58cc8b6f29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3767236a-a099-f8ad-5857-3e7762df2c12" executionId="6f7442b5-714b-4a2c-8655-453cc809055e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3bc44ade-77df-9aaf-ee38-4d3d3a56922e" executionId="1b69e291-944c-47bd-b3d4-91ca06423c56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53bba681-a09d-4806-a029-f3a2d85e82ea" executionId="ee1f87f8-b025-4deb-a9a4-dfeeaaaa7c64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="560e2f35-2db1-6a95-17f6-2a55ad2fc944" executionId="4bc0b1de-6160-4157-86b9-8691b96e925a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6328c0e0-0a18-49ab-fa87-4b5f2e1bdc86" executionId="22774384-34c3-4bd5-9d70-0ee9b222cc04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6479b6ee-53dc-27fa-fc18-6b398d2616a1" executionId="ed643e0a-419f-4908-820f-bc9ff4e71d92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bb12e7e-e63e-a2dd-c7ba-7f78703d3d85" executionId="a839bd25-3cd2-44a1-9bda-c630636b3689" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f11a8c5-052a-773a-6967-6e41f6487c68" executionId="a0f48508-06d1-412c-a4c9-605b0ec4c155" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73ca3d2d-d44c-68a4-9370-3001a14cc469" executionId="2b13b90c-c187-4f2f-ac4f-ad6e9d400402" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="744db440-87a7-5ed5-661c-95cb8ffb2a09" executionId="e6f78078-d132-4bdd-9c27-ef9002592378" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79548e17-4007-dd42-d2af-335e66269562" executionId="dd6312be-6115-4438-bee1-444738d0e634" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b66e6e8-1ac7-ccc9-f3df-fede418dbe1d" executionId="6c90f36d-cb4d-4f9b-b986-b84f84f2220c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ceb47ff-7163-9531-5d94-da3a4b12a816" executionId="fc3df07f-99b4-43ff-99e8-12c3155361c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82a80e2e-e9ab-0ca2-ae57-9ee23d1b5beb" executionId="dc19acd5-f6ab-4a99-af3a-5a1e70bb5b74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87756baf-74b5-434d-e72a-0b6fce071a68" executionId="aba61096-1bc8-4b91-a062-4e8e58d5d5cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="899a53cc-b12f-eb16-f243-e253871a2bc1" executionId="cd0c3ba2-30b4-484b-a11b-0c50deda6061" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89a5c046-852d-1e41-5161-1f238de29583" executionId="f1523eb4-695b-45d1-b09e-bfc050869823" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ac4e091-d1ed-b7a5-d5af-1332b5ec7288" executionId="5789a094-a5ba-47ff-b998-52bd4ecd582f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90fb368a-9031-5fac-018c-d4e894b3e61c" executionId="885c2049-40f4-4cfd-adc4-0760460a0082" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ad240ca-976d-d104-ab31-31e78aa2cd3d" executionId="82f6ba9e-206f-4b71-b464-59e4062251ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b890da0-ea39-c6b1-d1e5-1115bc1b4ce3" executionId="dcc1b90f-26fd-45cf-933f-45c81d0db25f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b63461dd-a28e-05b0-6a3f-a6d1bb8755d4" executionId="dff8f6c1-d560-49b5-a32f-7df262f073ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b68c6d91-390c-f30d-55ff-e5fe0e8346b6" executionId="aeb168af-20e1-4908-afec-53561de5d8d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfa85e27-1668-b0fe-5ca1-3038a2e134de" executionId="c00fe29a-1184-4906-8ca7-7c08071de92c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0de3645-fe8a-1897-e9d7-b2f1475bb3ea" executionId="ac4793ac-6ba0-4849-8fcf-c20b18319f88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5283ac8-bd91-7034-0b9f-9637e57aa3fd" executionId="34534dfc-6c7b-42a9-b9f6-220b186594f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c784ea9e-d67c-ce07-987f-c343801040e6" executionId="365db91e-eaef-4b7a-9b46-a3adf09ad852" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5b93794-ba9f-9250-a66d-fc7f2d27639f" executionId="8cee88a8-fd98-415b-9775-00afceec4847" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9510f8c-0dd7-f720-419a-abc6115870c3" executionId="9c073f60-a59f-4fdc-b3e7-3e56419866fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e34d0ecc-a3d7-89d8-8ba9-371a9927b918" executionId="d71c3173-2192-4d95-ac2a-b0d1aa40b6cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e66e9cec-b1ca-8c01-bf9d-99c4492a3aea" executionId="bd996bf1-e374-44b6-ad77-4507b3376329" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eeacab21-fbbb-1fd2-ffa4-430bebd9e87d" executionId="ce39150e-2376-467a-8db7-71137e378416" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0d622a6-fcef-794f-b92c-684237ae91a5" executionId="1f5c0c85-2691-4446-9d22-41b671e23e47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3c4ad49-f5da-099c-b5f7-e1b6635eaa26" executionId="de5e5e50-2955-4594-a494-e99746b1e81d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7258637-bb56-fa47-ae12-b6f013dc69e9" executionId="507593c1-21f3-44e1-82e1-2806d86463b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff5ea537-2230-7692-f466-a85d13ccb37b" executionId="d60f21b4-166c-40dc-ac20-431deadef252" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8a3ebbf5-f00c-4e5f-bab5-84e813de7f29" testId="03abc43b-dd64-37c0-dcb1-826d90beb3a3" testName="Inner_Timer_Stopped_If_Tomato_Squashed" computerName="AKA" duration="00:00:00.4318942" startTime="2012-01-10T17:31:32.7781327+04:00" endTime="2012-01-10T17:31:34.0302044+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a3ebbf5-f00c-4e5f-bab5-84e813de7f29">
+    </UnitTestResult>
+    <UnitTestResult executionId="b6963824-dcb1-4366-8cc2-6870716f2896" testId="0c384aca-f38c-aaa8-a42c-194f30fd39f2" testName="Presenter_Should_Reset_Tomatoes" computerName="AKA" duration="00:00:00.2005542" startTime="2012-01-10T17:31:34.0452052+04:00" endTime="2012-01-10T17:31:34.2582174+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6963824-dcb1-4366-8cc2-6870716f2896">
+    </UnitTestResult>
+    <UnitTestResult executionId="083ca856-2090-42b2-9fa4-cf815b23de97" testId="1c200d2b-ca31-a1f3-2db0-ea7496bd703f" testName="Could_Notify_Updating" computerName="AKA" duration="00:00:00.0981406" startTime="2012-01-10T17:31:34.2602175+04:00" endTime="2012-01-10T17:31:34.3662236+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="083ca856-2090-42b2-9fa4-cf815b23de97">
+    </UnitTestResult>
+    <UnitTestResult executionId="33bf953d-98f0-4f40-8eb4-331515f23a72" testId="20207d4f-deb9-4bd5-0b9a-430faea6bcea" testName="Inner_Timer_Stopped_If_Reseting" computerName="AKA" duration="00:00:00.0025270" startTime="2012-01-10T17:31:34.3732240+04:00" endTime="2012-01-10T17:31:34.3852247+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33bf953d-98f0-4f40-8eb4-331515f23a72">
+    </UnitTestResult>
+    <UnitTestResult executionId="325fbf9b-e417-4c15-9d65-19b545a3b24c" testId="279e1f05-405d-876d-1c08-8f9601184f6f" testName="Returns_Ended_If_Squashed_After_Started" computerName="AKA" duration="00:00:00.0035361" startTime="2012-01-10T17:31:34.3882248+04:00" endTime="2012-01-10T17:31:34.4012256+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="325fbf9b-e417-4c15-9d65-19b545a3b24c">
+    </UnitTestResult>
+    <UnitTestResult executionId="bbea4458-c9b0-4785-b550-59ff4a0885ed" testId="290cb0fc-97b2-0f79-a143-343d5d9f6aee" testName="Could_Be_Squashed" computerName="AKA" duration="00:00:00.0014392" startTime="2012-01-10T17:31:34.4072259+04:00" endTime="2012-01-10T17:31:34.4382277+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbea4458-c9b0-4785-b550-59ff4a0885ed">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ef20b08-0b34-46a5-a8a1-6889a6650d74" testId="2adf42cf-4608-2955-f1b3-bff64ca882d9" testName="Could_Not_Start_Two_Tomatoes_At_The_Same_Time" computerName="AKA" duration="00:00:00.0280231" startTime="2012-01-10T17:31:34.4412279+04:00" endTime="2012-01-10T17:31:34.4882306+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ef20b08-0b34-46a5-a8a1-6889a6650d74">
+    </UnitTestResult>
+    <UnitTestResult executionId="7435813d-36c2-4236-a12c-030501305970" testId="3175de47-47b5-1357-60af-27fb09d811ca" testName="Presenter_Should_Suspend_And_Resume_Log_Update_Notification_While_Updating_Log" computerName="AKA" duration="00:00:00.0123510" startTime="2012-01-10T17:31:34.4962310+04:00" endTime="2012-01-10T17:31:34.5182323+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7435813d-36c2-4236-a12c-030501305970">
+    </UnitTestResult>
+    <UnitTestResult executionId="744d27e7-87f2-4fcd-92a2-564e96870088" testId="354a7ff6-f13e-c9eb-5e93-bc8640576e6f" testName="Should_Report_Started" computerName="AKA" duration="00:00:00.0023898" startTime="2012-01-10T17:31:34.5222325+04:00" endTime="2012-01-10T17:31:34.5332331+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="744d27e7-87f2-4fcd-92a2-564e96870088">
+    </UnitTestResult>
+    <UnitTestResult executionId="65a6cfae-b288-4bd2-8c3e-ca58cc8b6f29" testId="359858b9-43d2-9b67-40c2-88a9f23da6c2" testName="Presenter_Should_Squash_Tomato" computerName="AKA" duration="00:00:00.0165706" startTime="2012-01-10T17:31:34.5402335+04:00" endTime="2012-01-10T17:31:34.5662350+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65a6cfae-b288-4bd2-8c3e-ca58cc8b6f29">
+    </UnitTestResult>
+    <UnitTestResult executionId="6f7442b5-714b-4a2c-8655-453cc809055e" testId="3767236a-a099-f8ad-5857-3e7762df2c12" testName="Could_Be_Reset" computerName="AKA" duration="00:00:00.0096609" startTime="2012-01-10T17:31:34.5692352+04:00" endTime="2012-01-10T17:31:34.5902364+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f7442b5-714b-4a2c-8655-453cc809055e">
+    </UnitTestResult>
+    <UnitTestResult executionId="1b69e291-944c-47bd-b3d4-91ca06423c56" testId="3bc44ade-77df-9aaf-ee38-4d3d3a56922e" testName="Timer_Should_Display_Progress" computerName="AKA" duration="00:00:00.0041552" startTime="2012-01-10T17:31:34.5962367+04:00" endTime="2012-01-10T17:31:34.6082374+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b69e291-944c-47bd-b3d4-91ca06423c56">
+    </UnitTestResult>
+    <UnitTestResult executionId="ee1f87f8-b025-4deb-a9a4-dfeeaaaa7c64" testId="53bba681-a09d-4806-a029-f3a2d85e82ea" testName="Could_Load_From_Disk" computerName="AKA" duration="00:00:00.0113094" startTime="2012-01-10T17:31:34.6112376+04:00" endTime="2012-01-10T17:31:34.6392392+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee1f87f8-b025-4deb-a9a4-dfeeaaaa7c64">
+    </UnitTestResult>
+    <UnitTestResult executionId="4bc0b1de-6160-4157-86b9-8691b96e925a" testId="560e2f35-2db1-6a95-17f6-2a55ad2fc944" testName="Timer_Ended_Duration_Remains_The_Last_Specified" computerName="AKA" duration="00:00:00.0043078" startTime="2012-01-10T17:31:34.6432394+04:00" endTime="2012-01-10T17:31:34.6612404+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bc0b1de-6160-4157-86b9-8691b96e925a">
+    </UnitTestResult>
+    <UnitTestResult executionId="22774384-34c3-4bd5-9d70-0ee9b222cc04" testId="6328c0e0-0a18-49ab-fa87-4b5f2e1bdc86" testName="Returns_Started_If_Negative_Duration_And_Started" computerName="AKA" duration="00:00:00.0024682" startTime="2012-01-10T17:31:34.6652407+04:00" endTime="2012-01-10T17:31:34.6792415+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22774384-34c3-4bd5-9d70-0ee9b222cc04">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed643e0a-419f-4908-820f-bc9ff4e71d92" testId="6479b6ee-53dc-27fa-fc18-6b398d2616a1" testName="Presenter_Should_Update_Log_If_Log_Test_Changed" computerName="AKA" duration="00:00:00.0169433" startTime="2012-01-10T17:31:34.6822417+04:00" endTime="2012-01-10T17:31:34.7052430+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed643e0a-419f-4908-820f-bc9ff4e71d92">
+    </UnitTestResult>
+    <UnitTestResult executionId="a839bd25-3cd2-44a1-9bda-c630636b3689" testId="6bb12e7e-e63e-a2dd-c7ba-7f78703d3d85" testName="Presenter_Should_Take_Tomato_Duration_Before_Starting_New_One" computerName="AKA" duration="00:00:00.0134303" startTime="2012-01-10T17:31:34.7082431+04:00" endTime="2012-01-10T17:31:34.7272442+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a839bd25-3cd2-44a1-9bda-c630636b3689">
+    </UnitTestResult>
+    <UnitTestResult executionId="a0f48508-06d1-412c-a4c9-605b0ec4c155" testId="6f11a8c5-052a-773a-6967-6e41f6487c68" testName="Returns_Ended_If_Is_Started_And_Duration_Is_Zero" computerName="AKA" duration="00:00:00.0015171" startTime="2012-01-10T17:31:34.7292443+04:00" endTime="2012-01-10T17:31:34.7382449+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0f48508-06d1-412c-a4c9-605b0ec4c155">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b13b90c-c187-4f2f-ac4f-ad6e9d400402" testId="73ca3d2d-d44c-68a4-9370-3001a14cc469" testName="Returns_Started_If_Started" computerName="AKA" duration="00:00:00.0015379" startTime="2012-01-10T17:31:34.7412450+04:00" endTime="2012-01-10T17:31:34.7522457+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b13b90c-c187-4f2f-ac4f-ad6e9d400402">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6f78078-d132-4bdd-9c27-ef9002592378" testId="744db440-87a7-5ed5-661c-95cb8ffb2a09" testName="Should_Report_Squashing" computerName="AKA" duration="00:00:00.0029913" startTime="2012-01-10T17:31:34.7562459+04:00" endTime="2012-01-10T17:31:34.7672465+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6f78078-d132-4bdd-9c27-ef9002592378">
+    </UnitTestResult>
+    <UnitTestResult executionId="dd6312be-6115-4438-bee1-444738d0e634" testId="79548e17-4007-dd42-d2af-335e66269562" testName="Presenter_Should_Bind_View" computerName="AKA" duration="00:00:00.0078919" startTime="2012-01-10T17:31:34.7732469+04:00" endTime="2012-01-10T17:31:34.7882477+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd6312be-6115-4438-bee1-444738d0e634">
+    </UnitTestResult>
+    <UnitTestResult executionId="6c90f36d-cb4d-4f9b-b986-b84f84f2220c" testId="7b66e6e8-1ac7-ccc9-f3df-fede418dbe1d" testName="Inner_Timer_Could_Be_Started" computerName="AKA" duration="00:00:00.0010515" startTime="2012-01-10T17:31:34.7912479+04:00" endTime="2012-01-10T17:31:34.7972482+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c90f36d-cb4d-4f9b-b986-b84f84f2220c">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc3df07f-99b4-43ff-99e8-12c3155361c9" testId="7ceb47ff-7163-9531-5d94-da3a4b12a816" testName="Presenter_SHould_Hide_REset_Button_When_It_Is_Pressed" computerName="AKA" duration="00:00:00.0029772" startTime="2012-01-10T17:31:34.7992483+04:00" endTime="2012-01-10T17:31:34.8082489+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc3df07f-99b4-43ff-99e8-12c3155361c9">
+    </UnitTestResult>
+    <UnitTestResult executionId="dc19acd5-f6ab-4a99-af3a-5a1e70bb5b74" testId="82a80e2e-e9ab-0ca2-ae57-9ee23d1b5beb" testName="Should_Report_Tick" computerName="AKA" duration="00:00:00.0021158" startTime="2012-01-10T17:31:34.8122491+04:00" endTime="2012-01-10T17:31:34.8202495+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc19acd5-f6ab-4a99-af3a-5a1e70bb5b74">
+    </UnitTestResult>
+    <UnitTestResult executionId="aba61096-1bc8-4b91-a062-4e8e58d5d5cc" testId="87756baf-74b5-434d-e72a-0b6fce071a68" testName="Should_Not_Tick_If_Null_Tomato" computerName="AKA" duration="00:00:00.0027363" startTime="2012-01-10T17:31:34.8222497+04:00" endTime="2012-01-10T17:31:34.8332503+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aba61096-1bc8-4b91-a062-4e8e58d5d5cc">
+    </UnitTestResult>
+    <UnitTestResult executionId="cd0c3ba2-30b4-484b-a11b-0c50deda6061" testId="899a53cc-b12f-eb16-f243-e253871a2bc1" testName="Presenter_Should_Start_Tomato" computerName="AKA" duration="00:00:00.0490028" startTime="2012-01-10T17:31:34.8522514+04:00" endTime="2012-01-10T17:31:34.9012542+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd0c3ba2-30b4-484b-a11b-0c50deda6061">
+      <Output>
+        <ErrorInfo>
+          <Message>User aborted test run.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f1523eb4-695b-45d1-b09e-bfc050869823" testId="89a5c046-852d-1e41-5161-1f238de29583" testName="Timer_Should_Log_Tomato_Done" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1523eb4-695b-45d1-b09e-bfc050869823">
+    </UnitTestResult>
+    <UnitTestResult executionId="5789a094-a5ba-47ff-b998-52bd4ecd582f" testId="8ac4e091-d1ed-b7a5-d5af-1332b5ec7288" testName="Should_Return_Number_Of_Done_Tomatoes" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5789a094-a5ba-47ff-b998-52bd4ecd582f">
+    </UnitTestResult>
+    <UnitTestResult executionId="885c2049-40f4-4cfd-adc4-0760460a0082" testId="90fb368a-9031-5fac-018c-d4e894b3e61c" testName="TestMethod1" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="885c2049-40f4-4cfd-adc4-0760460a0082">
+    </UnitTestResult>
+    <UnitTestResult executionId="82f6ba9e-206f-4b71-b464-59e4062251ca" testId="9ad240ca-976d-d104-ab31-31e78aa2cd3d" testName="Could_Not_Squash_Ended_Tomato" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82f6ba9e-206f-4b71-b464-59e4062251ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="dcc1b90f-26fd-45cf-933f-45c81d0db25f" testId="9b890da0-ea39-c6b1-d1e5-1115bc1b4ce3" testName="Returns_Ready_If_It_Is_In_Future_And_Started" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dcc1b90f-26fd-45cf-933f-45c81d0db25f">
+    </UnitTestResult>
+    <UnitTestResult executionId="dff8f6c1-d560-49b5-a32f-7df262f073ba" testId="b63461dd-a28e-05b0-6a3f-a6d1bb8755d4" testName="Timer_Should_Not_Increase_Number_Of_Done_Tomatoes_When_Reset" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dff8f6c1-d560-49b5-a32f-7df262f073ba">
+    </UnitTestResult>
+    <UnitTestResult executionId="aeb168af-20e1-4908-afec-53561de5d8d6" testId="b68c6d91-390c-f30d-55ff-e5fe0e8346b6" testName="Returns_Ended_If_Squashed_Before_Started_And_Ended" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aeb168af-20e1-4908-afec-53561de5d8d6">
+    </UnitTestResult>
+    <UnitTestResult executionId="c00fe29a-1184-4906-8ca7-7c08071de92c" testId="bfa85e27-1668-b0fe-5ca1-3038a2e134de" testName="Returns_Ready_If_Not_Started" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c00fe29a-1184-4906-8ca7-7c08071de92c">
+    </UnitTestResult>
+    <UnitTestResult executionId="ac4793ac-6ba0-4849-8fcf-c20b18319f88" testId="c0de3645-fe8a-1897-e9d7-b2f1475bb3ea" testName="Should_Report_Ending_Somewhere" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac4793ac-6ba0-4849-8fcf-c20b18319f88">
+    </UnitTestResult>
+    <UnitTestResult executionId="34534dfc-6c7b-42a9-b9f6-220b186594f4" testId="c5283ac8-bd91-7034-0b9f-9637e57aa3fd" testName="Returns_Started_If_Squashed_Before_Started_And_Not_Ended" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34534dfc-6c7b-42a9-b9f6-220b186594f4">
+    </UnitTestResult>
+    <UnitTestResult executionId="365db91e-eaef-4b7a-9b46-a3adf09ad852" testId="c784ea9e-d67c-ce07-987f-c343801040e6" testName="Timer_Should_Log_Tomato_Squashed" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="365db91e-eaef-4b7a-9b46-a3adf09ad852">
+    </UnitTestResult>
+    <UnitTestResult executionId="8cee88a8-fd98-415b-9775-00afceec4847" testId="d5b93794-ba9f-9250-a66d-fc7f2d27639f" testName="Returns_Ended_If_Ended" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cee88a8-fd98-415b-9775-00afceec4847">
+    </UnitTestResult>
+    <UnitTestResult executionId="9c073f60-a59f-4fdc-b3e7-3e56419866fe" testId="d9510f8c-0dd7-f720-419a-abc6115870c3" testName="Presenter_Should_Flush_Log_If_Log_Text_Changed" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c073f60-a59f-4fdc-b3e7-3e56419866fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="d71c3173-2192-4d95-ac2a-b0d1aa40b6cf" testId="e34d0ecc-a3d7-89d8-8ba9-371a9927b918" testName="Returns_Time_Remains" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d71c3173-2192-4d95-ac2a-b0d1aa40b6cf">
+    </UnitTestResult>
+    <UnitTestResult executionId="bd996bf1-e374-44b6-ad77-4507b3376329" testId="e66e9cec-b1ca-8c01-bf9d-99c4492a3aea" testName="Could_Be_Started" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd996bf1-e374-44b6-ad77-4507b3376329">
+    </UnitTestResult>
+    <UnitTestResult executionId="ce39150e-2376-467a-8db7-71137e378416" testId="eeacab21-fbbb-1fd2-ffa4-430bebd9e87d" testName="Could_Flush_To_Disk" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce39150e-2376-467a-8db7-71137e378416">
+    </UnitTestResult>
+    <UnitTestResult executionId="1f5c0c85-2691-4446-9d22-41b671e23e47" testId="f0d622a6-fcef-794f-b92c-684237ae91a5" testName="Timer_Creates_Spans_If_Log_Has_Other_Last_Done_Tomator_Number" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f5c0c85-2691-4446-9d22-41b671e23e47">
+    </UnitTestResult>
+    <UnitTestResult executionId="de5e5e50-2955-4594-a494-e99746b1e81d" testId="f3c4ad49-f5da-099c-b5f7-e1b6635eaa26" testName="Timer_Should_Not_Write_To_Log_Twice_About_Ending_After_ENd_Tick_And_Reset" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de5e5e50-2955-4594-a494-e99746b1e81d">
+    </UnitTestResult>
+    <UnitTestResult executionId="507593c1-21f3-44e1-82e1-2806d86463b8" testId="f7258637-bb56-fa47-ae12-b6f013dc69e9" testName="Returns_Squashed_If_Squashed_While_Started" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="507593c1-21f3-44e1-82e1-2806d86463b8">
+    </UnitTestResult>
+    <UnitTestResult executionId="d60f21b4-166c-40dc-ac20-431deadef252" testId="ff5ea537-2230-7692-f466-a85d13ccb37b" testName="Could_Write" computerName="AKA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d60f21b4-166c-40dc-ac20-431deadef252">
+    </UnitTestResult>
+  </Results>
+</TestRun>

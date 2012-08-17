@@ -1,0 +1,932 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><title>TomatoDoer.TomatoTimerForm - Coverage Report</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="report.css" />
+
+</head><body><div class="container"><h1>Summary</h1><table class="overview">
+<colgroup>
+<col width="130" />
+<col />
+</colgroup>
+<tr><th>Class:</th><td>TomatoDoer.TomatoTimerForm</td></tr><tr><th>Assembly:</th><td>TomatoDoer</td></tr><tr><th>File(s):</th><td><a href="#FcodingTomatoDoerTomatoDoerPresentationTomatoTimerFormDesignercs">F:\coding\TomatoDoer\TomatoDoer\Presentation\TomatoTimerForm.Designer.cs</a><br /><a href="#FcodingTomatoDoerTomatoDoerPresentationTomatoTimerFormcs">F:\coding\TomatoDoer\TomatoDoer\Presentation\TomatoTimerForm.cs</a></td></tr><tr><th>Coverage:</th><td>0%</td></tr><tr><th>Covered lines:</th><td>0</td></tr><tr><th>Coverable lines:</th><td>210</td></tr><tr><th>Total lines:</th><td>454</td></tr></table>
+<h1>Metrics</h1><table class="overview">
+<tr>
+<th>Method</th><th>Cyclomatic Complexity</th><th>Sequence Coverage</th><th>Branch Coverage</th></tr>
+<tr><td>.ctor()</td><td>1</td><td>0</td><td>0</td></tr><tr><td>_Log_Updated()</td><td>1</td><td>0</td><td>0</td></tr><tr><td>bigTomatoToolStripMenuItem_Click(...)</td><td>1</td><td>0</td><td>0</td></tr><tr><td>BindTomatoTimer(...)</td><td>3</td><td>0</td><td>0</td></tr><tr><td>Dispose(...)</td><td>3</td><td>0</td><td>0</td></tr><tr><td>InitializeComponent()</td><td>1</td><td>0</td><td>0</td></tr><tr><td>linkLabel1_LinkClicked(...)</td><td>1</td><td>0</td><td>0</td></tr><tr><td>LinkLabelSendToEvernote_LinkClicked_1(...)</td><td>6</td><td>0</td><td>0</td></tr><tr><td>mediumTomatoToolStripMenuItem_Click(...)</td><td>1</td><td>0</td><td>0</td></tr><tr><td>ReportMessageSendFailure(...)</td><td>3</td><td>0</td><td>0</td></tr><tr><td>ResetTitle()</td><td>3</td><td>0</td><td>0</td></tr><tr><td>SendCompletedCallback(...)</td><td>2</td><td>0</td><td>0</td></tr><tr><td>SetTomatoDurationValidationError(...)</td><td>1</td><td>0</td><td>0</td></tr><tr><td>smallTomatoToolStripMenuItem_Click(...)</td><td>1</td><td>0</td><td>0</td></tr><tr><td>timer_Starting()</td><td>1</td><td>0</td><td>0</td></tr><tr><td>timer_Tick()</td><td>1</td><td>0</td><td>0</td></tr><tr><td>timer_TomatoDone()</td><td>1</td><td>0</td><td>0</td></tr><tr><td>timer_TomatoHistoryWasRewritten()</td><td>1</td><td>0</td><td>0</td></tr><tr><td>TomatoDurationValidated(...)</td><td>2</td><td>0</td><td>0</td></tr></table>
+<h1>File(s)</h1><h2 id="FcodingTomatoDoerTomatoDoerPresentationTomatoTimerFormDesignercs">F:\coding\TomatoDoer\TomatoDoer\Presentation\TomatoTimerForm.Designer.cs</h2><table>
+<tr>
+<th></th><th>#</th><th>Line</th><th>Coverage</th></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>1</code></td><td class="light"><code>namespace&nbsp;TomatoDoer</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>2</code></td><td class="light"><code>{</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>3</code></td><td class="light"><code>&nbsp;&nbsp;partial&nbsp;class&nbsp;TomatoTimerForm</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>4</code></td><td class="light"><code>&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>5</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>6</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;Required&nbsp;designer&nbsp;variable.</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>7</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;/summary&gt;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>8</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.ComponentModel.IContainer&nbsp;components&nbsp;=&nbsp;null;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>9</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>10</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>11</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;Clean&nbsp;up&nbsp;any&nbsp;resources&nbsp;being&nbsp;used.</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>12</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;/summary&gt;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>13</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;disposing&quot;&gt;true&nbsp;if&nbsp;managed&nbsp;resources&nbsp;should&nbsp;be&nbsp;disposed;&nbsp;otherwise,&nbsp;false.&lt;/param&gt;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>14</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;protected&nbsp;override&nbsp;void&nbsp;Dispose(bool&nbsp;disposing)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>15</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>16</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(disposing&nbsp;&amp;&amp;&nbsp;(components&nbsp;!=&nbsp;null))</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>17</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>18</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;components.Dispose();</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>19</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>20</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;base.Dispose(disposing);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>21</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>22</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>23</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;#region&nbsp;Windows&nbsp;Form&nbsp;Designer&nbsp;generated&nbsp;code</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>24</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>25</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>26</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;Required&nbsp;method&nbsp;for&nbsp;Designer&nbsp;support&nbsp;-&nbsp;do&nbsp;not&nbsp;modify</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>27</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;the&nbsp;contents&nbsp;of&nbsp;this&nbsp;method&nbsp;with&nbsp;the&nbsp;code&nbsp;editor.</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>28</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;/summary&gt;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>29</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;void&nbsp;InitializeComponent()</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>30</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>31</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.components&nbsp;=&nbsp;new&nbsp;System.ComponentModel.Container();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>32</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.ComponentModel.ComponentResourceManager&nbsp;resources&nbsp;=&nbsp;new&nbsp;System.ComponentModel.ComponentResourceManager(type</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>33</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.ResetButton&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.Button();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>34</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.StartOrSquashButton&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.Button();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>35</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maskedTextBox1&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.MaskedTextBox();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>36</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.errorProvider1&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.ErrorProvider(this.components);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>37</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LogTextBox&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.TextBox();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>38</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.label1&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.Label();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>39</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.linkLabel1&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.LinkLabel();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>40</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LinkLabelSendToEvernote&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.LinkLabel();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>41</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.toolTipSendToEvernote&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.ToolTip(this.components);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>42</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.contextMenuStripTomatoDuration&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.ContextMenuStrip(this.components);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>43</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.smallTomatoToolStripMenuItem&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.ToolStripMenuItem();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>44</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.mediumTomatoToolStripMenuItem&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.ToolStripMenuItem();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>45</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.bigTomatoToolStripMenuItem&nbsp;=&nbsp;new&nbsp;System.Windows.Forms.ToolStripMenuItem();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>46</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>47</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.contextMenuStripTomatoDuration.SuspendLayout();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>48</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.SuspendLayout();</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>49</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>50</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;ResetButton</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>51</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>52</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.ResetButton.Location&nbsp;=&nbsp;new&nbsp;System.Drawing.Point(201,&nbsp;41);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>53</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.ResetButton.Name&nbsp;=&nbsp;&quot;ResetButton&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>54</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.ResetButton.Size&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(75,&nbsp;23);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>55</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.ResetButton.TabIndex&nbsp;=&nbsp;0;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>56</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.ResetButton.Text&nbsp;=&nbsp;&quot;Reset&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>57</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.ResetButton.UseVisualStyleBackColor&nbsp;=&nbsp;true;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>58</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>59</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;StartOrSquashButton</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>60</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>61</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.StartOrSquashButton.Location&nbsp;=&nbsp;new&nbsp;System.Drawing.Point(201,&nbsp;12);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>62</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.StartOrSquashButton.Name&nbsp;=&nbsp;&quot;StartOrSquashButton&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>63</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.StartOrSquashButton.Size&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(75,&nbsp;23);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>64</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.StartOrSquashButton.TabIndex&nbsp;=&nbsp;0;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>65</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.StartOrSquashButton.Text&nbsp;=&nbsp;&quot;Start&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>66</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.StartOrSquashButton.UseVisualStyleBackColor&nbsp;=&nbsp;true;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>67</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>68</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;maskedTextBox1</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>69</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>70</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maskedTextBox1.ContextMenuStrip&nbsp;=&nbsp;this.contextMenuStripTomatoDuration;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>71</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maskedTextBox1.Font&nbsp;=&nbsp;new&nbsp;System.Drawing.Font(&quot;Microsoft&nbsp;Sans&nbsp;Serif&quot;,&nbsp;24F,&nbsp;System.Drawing.FontStyle.Bold,&nbsp;Sys</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>72</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maskedTextBox1.Location&nbsp;=&nbsp;new&nbsp;System.Drawing.Point(50,&nbsp;12);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>73</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maskedTextBox1.Mask&nbsp;=&nbsp;&quot;00:00:00&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>74</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maskedTextBox1.Name&nbsp;=&nbsp;&quot;maskedTextBox1&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>75</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maskedTextBox1.Size&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(145,&nbsp;44);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>76</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maskedTextBox1.TabIndex&nbsp;=&nbsp;2;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>77</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>78</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;errorProvider1</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>79</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>80</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.errorProvider1.ContainerControl&nbsp;=&nbsp;this;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>81</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>82</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;LogTextBox</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>83</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>84</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LogTextBox.Anchor&nbsp;=&nbsp;((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top&nbsp;|&nbsp;System.Wi</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>85</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;System.Windows.Forms.AnchorStyles.Left)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>86</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;System.Windows.Forms.AnchorStyles.Right)));</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>87</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LogTextBox.BorderStyle&nbsp;=&nbsp;System.Windows.Forms.BorderStyle.FixedSingle;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>88</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LogTextBox.Location&nbsp;=&nbsp;new&nbsp;System.Drawing.Point(50,&nbsp;70);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>89</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LogTextBox.Multiline&nbsp;=&nbsp;true;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>90</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LogTextBox.Name&nbsp;=&nbsp;&quot;LogTextBox&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>91</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LogTextBox.ScrollBars&nbsp;=&nbsp;System.Windows.Forms.ScrollBars.Vertical;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>92</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LogTextBox.Size&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(272,&nbsp;340);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>93</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LogTextBox.TabIndex&nbsp;=&nbsp;3;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>94</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>95</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;label1</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>96</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>97</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.label1.AutoSize&nbsp;=&nbsp;true;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>98</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.label1.Location&nbsp;=&nbsp;new&nbsp;System.Drawing.Point(9,&nbsp;70);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>99</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.label1.Name&nbsp;=&nbsp;&quot;label1&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>100</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.label1.Size&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(35,&nbsp;13);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>101</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.label1.TabIndex&nbsp;=&nbsp;4;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>102</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.label1.Text&nbsp;=&nbsp;&quot;Notes&quot;;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>103</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>104</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;linkLabel1</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>105</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>106</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.linkLabel1.Anchor&nbsp;=&nbsp;((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom&nbsp;|&nbsp;System.W</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>107</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.linkLabel1.AutoSize&nbsp;=&nbsp;true;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>108</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.linkLabel1.Location&nbsp;=&nbsp;new&nbsp;System.Drawing.Point(287,&nbsp;413);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>109</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.linkLabel1.Name&nbsp;=&nbsp;&quot;linkLabel1&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>110</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.linkLabel1.Size&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(35,&nbsp;13);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>111</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.linkLabel1.TabIndex&nbsp;=&nbsp;5;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>112</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.linkLabel1.TabStop&nbsp;=&nbsp;true;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>113</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.linkLabel1.Text&nbsp;=&nbsp;&quot;About&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>114</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.linkLabel1.LinkClicked&nbsp;+=&nbsp;new&nbsp;System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClick</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>115</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>116</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;LinkLabelSendToEvernote</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>117</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>118</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LinkLabelSendToEvernote.Anchor&nbsp;=&nbsp;((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bott</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>119</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LinkLabelSendToEvernote.AutoSize&nbsp;=&nbsp;true;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>120</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LinkLabelSendToEvernote.Location&nbsp;=&nbsp;new&nbsp;System.Drawing.Point(9,&nbsp;413);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>121</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LinkLabelSendToEvernote.Name&nbsp;=&nbsp;&quot;LinkLabelSendToEvernote&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>122</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LinkLabelSendToEvernote.Size&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(89,&nbsp;13);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>123</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LinkLabelSendToEvernote.TabIndex&nbsp;=&nbsp;6;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>124</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LinkLabelSendToEvernote.TabStop&nbsp;=&nbsp;true;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>125</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LinkLabelSendToEvernote.Text&nbsp;=&nbsp;&quot;Send&nbsp;to&nbsp;evernote&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>126</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.LinkLabelSendToEvernote.LinkClicked&nbsp;+=&nbsp;new&nbsp;System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLab</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>127</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>128</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;contextMenuStripTomatoDuration</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>129</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>130</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.contextMenuStripTomatoDuration.Items.AddRange(new&nbsp;System.Windows.Forms.ToolStripItem[]&nbsp;{</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>131</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.smallTomatoToolStripMenuItem,</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>132</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.mediumTomatoToolStripMenuItem,</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>133</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.bigTomatoToolStripMenuItem});</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>134</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.contextMenuStripTomatoDuration.Name&nbsp;=&nbsp;&quot;contextMenuStripTomatoDuration&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>135</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.contextMenuStripTomatoDuration.Size&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(162,&nbsp;70);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>136</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>137</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;smallTomatoToolStripMenuItem</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>138</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>139</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.smallTomatoToolStripMenuItem.Name&nbsp;=&nbsp;&quot;smallTomatoToolStripMenuItem&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>140</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.smallTomatoToolStripMenuItem.Size&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(161,&nbsp;22);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>141</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.smallTomatoToolStripMenuItem.Text&nbsp;=&nbsp;&quot;Small&nbsp;tomato&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>142</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.smallTomatoToolStripMenuItem.Click&nbsp;+=&nbsp;new&nbsp;System.EventHandler(this.smallTomatoToolStripMenuItem_Click);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>143</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>144</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;mediumTomatoToolStripMenuItem</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>145</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>146</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.mediumTomatoToolStripMenuItem.Name&nbsp;=&nbsp;&quot;mediumTomatoToolStripMenuItem&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>147</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.mediumTomatoToolStripMenuItem.Size&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(161,&nbsp;22);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>148</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.mediumTomatoToolStripMenuItem.Text&nbsp;=&nbsp;&quot;Medium&nbsp;tomato&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>149</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.mediumTomatoToolStripMenuItem.Click&nbsp;+=&nbsp;new&nbsp;System.EventHandler(this.mediumTomatoToolStripMenuItem_Click);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>150</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>151</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;bigTomatoToolStripMenuItem</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>152</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>153</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.bigTomatoToolStripMenuItem.Name&nbsp;=&nbsp;&quot;bigTomatoToolStripMenuItem&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>154</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.bigTomatoToolStripMenuItem.Size&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(161,&nbsp;22);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>155</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.bigTomatoToolStripMenuItem.Text&nbsp;=&nbsp;&quot;Big&nbsp;tomato&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>156</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.bigTomatoToolStripMenuItem.Click&nbsp;+=&nbsp;new&nbsp;System.EventHandler(this.bigTomatoToolStripMenuItem_Click);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>157</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>158</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;TomatoTimerForm</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>159</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>160</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.AutoScaleDimensions&nbsp;=&nbsp;new&nbsp;System.Drawing.SizeF(6F,&nbsp;13F);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>161</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.AutoScaleMode&nbsp;=&nbsp;System.Windows.Forms.AutoScaleMode.Font;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>162</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.ClientSize&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(334,&nbsp;435);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>163</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.Controls.Add(this.LinkLabelSendToEvernote);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>164</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.Controls.Add(this.linkLabel1);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>165</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.Controls.Add(this.label1);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>166</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.Controls.Add(this.LogTextBox);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>167</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.Controls.Add(this.maskedTextBox1);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>168</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.Controls.Add(this.StartOrSquashButton);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>169</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.Controls.Add(this.ResetButton);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>170</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.HelpButton&nbsp;=&nbsp;true;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>171</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.Icon&nbsp;=&nbsp;((System.Drawing.Icon)(resources.GetObject(&quot;$this.Icon&quot;)));</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>172</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.MaximizeBox&nbsp;=&nbsp;false;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>173</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.MaximumSize&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(350,&nbsp;473);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>174</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.MinimumSize&nbsp;=&nbsp;new&nbsp;System.Drawing.Size(350,&nbsp;148);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>175</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.Name&nbsp;=&nbsp;&quot;TomatoTimerForm&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>176</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.Text&nbsp;=&nbsp;&quot;Tomato&nbsp;doer&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>177</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>178</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.contextMenuStripTomatoDuration.ResumeLayout(false);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>179</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.ResumeLayout(false);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>180</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.PerformLayout();</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>181</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>182</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>183</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>184</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;#endregion</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>185</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>186</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.Button&nbsp;ResetButton;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>187</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.Button&nbsp;StartOrSquashButton;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>188</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.MaskedTextBox&nbsp;maskedTextBox1;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>189</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.ErrorProvider&nbsp;errorProvider1;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>190</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.TextBox&nbsp;LogTextBox;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>191</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.Label&nbsp;label1;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>192</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.LinkLabel&nbsp;linkLabel1;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>193</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.LinkLabel&nbsp;LinkLabelSendToEvernote;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>194</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.ToolTip&nbsp;toolTipSendToEvernote;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>195</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.ContextMenuStrip&nbsp;contextMenuStripTomatoDuration;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>196</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.ToolStripMenuItem&nbsp;smallTomatoToolStripMenuItem;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>197</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.ToolStripMenuItem&nbsp;mediumTomatoToolStripMenuItem;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>198</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;System.Windows.Forms.ToolStripMenuItem&nbsp;bigTomatoToolStripMenuItem;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>199</code></td><td class="light"><code>&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>200</code></td><td class="light"><code>}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>201</code></td><td class="light"><code></code></td></tr>
+</table>
+<h2 id="FcodingTomatoDoerTomatoDoerPresentationTomatoTimerFormcs">F:\coding\TomatoDoer\TomatoDoer\Presentation\TomatoTimerForm.cs</h2><table>
+<tr>
+<th></th><th>#</th><th>Line</th><th>Coverage</th></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>1</code></td><td class="light"><code>using&nbsp;System;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>2</code></td><td class="light"><code>using&nbsp;System.Collections.Generic;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>3</code></td><td class="light"><code>using&nbsp;System.ComponentModel;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>4</code></td><td class="light"><code>using&nbsp;System.Data;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>5</code></td><td class="light"><code>using&nbsp;System.Drawing;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>6</code></td><td class="light"><code>using&nbsp;System.Linq;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>7</code></td><td class="light"><code>using&nbsp;System.Net.Mail;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>8</code></td><td class="light"><code>using&nbsp;System.Text;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>9</code></td><td class="light"><code>using&nbsp;System.Media;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>10</code></td><td class="light"><code>using&nbsp;System.Windows.Forms;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>11</code></td><td class="light"><code>using&nbsp;System.IO;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>12</code></td><td class="light"><code>using&nbsp;TomatoDoer.Model;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>13</code></td><td class="light"><code>using&nbsp;TomatoDoer.Properties;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>14</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>15</code></td><td class="light"><code>namespace&nbsp;TomatoDoer</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>16</code></td><td class="light"><code>{</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>17</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>18</code></td><td class="light"><code>&nbsp;&nbsp;public&nbsp;partial&nbsp;class&nbsp;TomatoTimerForm&nbsp;:&nbsp;Form,&nbsp;ITomatoTimerFormView</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>19</code></td><td class="light"><code>&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>20</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;TomatoTimerFormPresenter&nbsp;_Presenter;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>21</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;ITomatoTimer&nbsp;_Timer&nbsp;=&nbsp;null;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>22</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;ITomatoLog&nbsp;_Log;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>23</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>24</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;TomatoTimerForm()</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>25</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>26</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;InitializeComponent();</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>27</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>28</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>29</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>30</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maskedTextBox1.Validating&nbsp;+=&nbsp;TomatoDurationValidated;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>31</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>32</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Presenter&nbsp;=&nbsp;new&nbsp;TomatoTimerFormPresenter(this,&nbsp;TomatoLog.Instance,&nbsp;TomatoTimer.Instance);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>33</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LogTextBox.TextChanged&nbsp;+=&nbsp;_Presenter.TomatoLogChanged;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>34</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;StartOrSquashButton.Click&nbsp;+=&nbsp;_Presenter.StartOrSquashTomatoButtonClick;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>35</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ResetButton.Click&nbsp;+=&nbsp;_Presenter.ResetButtonClick;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>36</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>37</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>38</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>39</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;ResetTitle()</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>40</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>41</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>42</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Text&nbsp;=&nbsp;&quot;Tomato&nbsp;doer&nbsp;&quot;&nbsp;+&nbsp;(_Timer!=&nbsp;null&nbsp;?&nbsp;string.Format(&quot;({0})&quot;,&nbsp;_Timer.CountTomatoesDone)&nbsp;:&nbsp;&quot;&quot;);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>43</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>44</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>45</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;BindTomatoTimer&nbsp;(ITomatoTimer&nbsp;timer,&nbsp;ITomatoLog&nbsp;log)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>46</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>47</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Timer&nbsp;=&nbsp;timer;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>48</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;timer.TomatoHistoryWasRewritten&nbsp;+=&nbsp;new&nbsp;Action(timer_TomatoHistoryWasRewritten);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>49</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;timer.Tick&nbsp;+=&nbsp;new&nbsp;Action(timer_Tick);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>50</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;timer.Starting&nbsp;+=&nbsp;new&nbsp;Action(timer_Starting);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>51</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;timer.TomatoDoneOrSquashed&nbsp;+=&nbsp;new&nbsp;Action(timer_TomatoDone);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>52</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//timer.TomatoDoneOrSquashed&nbsp;+=&nbsp;new&nbsp;Action(timer_TomatoDone);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>53</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TomatoDuration&nbsp;=&nbsp;_Timer.TomatoDuration;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>54</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>55</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ResetButton.Visible&nbsp;=&nbsp;_Timer.CountTomatoesDone&nbsp;&gt;&nbsp;0;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>56</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>57</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(_Log&nbsp;!=&nbsp;null)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>58</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>59</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Log.Updated&nbsp;-=&nbsp;new&nbsp;Action(_Log_Updated);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>60</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>61</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Log&nbsp;=&nbsp;log;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>62</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(log&nbsp;!=&nbsp;null)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>63</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>64</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Log.Updated&nbsp;+=&nbsp;new&nbsp;Action(_Log_Updated);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>65</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LogTextBox.Text&nbsp;=&nbsp;_Log.Text;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>66</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ResetTitle();</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>67</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>68</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>69</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>70</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>71</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;timer_TomatoHistoryWasRewritten()</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>72</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>73</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ResetTitle();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>74</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>75</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>76</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;_Log_Updated()</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>77</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>78</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Log.SuspendUpdateNotification();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>79</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LogTextBox.Text&nbsp;=&nbsp;_Log.Text;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>80</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Log.ResumeUpdateNotification();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>81</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>82</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>83</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;timer_TomatoDone()</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>84</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>85</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;StartOrSquashButton.Text&nbsp;=&nbsp;&quot;Start&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>86</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ResetButton.Visible&nbsp;=&nbsp;_Timer.CountTomatoesDone&nbsp;&gt;&nbsp;0;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>87</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>88</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maskedTextBox1.Enabled&nbsp;=&nbsp;true;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>89</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TomatoDuration&nbsp;=&nbsp;_Timer.TomatoDuration;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>90</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ResetTitle();</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>91</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>92</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>93</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>94</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;timer_Starting()</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>95</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>96</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;StartOrSquashButton.Text&nbsp;=&nbsp;&quot;Squash&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>97</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maskedTextBox1.Enabled&nbsp;=&nbsp;false;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>98</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>99</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>100</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;timer_Tick()</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>101</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>102</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TomatoDuration&nbsp;=&nbsp;_Timer.TomatoTimeRemains;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>103</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>104</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>105</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;TimeSpan?&nbsp;TomatoDuration</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>106</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>107</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>108</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>109</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TimeSpan&nbsp;parsed;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>110</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>111</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(TimeSpan.TryParse(maskedTextBox1.Text,&nbsp;out&nbsp;parsed)&nbsp;?&nbsp;(TimeSpan?)parsed&nbsp;:&nbsp;null);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>112</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>113</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>114</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>115</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(value&nbsp;==&nbsp;null)</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>116</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value&nbsp;=&nbsp;TimeSpan.Zero;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>117</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>118</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maskedTextBox1.Text&nbsp;=&nbsp;value.Value.ToString(@&quot;hh\:mm\:ss&quot;);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>119</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>120</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>121</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>122</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;SetTomatoDurationValidationError(string&nbsp;message)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>123</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>124</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;errorProvider1.SetError(maskedTextBox1,&nbsp;message);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>125</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>126</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>127</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>128</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;TomatoDurationValidated(object&nbsp;sender,&nbsp;CancelEventArgs&nbsp;eventArgs)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>129</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>130</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(TomatoDuration&nbsp;==&nbsp;null)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>131</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>132</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SetTomatoDurationValidationError(&quot;Invalid&nbsp;time&nbsp;span&quot;);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>133</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eventArgs.Cancel&nbsp;=&nbsp;true;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>134</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>135</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>136</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>137</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SetTomatoDurationValidationError(string.Empty);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>138</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>139</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>140</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>141</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;string&nbsp;LogText</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>142</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>143</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get&nbsp;{&nbsp;return&nbsp;LogTextBox.Text;&nbsp;}</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>144</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set&nbsp;{&nbsp;LogTextBox.Text&nbsp;=&nbsp;value;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>145</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>146</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>147</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;bool&nbsp;ResetButtonVisible</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>148</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>149</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get&nbsp;{&nbsp;return&nbsp;ResetButton.Visible;&nbsp;}</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>150</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set&nbsp;{&nbsp;ResetButton.Visible&nbsp;=&nbsp;value;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>151</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>152</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>153</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;void&nbsp;linkLabel1_LinkClicked(object&nbsp;sender,&nbsp;LinkLabelLinkClickedEventArgs&nbsp;e)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>154</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>155</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;aboutForm&nbsp;=&nbsp;new&nbsp;About();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>156</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aboutForm.ShowDialog(this);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>157</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>158</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>159</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>160</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;&nbsp;void&nbsp;SendCompletedCallback(object&nbsp;sender,&nbsp;AsyncCompletedEventArgs&nbsp;e)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>161</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>162</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Get&nbsp;the&nbsp;unique&nbsp;identifier&nbsp;for&nbsp;this&nbsp;asynchronous&nbsp;operation.</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>163</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>164</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String&nbsp;token&nbsp;=&nbsp;(string)e.UserState;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>165</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>166</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(e.Error&nbsp;!=&nbsp;null)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>167</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>168</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ReportMessageSendFailure(e.Error);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>169</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>170</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>171</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>172</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show(&quot;Message&nbsp;to&nbsp;evernote&nbsp;was&nbsp;successfully&nbsp;sent.&quot;,&nbsp;&quot;Success&quot;,&nbsp;MessageBoxButtons.OK,</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>173</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBoxIcon.Information);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>174</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;toolTipSendToEvernote.SetToolTip(LinkLabelSendToEvernote,&nbsp;&quot;Last&nbsp;sent&nbsp;at&nbsp;&quot;&nbsp;+&nbsp;DateTime.Now.ToShortTimeString());</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>175</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>176</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>177</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkLabelSendToEvernote.Text&nbsp;=&nbsp;&quot;Send&nbsp;to&nbsp;evernote&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>178</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkLabelSendToEvernote.Enabled&nbsp;=&nbsp;true;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>179</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>180</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>181</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;void&nbsp;LinkLabelSendToEvernote_LinkClicked_1(object&nbsp;sender,&nbsp;LinkLabelLinkClickedEventArgs&nbsp;e)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>182</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>183</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(string.IsNullOrWhiteSpace(LogText))</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>184</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>185</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show(&quot;No&nbsp;message&nbsp;to&nbsp;send.&quot;);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>186</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>187</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>188</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>189</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MailMessage&nbsp;message&nbsp;=&nbsp;null;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>190</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>191</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>192</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SmtpClient&nbsp;client&nbsp;=&nbsp;new&nbsp;SmtpClient();</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>193</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>194</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;message&nbsp;=&nbsp;new&nbsp;MailMessage();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>195</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;message.To.Add(Settings.Default.EvernoteUserEmail);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>196</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;message.Body&nbsp;=&nbsp;LogText;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>197</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;message.Subject&nbsp;=&nbsp;string.Format(&quot;{0}&nbsp;{1}&nbsp;{2}&quot;,</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>198</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string.Format(Settings.Default.EvernoteMailSubject,&nbsp;_Timer.CountTomatoesDone,&nbsp;DateTime.Now.ToShortDateString()</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>199</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;!string.IsNullOrWhiteSpace(Settings.Default.EvernoteMailNotebook)&nbsp;?&nbsp;&quot;@&quot;&nbsp;+&nbsp;Settings.Default.EvernoteMailNoteboo</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>200</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;!string.IsNullOrWhiteSpace(Settings.Default.EvernoteMailTag)&nbsp;?&quot;#&quot;+&nbsp;Settings.Default.EvernoteMailTag&nbsp;:&nbsp;null);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>201</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>202</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client.SendCompleted&nbsp;+=&nbsp;new&nbsp;SendCompletedEventHandler(SendCompletedCallback);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>203</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>204</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client.SendAsync(message,&nbsp;null);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>205</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>206</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkLabelSendToEvernote.Text&nbsp;=&nbsp;&quot;Sending...&quot;;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>207</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkLabelSendToEvernote.Enabled&nbsp;=&nbsp;false;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>208</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>209</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;catch(Exception&nbsp;ex)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>210</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>211</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ReportMessageSendFailure(ex);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>212</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>213</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;finally</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>214</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>215</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//if(message&nbsp;!=&nbsp;null)&nbsp;&nbsp;message.Dispose();</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>216</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>217</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>218</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>219</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>220</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>221</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;static&nbsp;void&nbsp;ReportMessageSendFailure(Exception&nbsp;exception)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>222</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>223</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;StringBuilder&nbsp;errorsBuilder&nbsp;=&nbsp;new&nbsp;StringBuilder();</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>224</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while(exception&nbsp;!=&nbsp;null)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>225</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>226</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;errorsBuilder.AppendLine(exception.Message);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>227</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(exception&nbsp;is&nbsp;SmtpException)</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>228</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;errorsBuilder.AppendLine(&quot;Smtp&nbsp;server&nbsp;response:&nbsp;&quot;&nbsp;+&nbsp;((SmtpStatusCode)&nbsp;((SmtpException)&nbsp;exception).StatusCode).</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>229</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exception&nbsp;=&nbsp;exception.InnerException;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>230</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>231</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>232</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show(</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>233</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string.Format(&quot;Failed&nbsp;to&nbsp;send&nbsp;message.&nbsp;Please&nbsp;see&nbsp;settings&nbsp;in&nbsp;.config&nbsp;file.&nbsp;Error&nbsp;message:&nbsp;\n{0}&quot;,&nbsp;errorsBuilder</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>234</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Failure&quot;,&nbsp;MessageBoxButtons.OK,&nbsp;MessageBoxIcon.Error);</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>235</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>236</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>237</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;void&nbsp;smallTomatoToolStripMenuItem_Click(object&nbsp;sender,&nbsp;EventArgs&nbsp;e)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>238</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>239</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TomatoDuration&nbsp;=&nbsp;TomatoTimeSpan.SmallTomatoSpan;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>240</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>241</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>242</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;void&nbsp;mediumTomatoToolStripMenuItem_Click(object&nbsp;sender,&nbsp;EventArgs&nbsp;e)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>243</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>244</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TomatoDuration&nbsp;=&nbsp;TomatoTimeSpan.MediumTomatoSpan;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>245</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>246</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>247</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;void&nbsp;bigTomatoToolStripMenuItem_Click(object&nbsp;sender,&nbsp;EventArgs&nbsp;e)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>248</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>249</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TomatoDuration&nbsp;=&nbsp;TomatoTimeSpan.BigTomatoSpan;</code></td></tr>
+<tr>
+<td class="red">&nbsp;</td><td class="leftmargin right">0</td><td class="right"><code>250</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>251</code></td><td class="light"><code>&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>252</code></td><td class="light"><code>}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>253</code></td><td class="light"><code></code></td></tr>
+</table>
+<div class="footer">Generated by: ReportGenerator 1.2.4.0<br />18.01.2012 - 20:23:29<br /><a href="http://www.palmmedia.de">www.palmmedia.de</a></div></div></body></html>

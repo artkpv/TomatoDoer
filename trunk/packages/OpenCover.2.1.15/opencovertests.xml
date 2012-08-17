@@ -1,0 +1,2218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Modules>
+    <Module hash="D9-BA-BA-C7-50-5C-30-0F-2E-5A-A3-C0-20-F7-F5-0E-B1-CD-F5-8B">
+      <FullName>F:\coding\TomatoDoer\packages\OpenCover.2.1.15\TestResults\wild_AKA 2012-01-18 20_22_40\Out\TomatoDoer.exe</FullName>
+      <ModuleName>TomatoDoer</ModuleName>
+      <Files>
+        <File uid="37" fullPath="F:\coding\TomatoDoer\TomatoDoer\Properties\Resources.Designer.cs" />
+        <File uid="38" fullPath="F:\coding\TomatoDoer\TomatoDoer\Presentation\TomatoTimerForm.Designer.cs" />
+        <File uid="39" fullPath="F:\coding\TomatoDoer\TomatoDoer\Presentation\TomatoTimerForm.cs" />
+        <File uid="40" fullPath="F:\coding\TomatoDoer\TomatoDoer\Model\TomatoLog.cs" />
+        <File uid="41" fullPath="F:\coding\TomatoDoer\TomatoDoer\Presentation\SoundProgress.cs" />
+        <File uid="42" fullPath="F:\coding\TomatoDoer\TomatoDoer\Program.cs" />
+        <File uid="43" fullPath="F:\coding\TomatoDoer\TomatoDoer\Model\TomatoTimer.cs" />
+        <File uid="44" fullPath="F:\coding\TomatoDoer\TomatoDoer\Model\WinTimer.cs" />
+        <File uid="45" fullPath="F:\coding\TomatoDoer\TomatoDoer\Presentation\TaskbarProgress.cs" />
+        <File uid="46" fullPath="F:\coding\TomatoDoer\TomatoDoer\Presentation\FormsFactory.cs" />
+        <File uid="47" fullPath="F:\coding\TomatoDoer\TomatoDoer\Presentation\About.Designer.cs" />
+        <File uid="48" fullPath="F:\coding\TomatoDoer\TomatoDoer\Presentation\About.cs" />
+        <File uid="49" fullPath="F:\coding\TomatoDoer\TomatoDoer\Presentation\TomatoTimerFormPresenter.cs" />
+        <File uid="50" fullPath="F:\coding\TomatoDoer\TomatoDoer\Presentation\WinLogFile.cs" />
+        <File uid="51" fullPath="F:\coding\TomatoDoer\TomatoDoer\TomatoException.cs" />
+        <File uid="52" fullPath="F:\coding\TomatoDoer\TomatoDoer\Properties\Settings.Designer.cs" />
+        <File uid="53" fullPath="F:\coding\TomatoDoer\TomatoDoer\Presentation\AnalyzeBox.cs" />
+        <File uid="54" fullPath="F:\coding\TomatoDoer\TomatoDoer\Presentation\AnalyzeBox.Designer.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.Properties.Resources</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void TomatoDoer.Properties.Resources::.ctor()</Name>
+              <FileRef uid="37" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="821" ordinal="0" offset="0" sl="31" sc="9" el="32" ec="29" />
+                <SequencePoint vc="0" uspid="822" ordinal="1" offset="6" sl="33" sc="9" el="33" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="821" ordinal="0" offset="0" sl="31" sc="9" el="32" ec="29" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="true" isSetter="false">
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Resources.ResourceManager TomatoDoer.Properties.Resources::get_ResourceManager()</Name>
+              <FileRef uid="37" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="823" ordinal="0" offset="0" sl="41" sc="17" el="41" ec="63" />
+                <SequencePoint vc="0" uspid="824" ordinal="1" offset="13" sl="42" sc="21" el="42" ec="177" />
+                <SequencePoint vc="0" uspid="825" ordinal="2" offset="39" sl="43" sc="21" el="43" ec="40" />
+                <SequencePoint vc="0" uspid="826" ordinal="3" offset="45" sl="45" sc="17" el="45" ec="36" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="827" ordinal="0" offset="11" path="0" />
+                <BranchPoint vc="0" uspid="828" ordinal="1" offset="11" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="823" ordinal="0" offset="0" sl="41" sc="17" el="41" ec="63" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="true" isSetter="false">
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Globalization.CultureInfo TomatoDoer.Properties.Resources::get_Culture()</Name>
+              <FileRef uid="37" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="829" ordinal="0" offset="0" sl="56" sc="17" el="56" ec="40" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="829" ordinal="0" offset="0" sl="56" sc="17" el="56" ec="40" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="true">
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void TomatoDoer.Properties.Resources::set_Culture(System.Globalization.CultureInfo)</Name>
+              <FileRef uid="37" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="830" ordinal="0" offset="0" sl="59" sc="17" el="59" ec="41" />
+                <SequencePoint vc="0" uspid="831" ordinal="1" offset="6" sl="60" sc="13" el="60" ec="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="830" ordinal="0" offset="0" sl="59" sc="17" el="59" ec="41" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="true" isSetter="false">
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Drawing.Icon TomatoDoer.Properties.Resources::get_Tomato_Sauce()</Name>
+              <FileRef uid="37" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="832" ordinal="0" offset="0" sl="65" sc="17" el="65" ec="89" />
+                <SequencePoint vc="0" uspid="833" ordinal="1" offset="21" sl="66" sc="17" el="66" ec="53" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="832" ordinal="0" offset="0" sl="65" sc="17" el="65" ec="89" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.TomatoTimerForm</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="3" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::Dispose(System.Boolean)</Name>
+              <FileRef uid="38" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="834" ordinal="0" offset="0" sl="16" sc="4" el="16" ec="42" />
+                <SequencePoint vc="0" uspid="835" ordinal="1" offset="11" sl="18" sc="5" el="18" ec="26" />
+                <SequencePoint vc="0" uspid="836" ordinal="2" offset="22" sl="20" sc="4" el="20" ec="28" />
+                <SequencePoint vc="0" uspid="837" ordinal="3" offset="29" sl="21" sc="3" el="21" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="838" ordinal="0" offset="1" path="0" />
+                <BranchPoint vc="0" uspid="839" ordinal="1" offset="1" path="1" />
+                <BranchPoint vc="0" uspid="840" ordinal="2" offset="9" path="0" />
+                <BranchPoint vc="0" uspid="841" ordinal="3" offset="9" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="834" ordinal="0" offset="0" sl="16" sc="4" el="16" ec="42" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::InitializeComponent()</Name>
+              <FileRef uid="38" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="842" ordinal="0" offset="0" sl="31" sc="4" el="31" ec="60" />
+                <SequencePoint vc="0" uspid="843" ordinal="1" offset="11" sl="32" sc="4" el="32" ec="139" />
+                <SequencePoint vc="0" uspid="844" ordinal="2" offset="27" sl="33" sc="4" el="33" ec="57" />
+                <SequencePoint vc="0" uspid="845" ordinal="3" offset="38" sl="34" sc="4" el="34" ec="65" />
+                <SequencePoint vc="0" uspid="846" ordinal="4" offset="49" sl="35" sc="4" el="35" ec="67" />
+                <SequencePoint vc="0" uspid="847" ordinal="5" offset="60" sl="36" sc="4" el="36" ec="82" />
+                <SequencePoint vc="0" uspid="848" ordinal="6" offset="77" sl="37" sc="4" el="37" ec="57" />
+                <SequencePoint vc="0" uspid="849" ordinal="7" offset="88" sl="38" sc="4" el="38" ec="51" />
+                <SequencePoint vc="0" uspid="850" ordinal="8" offset="99" sl="39" sc="4" el="39" ec="59" />
+                <SequencePoint vc="0" uspid="851" ordinal="9" offset="110" sl="40" sc="4" el="40" ec="72" />
+                <SequencePoint vc="0" uspid="852" ordinal="10" offset="121" sl="41" sc="4" el="41" ec="83" />
+                <SequencePoint vc="0" uspid="853" ordinal="11" offset="138" sl="42" sc="4" el="42" ec="101" />
+                <SequencePoint vc="0" uspid="854" ordinal="12" offset="155" sl="43" sc="4" el="43" ec="85" />
+                <SequencePoint vc="0" uspid="855" ordinal="13" offset="166" sl="44" sc="4" el="44" ec="86" />
+                <SequencePoint vc="0" uspid="856" ordinal="14" offset="177" sl="45" sc="4" el="45" ec="83" />
+                <SequencePoint vc="0" uspid="857" ordinal="15" offset="188" sl="46" sc="4" el="46" ec="82" />
+                <SequencePoint vc="0" uspid="858" ordinal="16" offset="199" sl="47" sc="4" el="47" ec="56" />
+                <SequencePoint vc="0" uspid="859" ordinal="17" offset="210" sl="48" sc="4" el="48" ec="25" />
+                <SequencePoint vc="0" uspid="860" ordinal="18" offset="216" sl="52" sc="4" el="52" ec="66" />
+                <SequencePoint vc="0" uspid="861" ordinal="19" offset="239" sl="53" sc="4" el="53" ec="42" />
+                <SequencePoint vc="0" uspid="862" ordinal="20" offset="255" sl="54" sc="4" el="54" ec="60" />
+                <SequencePoint vc="0" uspid="863" ordinal="21" offset="275" sl="55" sc="4" el="55" ec="34" />
+                <SequencePoint vc="0" uspid="864" ordinal="22" offset="287" sl="56" sc="4" el="56" ec="36" />
+                <SequencePoint vc="0" uspid="865" ordinal="23" offset="303" sl="57" sc="4" el="57" ec="52" />
+                <SequencePoint vc="0" uspid="866" ordinal="24" offset="315" sl="61" sc="4" el="61" ec="74" />
+                <SequencePoint vc="0" uspid="867" ordinal="25" offset="338" sl="62" sc="4" el="62" ec="58" />
+                <SequencePoint vc="0" uspid="868" ordinal="26" offset="354" sl="63" sc="4" el="63" ec="68" />
+                <SequencePoint vc="0" uspid="869" ordinal="27" offset="374" sl="64" sc="4" el="64" ec="42" />
+                <SequencePoint vc="0" uspid="870" ordinal="28" offset="386" sl="65" sc="4" el="65" ec="44" />
+                <SequencePoint vc="0" uspid="871" ordinal="29" offset="402" sl="66" sc="4" el="66" ec="60" />
+                <SequencePoint vc="0" uspid="872" ordinal="30" offset="414" sl="70" sc="4" el="70" ec="79" />
+                <SequencePoint vc="0" uspid="873" ordinal="31" offset="431" sl="71" sc="4" el="71" ec="165" />
+                <SequencePoint vc="0" uspid="874" ordinal="32" offset="464" sl="72" sc="4" el="72" ec="68" />
+                <SequencePoint vc="0" uspid="875" ordinal="33" offset="484" sl="73" sc="4" el="73" ec="42" />
+                <SequencePoint vc="0" uspid="876" ordinal="34" offset="500" sl="74" sc="4" el="74" ec="48" />
+                <SequencePoint vc="0" uspid="877" ordinal="35" offset="516" sl="75" sc="4" el="75" ec="64" />
+                <SequencePoint vc="0" uspid="878" ordinal="36" offset="539" sl="76" sc="4" el="76" ec="37" />
+                <SequencePoint vc="0" uspid="879" ordinal="37" offset="551" sl="80" sc="4" el="80" ec="48" />
+                <SequencePoint vc="0" uspid="880" ordinal="38" offset="563" sl="84" sc="4" el="86" ec="58" />
+                <SequencePoint vc="0" uspid="881" ordinal="39" offset="576" sl="87" sc="4" el="87" ec="79" />
+                <SequencePoint vc="0" uspid="882" ordinal="40" offset="588" sl="88" sc="4" el="88" ec="64" />
+                <SequencePoint vc="0" uspid="883" ordinal="41" offset="608" sl="89" sc="4" el="89" ec="37" />
+                <SequencePoint vc="0" uspid="884" ordinal="42" offset="620" sl="90" sc="4" el="90" ec="40" />
+                <SequencePoint vc="0" uspid="885" ordinal="43" offset="636" sl="91" sc="4" el="91" ec="74" />
+                <SequencePoint vc="0" uspid="886" ordinal="44" offset="648" sl="92" sc="4" el="92" ec="61" />
+                <SequencePoint vc="0" uspid="887" ordinal="45" offset="674" sl="93" sc="4" el="93" ec="33" />
+                <SequencePoint vc="0" uspid="888" ordinal="46" offset="686" sl="97" sc="4" el="97" ec="32" />
+                <SequencePoint vc="0" uspid="889" ordinal="47" offset="698" sl="98" sc="4" el="98" ec="59" />
+                <SequencePoint vc="0" uspid="890" ordinal="48" offset="718" sl="99" sc="4" el="99" ec="32" />
+                <SequencePoint vc="0" uspid="891" ordinal="49" offset="734" sl="100" sc="4" el="100" ec="55" />
+                <SequencePoint vc="0" uspid="892" ordinal="50" offset="754" sl="101" sc="4" el="101" ec="29" />
+                <SequencePoint vc="0" uspid="893" ordinal="51" offset="766" sl="102" sc="4" el="102" ec="31" />
+                <SequencePoint vc="0" uspid="894" ordinal="52" offset="782" sl="106" sc="4" el="106" ec="153" />
+                <SequencePoint vc="0" uspid="895" ordinal="53" offset="795" sl="107" sc="4" el="107" ec="36" />
+                <SequencePoint vc="0" uspid="896" ordinal="54" offset="807" sl="108" sc="4" el="108" ec="66" />
+                <SequencePoint vc="0" uspid="897" ordinal="55" offset="833" sl="109" sc="4" el="109" ec="40" />
+                <SequencePoint vc="0" uspid="898" ordinal="56" offset="849" sl="110" sc="4" el="110" ec="59" />
+                <SequencePoint vc="0" uspid="899" ordinal="57" offset="869" sl="111" sc="4" el="111" ec="33" />
+                <SequencePoint vc="0" uspid="900" ordinal="58" offset="881" sl="112" sc="4" el="112" ec="35" />
+                <SequencePoint vc="0" uspid="901" ordinal="59" offset="893" sl="113" sc="4" el="113" ec="35" />
+                <SequencePoint vc="0" uspid="902" ordinal="60" offset="909" sl="114" sc="4" el="114" ec="122" />
+                <SequencePoint vc="0" uspid="903" ordinal="61" offset="932" sl="118" sc="4" el="118" ec="165" />
+                <SequencePoint vc="0" uspid="904" ordinal="62" offset="944" sl="119" sc="4" el="119" ec="49" />
+                <SequencePoint vc="0" uspid="905" ordinal="63" offset="956" sl="120" sc="4" el="120" ec="77" />
+                <SequencePoint vc="0" uspid="906" ordinal="64" offset="979" sl="121" sc="4" el="121" ec="66" />
+                <SequencePoint vc="0" uspid="907" ordinal="65" offset="995" sl="122" sc="4" el="122" ec="72" />
+                <SequencePoint vc="0" uspid="908" ordinal="66" offset="1015" sl="123" sc="4" el="123" ec="46" />
+                <SequencePoint vc="0" uspid="909" ordinal="67" offset="1027" sl="124" sc="4" el="124" ec="48" />
+                <SequencePoint vc="0" uspid="910" ordinal="68" offset="1039" sl="125" sc="4" el="125" ec="59" />
+                <SequencePoint vc="0" uspid="911" ordinal="69" offset="1055" sl="126" sc="4" el="126" ec="150" />
+                <SequencePoint vc="0" uspid="912" ordinal="70" offset="1078" sl="130" sc="4" el="133" ec="47" />
+                <SequencePoint vc="0" uspid="913" ordinal="71" offset="1129" sl="134" sc="4" el="134" ec="80" />
+                <SequencePoint vc="0" uspid="914" ordinal="72" offset="1145" sl="135" sc="4" el="135" ec="80" />
+                <SequencePoint vc="0" uspid="915" ordinal="73" offset="1168" sl="139" sc="4" el="139" ec="76" />
+                <SequencePoint vc="0" uspid="916" ordinal="74" offset="1184" sl="140" sc="4" el="140" ec="78" />
+                <SequencePoint vc="0" uspid="917" ordinal="75" offset="1207" sl="141" sc="4" el="141" ec="60" />
+                <SequencePoint vc="0" uspid="918" ordinal="76" offset="1223" sl="142" sc="4" el="142" ec="112" />
+                <SequencePoint vc="0" uspid="919" ordinal="77" offset="1246" sl="146" sc="4" el="146" ec="78" />
+                <SequencePoint vc="0" uspid="920" ordinal="78" offset="1262" sl="147" sc="4" el="147" ec="79" />
+                <SequencePoint vc="0" uspid="921" ordinal="79" offset="1285" sl="148" sc="4" el="148" ec="62" />
+                <SequencePoint vc="0" uspid="922" ordinal="80" offset="1301" sl="149" sc="4" el="149" ec="114" />
+                <SequencePoint vc="0" uspid="923" ordinal="81" offset="1324" sl="153" sc="4" el="153" ec="72" />
+                <SequencePoint vc="0" uspid="924" ordinal="82" offset="1340" sl="154" sc="4" el="154" ec="76" />
+                <SequencePoint vc="0" uspid="925" ordinal="83" offset="1363" sl="155" sc="4" el="155" ec="56" />
+                <SequencePoint vc="0" uspid="926" ordinal="84" offset="1379" sl="156" sc="4" el="156" ec="108" />
+                <SequencePoint vc="0" uspid="927" ordinal="85" offset="1402" sl="160" sc="4" el="160" ec="65" />
+                <SequencePoint vc="0" uspid="928" ordinal="86" offset="1423" sl="161" sc="4" el="161" ec="65" />
+                <SequencePoint vc="0" uspid="929" ordinal="87" offset="1430" sl="162" sc="4" el="162" ec="56" />
+                <SequencePoint vc="0" uspid="930" ordinal="88" offset="1451" sl="163" sc="4" el="163" ec="52" />
+                <SequencePoint vc="0" uspid="931" ordinal="89" offset="1468" sl="164" sc="4" el="164" ec="39" />
+                <SequencePoint vc="0" uspid="932" ordinal="90" offset="1485" sl="165" sc="4" el="165" ec="35" />
+                <SequencePoint vc="0" uspid="933" ordinal="91" offset="1502" sl="166" sc="4" el="166" ec="39" />
+                <SequencePoint vc="0" uspid="934" ordinal="92" offset="1519" sl="167" sc="4" el="167" ec="43" />
+                <SequencePoint vc="0" uspid="935" ordinal="93" offset="1536" sl="168" sc="4" el="168" ec="48" />
+                <SequencePoint vc="0" uspid="936" ordinal="94" offset="1553" sl="169" sc="4" el="169" ec="40" />
+                <SequencePoint vc="0" uspid="937" ordinal="95" offset="1570" sl="170" sc="4" el="170" ec="27" />
+                <SequencePoint vc="0" uspid="938" ordinal="96" offset="1577" sl="171" sc="4" el="171" ec="75" />
+                <SequencePoint vc="0" uspid="939" ordinal="97" offset="1599" sl="172" sc="4" el="172" ec="29" />
+                <SequencePoint vc="0" uspid="940" ordinal="98" offset="1606" sl="173" sc="4" el="173" ec="57" />
+                <SequencePoint vc="0" uspid="941" ordinal="99" offset="1627" sl="174" sc="4" el="174" ec="57" />
+                <SequencePoint vc="0" uspid="942" ordinal="100" offset="1648" sl="175" sc="4" el="175" ec="34" />
+                <SequencePoint vc="0" uspid="943" ordinal="101" offset="1659" sl="176" sc="4" el="176" ec="30" />
+                <SequencePoint vc="0" uspid="944" ordinal="102" offset="1670" sl="177" sc="4" el="177" ec="80" />
+                <SequencePoint vc="0" uspid="945" ordinal="103" offset="1681" sl="178" sc="4" el="178" ec="60" />
+                <SequencePoint vc="0" uspid="946" ordinal="104" offset="1693" sl="179" sc="4" el="179" ec="29" />
+                <SequencePoint vc="0" uspid="947" ordinal="105" offset="1700" sl="180" sc="4" el="180" ec="25" />
+                <SequencePoint vc="0" uspid="948" ordinal="106" offset="1706" sl="182" sc="3" el="182" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="842" ordinal="0" offset="0" sl="31" sc="4" el="31" ec="60" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::.ctor()</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="949" ordinal="0" offset="0" sl="24" sc="3" el="24" ec="27" />
+                <SequencePoint vc="0" uspid="950" ordinal="1" offset="6" sl="26" sc="4" el="26" ec="26" />
+                <SequencePoint vc="0" uspid="951" ordinal="2" offset="12" sl="30" sc="4" el="30" ec="57" />
+                <SequencePoint vc="0" uspid="952" ordinal="3" offset="35" sl="32" sc="4" el="32" ec="94" />
+                <SequencePoint vc="0" uspid="953" ordinal="4" offset="57" sl="33" sc="4" el="33" ec="58" />
+                <SequencePoint vc="0" uspid="954" ordinal="5" offset="85" sl="34" sc="4" el="34" ec="75" />
+                <SequencePoint vc="0" uspid="955" ordinal="6" offset="113" sl="35" sc="4" el="35" ec="53" />
+                <SequencePoint vc="0" uspid="956" ordinal="7" offset="141" sl="37" sc="3" el="37" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="949" ordinal="0" offset="0" sl="24" sc="3" el="24" ec="27" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::ResetTitle()</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="957" ordinal="0" offset="0" sl="42" sc="4" el="42" ec="100" />
+                <SequencePoint vc="0" uspid="958" ordinal="1" offset="57" sl="43" sc="3" el="43" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="959" ordinal="0" offset="12" path="0" />
+                <BranchPoint vc="0" uspid="960" ordinal="1" offset="12" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="957" ordinal="0" offset="0" sl="42" sc="4" el="42" ec="100" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::BindTomatoTimer(TomatoDoer.Model.ITomatoTimer,TomatoDoer.Model.ITomatoLog)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="961" ordinal="0" offset="0" sl="47" sc="4" el="47" ec="19" />
+                <SequencePoint vc="0" uspid="962" ordinal="1" offset="7" sl="48" sc="4" el="48" ec="83" />
+                <SequencePoint vc="0" uspid="963" ordinal="2" offset="25" sl="49" sc="4" el="49" ec="41" />
+                <SequencePoint vc="0" uspid="964" ordinal="3" offset="43" sl="50" sc="4" el="50" ec="49" />
+                <SequencePoint vc="0" uspid="965" ordinal="4" offset="61" sl="51" sc="4" el="51" ec="63" />
+                <SequencePoint vc="0" uspid="966" ordinal="5" offset="79" sl="53" sc="4" el="53" ec="43" />
+                <SequencePoint vc="0" uspid="967" ordinal="6" offset="101" sl="55" sc="4" el="55" ec="55" />
+                <SequencePoint vc="0" uspid="968" ordinal="7" offset="126" sl="57" sc="4" el="57" ec="20" />
+                <SequencePoint vc="0" uspid="969" ordinal="8" offset="134" sl="59" sc="5" el="59" ec="46" />
+                <SequencePoint vc="0" uspid="970" ordinal="9" offset="157" sl="61" sc="4" el="61" ec="15" />
+                <SequencePoint vc="0" uspid="971" ordinal="10" offset="164" sl="62" sc="4" el="62" ec="19" />
+                <SequencePoint vc="0" uspid="972" ordinal="11" offset="167" sl="64" sc="5" el="64" ec="46" />
+                <SequencePoint vc="0" uspid="973" ordinal="12" offset="190" sl="65" sc="5" el="65" ec="33" />
+                <SequencePoint vc="0" uspid="974" ordinal="13" offset="212" sl="66" sc="5" el="66" ec="18" />
+                <SequencePoint vc="0" uspid="975" ordinal="14" offset="218" sl="69" sc="3" el="69" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="976" ordinal="0" offset="132" path="0" />
+                <BranchPoint vc="0" uspid="977" ordinal="1" offset="132" path="1" />
+                <BranchPoint vc="0" uspid="978" ordinal="2" offset="165" path="0" />
+                <BranchPoint vc="0" uspid="979" ordinal="3" offset="165" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="961" ordinal="0" offset="0" sl="47" sc="4" el="47" ec="19" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::timer_TomatoHistoryWasRewritten()</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="980" ordinal="0" offset="0" sl="73" sc="4" el="73" ec="17" />
+                <SequencePoint vc="0" uspid="981" ordinal="1" offset="6" sl="74" sc="3" el="74" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="980" ordinal="0" offset="0" sl="73" sc="4" el="73" ec="17" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::_Log_Updated()</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="982" ordinal="0" offset="0" sl="78" sc="4" el="78" ec="37" />
+                <SequencePoint vc="0" uspid="983" ordinal="1" offset="11" sl="79" sc="4" el="79" ec="32" />
+                <SequencePoint vc="0" uspid="984" ordinal="2" offset="33" sl="80" sc="4" el="80" ec="36" />
+                <SequencePoint vc="0" uspid="985" ordinal="3" offset="44" sl="81" sc="3" el="81" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="982" ordinal="0" offset="0" sl="78" sc="4" el="78" ec="37" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::timer_TomatoDone()</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="986" ordinal="0" offset="0" sl="85" sc="4" el="85" ec="39" />
+                <SequencePoint vc="0" uspid="987" ordinal="1" offset="16" sl="86" sc="4" el="86" ec="55" />
+                <SequencePoint vc="0" uspid="988" ordinal="2" offset="41" sl="88" sc="4" el="88" ec="34" />
+                <SequencePoint vc="0" uspid="989" ordinal="3" offset="53" sl="89" sc="4" el="89" ec="43" />
+                <SequencePoint vc="0" uspid="990" ordinal="4" offset="75" sl="90" sc="4" el="90" ec="17" />
+                <SequencePoint vc="0" uspid="991" ordinal="5" offset="81" sl="92" sc="3" el="92" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="986" ordinal="0" offset="0" sl="85" sc="4" el="85" ec="39" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::timer_Starting()</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="992" ordinal="0" offset="0" sl="96" sc="4" el="96" ec="40" />
+                <SequencePoint vc="0" uspid="993" ordinal="1" offset="16" sl="97" sc="4" el="97" ec="35" />
+                <SequencePoint vc="0" uspid="994" ordinal="2" offset="28" sl="98" sc="3" el="98" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="992" ordinal="0" offset="0" sl="96" sc="4" el="96" ec="40" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::timer_Tick()</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="995" ordinal="0" offset="0" sl="102" sc="4" el="102" ec="46" />
+                <SequencePoint vc="0" uspid="996" ordinal="1" offset="22" sl="103" sc="3" el="103" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="995" ordinal="0" offset="0" sl="102" sc="4" el="102" ec="46" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Nullable`1&lt;System.TimeSpan&gt; TomatoDoer.TomatoTimerForm::get_TomatoDuration()</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="997" ordinal="0" offset="0" sl="111" sc="5" el="111" ec="92" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="998" ordinal="0" offset="18" path="0" />
+                <BranchPoint vc="0" uspid="999" ordinal="1" offset="18" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="997" ordinal="0" offset="0" sl="111" sc="5" el="111" ec="92" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::set_TomatoDuration(System.Nullable`1&lt;System.TimeSpan&gt;)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1000" ordinal="0" offset="0" sl="115" sc="5" el="115" ec="23" />
+                <SequencePoint vc="0" uspid="1001" ordinal="1" offset="9" sl="116" sc="6" el="116" ec="28" />
+                <SequencePoint vc="0" uspid="1002" ordinal="2" offset="21" sl="118" sc="5" el="118" ec="63" />
+                <SequencePoint vc="0" uspid="1003" ordinal="3" offset="52" sl="119" sc="4" el="119" ec="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1004" ordinal="0" offset="7" path="0" />
+                <BranchPoint vc="0" uspid="1005" ordinal="1" offset="7" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1000" ordinal="0" offset="0" sl="115" sc="5" el="115" ec="23" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::SetTomatoDurationValidationError(System.String)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1006" ordinal="0" offset="0" sl="124" sc="4" el="124" ec="53" />
+                <SequencePoint vc="0" uspid="1007" ordinal="1" offset="18" sl="125" sc="3" el="125" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1006" ordinal="0" offset="0" sl="124" sc="4" el="124" ec="53" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::TomatoDurationValidated(System.Object,System.ComponentModel.CancelEventArgs)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1008" ordinal="0" offset="0" sl="130" sc="4" el="130" ec="31" />
+                <SequencePoint vc="0" uspid="1009" ordinal="1" offset="16" sl="132" sc="5" el="132" ec="59" />
+                <SequencePoint vc="0" uspid="1010" ordinal="2" offset="27" sl="133" sc="5" el="133" ec="29" />
+                <SequencePoint vc="0" uspid="1011" ordinal="3" offset="35" sl="137" sc="5" el="137" ec="52" />
+                <SequencePoint vc="0" uspid="1012" ordinal="4" offset="46" sl="139" sc="3" el="139" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1013" ordinal="0" offset="14" path="0" />
+                <BranchPoint vc="0" uspid="1014" ordinal="1" offset="14" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1008" ordinal="0" offset="0" sl="130" sc="4" el="130" ec="31" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.String TomatoDoer.TomatoTimerForm::get_LogText()</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1015" ordinal="0" offset="0" sl="143" sc="10" el="143" ec="33" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1015" ordinal="0" offset="0" sl="143" sc="10" el="143" ec="33" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::set_LogText(System.String)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1016" ordinal="0" offset="0" sl="144" sc="10" el="144" ec="34" />
+                <SequencePoint vc="0" uspid="1017" ordinal="1" offset="12" sl="144" sc="35" el="144" ec="36" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1016" ordinal="0" offset="0" sl="144" sc="10" el="144" ec="34" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Boolean TomatoDoer.TomatoTimerForm::get_ResetButtonVisible()</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1018" ordinal="0" offset="0" sl="149" sc="10" el="149" ec="37" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1018" ordinal="0" offset="0" sl="149" sc="10" el="149" ec="37" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::set_ResetButtonVisible(System.Boolean)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1019" ordinal="0" offset="0" sl="150" sc="10" el="150" ec="38" />
+                <SequencePoint vc="0" uspid="1020" ordinal="1" offset="12" sl="150" sc="39" el="150" ec="40" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1019" ordinal="0" offset="0" sl="150" sc="10" el="150" ec="38" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::linkLabel1_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1021" ordinal="0" offset="0" sl="155" sc="4" el="155" ec="32" />
+                <SequencePoint vc="0" uspid="1022" ordinal="1" offset="6" sl="156" sc="4" el="156" ec="31" />
+                <SequencePoint vc="0" uspid="1023" ordinal="2" offset="14" sl="157" sc="3" el="157" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1021" ordinal="0" offset="0" sl="155" sc="4" el="155" ec="32" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::SendCompletedCallback(System.Object,System.ComponentModel.AsyncCompletedEventArgs)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1024" ordinal="0" offset="0" sl="164" sc="4" el="164" ec="39" />
+                <SequencePoint vc="0" uspid="1025" ordinal="1" offset="12" sl="166" sc="4" el="166" ec="24" />
+                <SequencePoint vc="0" uspid="1026" ordinal="2" offset="20" sl="168" sc="5" el="168" ec="39" />
+                <SequencePoint vc="0" uspid="1027" ordinal="3" offset="33" sl="172" sc="5" el="173" ec="49" />
+                <SequencePoint vc="0" uspid="1028" ordinal="4" offset="52" sl="174" sc="5" el="174" ec="115" />
+                <SequencePoint vc="0" uspid="1029" ordinal="5" offset="92" sl="177" sc="4" el="177" ec="54" />
+                <SequencePoint vc="0" uspid="1030" ordinal="6" offset="108" sl="178" sc="4" el="178" ec="43" />
+                <SequencePoint vc="0" uspid="1031" ordinal="7" offset="120" sl="179" sc="3" el="179" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1032" ordinal="0" offset="18" path="0" />
+                <BranchPoint vc="0" uspid="1033" ordinal="1" offset="18" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1024" ordinal="0" offset="0" sl="164" sc="4" el="164" ec="39" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="6" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::LinkLabelSendToEvernote_LinkClicked_1(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1034" ordinal="0" offset="0" sl="183" sc="4" el="183" ec="43" />
+                <SequencePoint vc="0" uspid="1035" ordinal="1" offset="13" sl="185" sc="5" el="185" ec="44" />
+                <SequencePoint vc="0" uspid="1036" ordinal="2" offset="24" sl="186" sc="5" el="186" ec="12" />
+                <SequencePoint vc="0" uspid="1037" ordinal="3" offset="25" sl="189" sc="4" el="189" ec="31" />
+                <SequencePoint vc="0" uspid="1038" ordinal="4" offset="27" sl="192" sc="5" el="192" ec="42" />
+                <SequencePoint vc="0" uspid="1039" ordinal="5" offset="33" sl="194" sc="5" el="194" ec="33" />
+                <SequencePoint vc="0" uspid="1040" ordinal="6" offset="39" sl="195" sc="5" el="195" ec="56" />
+                <SequencePoint vc="0" uspid="1041" ordinal="7" offset="60" sl="196" sc="5" el="196" ec="28" />
+                <SequencePoint vc="0" uspid="1042" ordinal="8" offset="72" sl="197" sc="5" el="200" ec="114" />
+                <SequencePoint vc="0" uspid="1043" ordinal="9" offset="212" sl="202" sc="5" el="202" ec="82" />
+                <SequencePoint vc="0" uspid="1044" ordinal="10" offset="230" sl="204" sc="5" el="204" ec="37" />
+                <SequencePoint vc="0" uspid="1045" ordinal="11" offset="238" sl="206" sc="5" el="206" ec="49" />
+                <SequencePoint vc="0" uspid="1046" ordinal="12" offset="254" sl="207" sc="5" el="207" ec="45" />
+                <SequencePoint vc="0" uspid="1047" ordinal="13" offset="268" sl="209" sc="4" el="209" ec="23" />
+                <SequencePoint vc="0" uspid="1048" ordinal="14" offset="269" sl="211" sc="5" el="211" ec="34" />
+                <SequencePoint vc="0" uspid="1049" ordinal="15" offset="277" sl="219" sc="3" el="219" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1050" ordinal="0" offset="11" path="0" />
+                <BranchPoint vc="0" uspid="1051" ordinal="1" offset="11" path="1" />
+                <BranchPoint vc="0" uspid="1052" ordinal="2" offset="137" path="0" />
+                <BranchPoint vc="0" uspid="1053" ordinal="3" offset="137" path="1" />
+                <BranchPoint vc="0" uspid="1054" ordinal="4" offset="177" path="0" />
+                <BranchPoint vc="0" uspid="1055" ordinal="5" offset="177" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1034" ordinal="0" offset="0" sl="183" sc="4" el="183" ec="43" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::ReportMessageSendFailure(System.Exception)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1056" ordinal="0" offset="0" sl="223" sc="4" el="223" ec="54" />
+                <SequencePoint vc="0" uspid="1057" ordinal="1" offset="8" sl="226" sc="5" el="226" ec="49" />
+                <SequencePoint vc="0" uspid="1058" ordinal="2" offset="21" sl="227" sc="5" el="227" ec="36" />
+                <SequencePoint vc="0" uspid="1059" ordinal="3" offset="29" sl="228" sc="6" el="228" ec="128" />
+                <SequencePoint vc="0" uspid="1060" ordinal="4" offset="67" sl="229" sc="5" el="229" ec="42" />
+                <SequencePoint vc="0" uspid="1061" ordinal="5" offset="75" sl="224" sc="4" el="224" ec="28" />
+                <SequencePoint vc="0" uspid="1062" ordinal="6" offset="78" sl="232" sc="4" el="234" ec="60" />
+                <SequencePoint vc="0" uspid="1063" ordinal="7" offset="108" sl="235" sc="3" el="235" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1064" ordinal="0" offset="27" path="0" />
+                <BranchPoint vc="0" uspid="1065" ordinal="1" offset="27" path="1" />
+                <BranchPoint vc="0" uspid="1066" ordinal="2" offset="76" path="0" />
+                <BranchPoint vc="0" uspid="1067" ordinal="3" offset="76" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1056" ordinal="0" offset="0" sl="223" sc="4" el="223" ec="54" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::smallTomatoToolStripMenuItem_Click(System.Object,System.EventArgs)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1068" ordinal="0" offset="0" sl="239" sc="4" el="239" ec="52" />
+                <SequencePoint vc="0" uspid="1069" ordinal="1" offset="16" sl="240" sc="3" el="240" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1068" ordinal="0" offset="0" sl="239" sc="4" el="239" ec="52" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::mediumTomatoToolStripMenuItem_Click(System.Object,System.EventArgs)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1070" ordinal="0" offset="0" sl="244" sc="4" el="244" ec="53" />
+                <SequencePoint vc="0" uspid="1071" ordinal="1" offset="16" sl="245" sc="3" el="245" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1070" ordinal="0" offset="0" sl="244" sc="4" el="244" ec="53" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663334</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerForm::bigTomatoToolStripMenuItem_Click(System.Object,System.EventArgs)</Name>
+              <FileRef uid="39" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1072" ordinal="0" offset="0" sl="249" sc="4" el="249" ec="50" />
+                <SequencePoint vc="0" uspid="1073" ordinal="1" offset="16" sl="250" sc="3" el="250" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1072" ordinal="0" offset="0" sl="249" sc="4" el="249" ec="50" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.Model.TomatoLog</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="50" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663344</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoLog::add_Updated(System.Action)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="1075" ordinal="0" offset="38" path="0" />
+                <BranchPoint vc="0" uspid="1076" ordinal="1" offset="38" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="1" uspid="1074" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663345</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoLog::remove_Updated(System.Action)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1078" ordinal="0" offset="38" path="0" />
+                <BranchPoint vc="0" uspid="1079" ordinal="1" offset="38" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="1077" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663346</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoLog::.ctor(TomatoDoer.ILogFile)</Name>
+              <FileRef uid="40" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="1080" ordinal="0" offset="0" sl="8" sc="3" el="8" ec="48" />
+                <SequencePoint vc="4" uspid="1081" ordinal="1" offset="11" sl="15" sc="3" el="15" ec="37" />
+                <SequencePoint vc="4" uspid="1082" ordinal="2" offset="17" sl="17" sc="4" el="17" ec="23" />
+                <SequencePoint vc="4" uspid="1083" ordinal="3" offset="24" sl="18" sc="3" el="18" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="1080" ordinal="0" offset="0" sl="8" sc="3" el="8" ec="48" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="true" isSetter="false">
+              <MetadataToken>100663347</MetadataToken>
+              <Name>TomatoDoer.Model.TomatoLog TomatoDoer.Model.TomatoLog::get_Instance()</Name>
+              <FileRef uid="40" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1084" ordinal="0" offset="0" sl="22" sc="10" el="22" ec="76" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1085" ordinal="0" offset="6" path="0" />
+                <BranchPoint vc="0" uspid="1086" ordinal="1" offset="6" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1084" ordinal="0" offset="0" sl="22" sc="10" el="22" ec="76" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" sequenceCoverage="100" branchCoverage="50" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663348</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoLog::Write(System.String)</Name>
+              <FileRef uid="40" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="1087" ordinal="0" offset="0" sl="27" sc="4" el="27" ec="36" />
+                <SequencePoint vc="4" uspid="1088" ordinal="1" offset="6" sl="28" sc="4" el="32" ec="18" />
+                <SequencePoint vc="4" uspid="1089" ordinal="2" offset="70" sl="33" sc="4" el="33" ec="16" />
+                <SequencePoint vc="4" uspid="1090" ordinal="3" offset="76" sl="34" sc="3" el="34" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="4" uspid="1091" ordinal="0" offset="29" path="0" />
+                <BranchPoint vc="0" uspid="1092" ordinal="1" offset="29" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="1087" ordinal="0" offset="0" sl="27" sc="4" el="27" ec="36" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663349</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoLog::OverwriteAll(System.String)</Name>
+              <FileRef uid="40" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1093" ordinal="0" offset="0" sl="38" sc="4" el="38" ec="21" />
+                <SequencePoint vc="0" uspid="1094" ordinal="1" offset="12" sl="39" sc="4" el="39" ec="29" />
+                <SequencePoint vc="0" uspid="1095" ordinal="2" offset="25" sl="40" sc="4" el="40" ec="16" />
+                <SequencePoint vc="0" uspid="1096" ordinal="3" offset="31" sl="41" sc="3" el="41" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1093" ordinal="0" offset="0" sl="38" sc="4" el="38" ec="21" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663350</MetadataToken>
+              <Name>System.String TomatoDoer.Model.TomatoLog::get_Text()</Name>
+              <FileRef uid="40" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="1097" ordinal="0" offset="0" sl="51" sc="5" el="51" ec="32" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="1097" ordinal="0" offset="0" sl="51" sc="5" el="51" ec="32" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663351</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoLog::Flush()</Name>
+              <FileRef uid="40" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1098" ordinal="0" offset="0" sl="57" sc="4" el="57" ec="32" />
+                <SequencePoint vc="1" uspid="1099" ordinal="1" offset="17" sl="58" sc="3" el="58" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1098" ordinal="0" offset="0" sl="57" sc="4" el="57" ec="32" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663352</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoLog::Load()</Name>
+              <FileRef uid="40" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1100" ordinal="0" offset="0" sl="62" sc="4" el="62" ec="21" />
+                <SequencePoint vc="1" uspid="1101" ordinal="1" offset="12" sl="63" sc="4" el="63" ec="44" />
+                <SequencePoint vc="1" uspid="1102" ordinal="2" offset="35" sl="64" sc="4" el="64" ec="16" />
+                <SequencePoint vc="1" uspid="1103" ordinal="3" offset="41" sl="65" sc="3" el="65" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1100" ordinal="0" offset="0" sl="62" sc="4" el="62" ec="21" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" sequenceCoverage="100" branchCoverage="75" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663353</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoLog::OnUpdated()</Name>
+              <FileRef uid="40" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="1104" ordinal="0" offset="0" sl="69" sc="4" el="69" ec="60" />
+                <SequencePoint vc="1" uspid="1105" ordinal="1" offset="16" sl="69" sc="61" el="69" ec="71" />
+                <SequencePoint vc="5" uspid="1106" ordinal="2" offset="27" sl="70" sc="3" el="70" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="1107" ordinal="0" offset="6" path="0" />
+                <BranchPoint vc="4" uspid="1108" ordinal="1" offset="6" path="1" />
+                <BranchPoint vc="1" uspid="1109" ordinal="2" offset="14" path="0" />
+                <BranchPoint vc="0" uspid="1110" ordinal="3" offset="14" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="1104" ordinal="0" offset="0" sl="69" sc="4" el="69" ec="60" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663354</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoLog::SuspendUpdateNotification()</Name>
+              <FileRef uid="40" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1111" ordinal="0" offset="0" sl="74" sc="4" el="74" ec="43" />
+                <SequencePoint vc="0" uspid="1112" ordinal="1" offset="7" sl="75" sc="3" el="75" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1111" ordinal="0" offset="0" sl="74" sc="4" el="74" ec="43" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663355</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoLog::ResumeUpdateNotification()</Name>
+              <FileRef uid="40" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1113" ordinal="0" offset="0" sl="79" sc="4" el="79" ec="44" />
+                <SequencePoint vc="0" uspid="1114" ordinal="1" offset="7" sl="80" sc="3" el="80" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1113" ordinal="0" offset="0" sl="79" sc="4" el="79" ec="44" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.SoundProgress</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663361</MetadataToken>
+              <Name>System.Void TomatoDoer.SoundProgress::.ctor(TomatoDoer.Model.ITomatoTimer)</Name>
+              <FileRef uid="41" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1115" ordinal="0" offset="0" sl="14" sc="3" el="14" ec="43" />
+                <SequencePoint vc="0" uspid="1116" ordinal="1" offset="6" sl="16" sc="4" el="16" ec="19" />
+                <SequencePoint vc="0" uspid="1117" ordinal="2" offset="13" sl="17" sc="4" el="17" ec="82" />
+                <SequencePoint vc="0" uspid="1118" ordinal="3" offset="36" sl="20" sc="3" el="20" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1115" ordinal="0" offset="0" sl="14" sc="3" el="14" ec="43" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663362</MetadataToken>
+              <Name>System.Void TomatoDoer.SoundProgress::_Timer_TomatoDoneOrSquashed()</Name>
+              <FileRef uid="41" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1119" ordinal="0" offset="0" sl="24" sc="4" el="24" ec="135" />
+                <SequencePoint vc="0" uspid="1120" ordinal="1" offset="23" sl="25" sc="4" el="25" ec="14" />
+                <SequencePoint vc="0" uspid="1121" ordinal="2" offset="29" sl="26" sc="3" el="26" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1119" ordinal="0" offset="0" sl="24" sc="4" el="24" ec="135" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663365</MetadataToken>
+              <Name>System.Void TomatoDoer.Program::Main()</Name>
+              <FileRef uid="42" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1122" ordinal="0" offset="0" sl="18" sc="4" el="18" ec="37" />
+                <SequencePoint vc="0" uspid="1123" ordinal="1" offset="5" sl="19" sc="4" el="19" ec="57" />
+                <SequencePoint vc="0" uspid="1124" ordinal="2" offset="11" sl="22" sc="4" el="22" ec="44" />
+                <SequencePoint vc="0" uspid="1125" ordinal="3" offset="22" sl="23" sc="4" el="23" ec="68" />
+                <SequencePoint vc="0" uspid="1126" ordinal="4" offset="33" sl="24" sc="4" el="24" ec="30" />
+                <SequencePoint vc="0" uspid="1127" ordinal="5" offset="43" sl="25" sc="4" el="25" ec="43" />
+                <SequencePoint vc="0" uspid="1128" ordinal="6" offset="53" sl="26" sc="3" el="26" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1122" ordinal="0" offset="0" sl="18" sc="4" el="18" ec="37" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663366</MetadataToken>
+              <Name>System.Void TomatoDoer.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1129" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.Model.TomatoTimer</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="50" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663387</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::add_TomatoDoneOrSquashed(System.Action)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="1131" ordinal="0" offset="38" path="0" />
+                <BranchPoint vc="0" uspid="1132" ordinal="1" offset="38" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="2" uspid="1130" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663388</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::remove_TomatoDoneOrSquashed(System.Action)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1134" ordinal="0" offset="38" path="0" />
+                <BranchPoint vc="0" uspid="1135" ordinal="1" offset="38" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="1133" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="50" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663389</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::add_Starting(System.Action)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="1137" ordinal="0" offset="38" path="0" />
+                <BranchPoint vc="0" uspid="1138" ordinal="1" offset="38" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="1" uspid="1136" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663390</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::remove_Starting(System.Action)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1140" ordinal="0" offset="38" path="0" />
+                <BranchPoint vc="0" uspid="1141" ordinal="1" offset="38" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="1139" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="50" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663391</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::add_Tick(System.Action)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="1143" ordinal="0" offset="38" path="0" />
+                <BranchPoint vc="0" uspid="1144" ordinal="1" offset="38" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="2" uspid="1142" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663392</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::remove_Tick(System.Action)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1146" ordinal="0" offset="38" path="0" />
+                <BranchPoint vc="0" uspid="1147" ordinal="1" offset="38" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="1145" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663393</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::add_TomatoHistoryWasRewritten(System.Action)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1149" ordinal="0" offset="38" path="0" />
+                <BranchPoint vc="0" uspid="1150" ordinal="1" offset="38" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="1148" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663394</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::remove_TomatoHistoryWasRewritten(System.Action)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1152" ordinal="0" offset="38" path="0" />
+                <BranchPoint vc="0" uspid="1153" ordinal="1" offset="38" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="1151" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663395</MetadataToken>
+              <Name>TomatoDoer.Model.ITomatoLog TomatoDoer.Model.TomatoTimer::get_TomatoLog()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="61" uspid="1154" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663396</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::set_TomatoLog(TomatoDoer.Model.ITomatoLog)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="22" uspid="1155" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663397</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::.ctor(TomatoDoer.ITimer,TomatoDoer.Model.ITomatoLog)</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="22" uspid="1156" ordinal="0" offset="0" sl="13" sc="3" el="13" ec="76" />
+                <SequencePoint vc="22" uspid="1157" ordinal="1" offset="11" sl="25" sc="3" el="25" ec="57" />
+                <SequencePoint vc="22" uspid="1158" ordinal="2" offset="17" sl="27" sc="4" el="27" ec="26" />
+                <SequencePoint vc="22" uspid="1159" ordinal="3" offset="24" sl="28" sc="4" el="28" ec="53" />
+                <SequencePoint vc="22" uspid="1160" ordinal="4" offset="35" sl="29" sc="4" el="29" ec="19" />
+                <SequencePoint vc="22" uspid="1161" ordinal="5" offset="42" sl="30" sc="4" el="30" ec="41" />
+                <SequencePoint vc="22" uspid="1162" ordinal="6" offset="65" sl="31" sc="4" el="31" ec="55" />
+                <SequencePoint vc="22" uspid="1163" ordinal="7" offset="88" sl="32" sc="3" el="32" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="22" uspid="1156" ordinal="0" offset="0" sl="13" sc="3" el="13" ec="76" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="5" sequenceCoverage="92" branchCoverage="62" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663398</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::TomatoLog_Updated()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1164" ordinal="0" offset="0" sl="36" sc="4" el="36" ec="54" />
+                <SequencePoint vc="1" uspid="1165" ordinal="1" offset="11" sl="37" sc="4" el="37" ec="48" />
+                <SequencePoint vc="1" uspid="1166" ordinal="2" offset="29" sl="38" sc="4" el="38" ec="26" />
+                <SequencePoint vc="1" uspid="1167" ordinal="3" offset="41" sl="40" sc="5" el="40" ec="48" />
+                <SequencePoint vc="1" uspid="1168" ordinal="4" offset="56" sl="41" sc="5" el="41" ec="61" />
+                <SequencePoint vc="1" uspid="1169" ordinal="5" offset="79" sl="42" sc="5" el="42" ec="42" />
+                <SequencePoint vc="1" uspid="1170" ordinal="6" offset="88" sl="44" sc="6" el="44" ec="29" />
+                <SequencePoint vc="1" uspid="1171" ordinal="7" offset="99" sl="45" sc="11" el="45" ec="21" />
+                <SequencePoint vc="3" uspid="1172" ordinal="8" offset="104" sl="47" sc="7" el="48" ec="107" />
+                <SequencePoint vc="3" uspid="1173" ordinal="9" offset="173" sl="45" sc="41" el="45" ec="44" />
+                <SequencePoint vc="4" uspid="1174" ordinal="10" offset="179" sl="45" sc="22" el="45" ec="39" />
+                <SequencePoint vc="1" uspid="1175" ordinal="11" offset="184" sl="50" sc="6" el="50" ec="44" />
+                <SequencePoint vc="0" uspid="1176" ordinal="12" offset="192" sl="50" sc="45" el="50" ec="73" />
+                <SequencePoint vc="1" uspid="1177" ordinal="13" offset="203" sl="53" sc="3" el="53" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="1178" ordinal="0" offset="36" path="0" />
+                <BranchPoint vc="0" uspid="1179" ordinal="1" offset="36" path="1" />
+                <BranchPoint vc="1" uspid="1180" ordinal="2" offset="86" path="0" />
+                <BranchPoint vc="0" uspid="1181" ordinal="3" offset="86" path="1" />
+                <BranchPoint vc="1" uspid="1182" ordinal="4" offset="182" path="0" />
+                <BranchPoint vc="3" uspid="1183" ordinal="5" offset="182" path="1" />
+                <BranchPoint vc="0" uspid="1184" ordinal="6" offset="190" path="0" />
+                <BranchPoint vc="1" uspid="1185" ordinal="7" offset="190" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1164" ordinal="0" offset="0" sl="36" sc="4" el="36" ec="54" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663399</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::.ctor(TomatoDoer.ITimer)</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1186" ordinal="0" offset="0" sl="55" sc="3" el="55" ec="55" />
+                <SequencePoint vc="0" uspid="1187" ordinal="1" offset="8" sl="58" sc="3" el="58" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1186" ordinal="0" offset="0" sl="55" sc="3" el="55" ec="55" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663400</MetadataToken>
+              <Name>System.TimeSpan TomatoDoer.Model.TomatoTimer::get_TomatoDuration()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="39" uspid="1188" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663401</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::set_TomatoDuration(System.TimeSpan)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="55" uspid="1189" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="true" isSetter="false">
+              <MetadataToken>100663402</MetadataToken>
+              <Name>TomatoDoer.Model.TomatoTimer TomatoDoer.Model.TomatoTimer::get_Instance()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1190" ordinal="0" offset="0" sl="64" sc="10" el="64" ec="54" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1191" ordinal="0" offset="6" path="0" />
+                <BranchPoint vc="0" uspid="1192" ordinal="1" offset="6" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1190" ordinal="0" offset="0" sl="64" sc="10" el="64" ec="54" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663403</MetadataToken>
+              <Name>TomatoDoer.Model.TomatoTimer TomatoDoer.Model.TomatoTimer::GetInitializedTimer()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1193" ordinal="0" offset="0" sl="69" sc="4" el="69" ec="74" />
+                <SequencePoint vc="0" uspid="1194" ordinal="1" offset="20" sl="70" sc="4" el="70" ec="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1193" ordinal="0" offset="0" sl="69" sc="4" el="69" ec="74" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663404</MetadataToken>
+              <Name>System.Int32 TomatoDoer.Model.TomatoTimer::get_CountTomatoesDone()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="17" uspid="1195" ordinal="0" offset="0" sl="75" sc="10" el="75" ec="84" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="1196" ordinal="0" offset="11" path="0" />
+                <BranchPoint vc="16" uspid="1197" ordinal="1" offset="11" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="17" uspid="1195" ordinal="0" offset="0" sl="75" sc="10" el="75" ec="84" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663405</MetadataToken>
+              <Name>System.Boolean TomatoDoer.Model.TomatoTimer::get_IsStarted()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="30" uspid="1198" ordinal="0" offset="0" sl="80" sc="10" el="80" ec="63" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="30" uspid="1198" ordinal="0" offset="0" sl="80" sc="10" el="80" ec="63" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663406</MetadataToken>
+              <Name>System.TimeSpan TomatoDoer.Model.TomatoTimer::get_TomatoTimeRemains()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1199" ordinal="0" offset="0" sl="85" sc="10" el="85" ec="45" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1199" ordinal="0" offset="0" sl="85" sc="10" el="85" ec="45" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663407</MetadataToken>
+              <Name>TomatoDoer.Model.ETomatoState TomatoDoer.Model.TomatoTimer::get_State()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="1200" ordinal="0" offset="0" sl="90" sc="10" el="90" ec="40" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="1200" ordinal="0" offset="0" sl="90" sc="10" el="90" ec="40" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663408</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::TimerTick()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="13" uspid="1201" ordinal="0" offset="0" sl="95" sc="4" el="95" ec="54" />
+                <SequencePoint vc="10" uspid="1202" ordinal="1" offset="14" sl="95" sc="55" el="95" ec="67" />
+                <SequencePoint vc="3" uspid="1203" ordinal="2" offset="21" sl="96" sc="9" el="96" ec="26" />
+                <SequencePoint vc="1" uspid="1204" ordinal="3" offset="29" sl="96" sc="27" el="96" ec="34" />
+                <SequencePoint vc="3" uspid="1205" ordinal="4" offset="40" sl="97" sc="3" el="97" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="10" uspid="1206" ordinal="0" offset="12" path="0" />
+                <BranchPoint vc="3" uspid="1207" ordinal="1" offset="12" path="1" />
+                <BranchPoint vc="1" uspid="1208" ordinal="2" offset="27" path="0" />
+                <BranchPoint vc="2" uspid="1209" ordinal="3" offset="27" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="13" uspid="1201" ordinal="0" offset="0" sl="95" sc="4" el="95" ec="54" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663409</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::StartTimer()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="18" uspid="1210" ordinal="0" offset="0" sl="99" sc="31" el="99" ec="58" />
+                <SequencePoint vc="17" uspid="1211" ordinal="1" offset="12" sl="99" sc="59" el="99" ec="60" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="18" uspid="1210" ordinal="0" offset="0" sl="99" sc="31" el="99" ec="58" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663410</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::StartTimer(System.TimeSpan)</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="28" uspid="1212" ordinal="0" offset="0" sl="103" sc="4" el="103" ec="18" />
+                <SequencePoint vc="1" uspid="1213" ordinal="1" offset="8" sl="104" sc="5" el="104" ec="93" />
+                <SequencePoint vc="27" uspid="1214" ordinal="2" offset="19" sl="106" sc="4" el="106" ec="48" />
+                <SequencePoint vc="27" uspid="1215" ordinal="3" offset="26" sl="108" sc="4" el="108" ec="36" />
+                <SequencePoint vc="27" uspid="1216" ordinal="4" offset="33" sl="110" sc="4" el="110" ec="19" />
+                <SequencePoint vc="27" uspid="1217" ordinal="5" offset="44" sl="111" sc="4" el="111" ec="17" />
+                <SequencePoint vc="27" uspid="1218" ordinal="6" offset="50" sl="112" sc="3" el="112" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="1219" ordinal="0" offset="6" path="0" />
+                <BranchPoint vc="27" uspid="1220" ordinal="1" offset="6" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="28" uspid="1212" ordinal="0" offset="0" sl="103" sc="4" el="103" ec="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663411</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::InitializeNewTomatoTimeSpan(System.TimeSpan)</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="27" uspid="1221" ordinal="0" offset="0" sl="116" sc="4" el="116" ec="46" />
+                <SequencePoint vc="27" uspid="1222" ordinal="1" offset="12" sl="117" sc="4" el="117" ec="45" />
+                <SequencePoint vc="27" uspid="1223" ordinal="2" offset="33" sl="118" sc="4" el="118" ec="35" />
+                <SequencePoint vc="27" uspid="1224" ordinal="3" offset="50" sl="119" sc="3" el="119" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="27" uspid="1221" ordinal="0" offset="0" sl="116" sc="4" el="116" ec="46" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663412</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::Squash()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="1225" ordinal="0" offset="0" sl="123" sc="4" el="123" ec="53" />
+                <SequencePoint vc="1" uspid="1226" ordinal="1" offset="14" sl="124" sc="5" el="124" ec="73" />
+                <SequencePoint vc="8" uspid="1227" ordinal="2" offset="25" sl="126" sc="4" el="126" ec="16" />
+                <SequencePoint vc="8" uspid="1228" ordinal="3" offset="31" sl="127" sc="3" el="127" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="1229" ordinal="0" offset="12" path="0" />
+                <BranchPoint vc="8" uspid="1230" ordinal="1" offset="12" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="9" uspid="1225" ordinal="0" offset="0" sl="123" sc="4" el="123" ec="53" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663413</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::Reset()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="1231" ordinal="0" offset="0" sl="131" sc="4" el="131" ec="24" />
+                <SequencePoint vc="1" uspid="1232" ordinal="1" offset="13" sl="132" sc="5" el="132" ec="17" />
+                <SequencePoint vc="4" uspid="1233" ordinal="2" offset="19" sl="133" sc="4" el="133" ec="27" />
+                <SequencePoint vc="4" uspid="1234" ordinal="3" offset="30" sl="134" sc="3" el="134" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="1235" ordinal="0" offset="11" path="0" />
+                <BranchPoint vc="3" uspid="1236" ordinal="1" offset="11" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="1231" ordinal="0" offset="0" sl="131" sc="4" el="131" ec="24" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663414</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::StopTimer()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="19" uspid="1237" ordinal="0" offset="0" sl="138" sc="4" el="138" ec="43" />
+                <SequencePoint vc="19" uspid="1238" ordinal="1" offset="21" sl="139" sc="4" el="139" ec="40" />
+                <SequencePoint vc="19" uspid="1239" ordinal="2" offset="38" sl="140" sc="4" el="140" ec="29" />
+                <SequencePoint vc="19" uspid="1240" ordinal="3" offset="44" sl="142" sc="4" el="142" ec="25" />
+                <SequencePoint vc="17" uspid="1241" ordinal="4" offset="57" sl="142" sc="26" el="142" ec="40" />
+                <SequencePoint vc="19" uspid="1242" ordinal="5" offset="68" sl="143" sc="3" el="143" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="17" uspid="1243" ordinal="0" offset="55" path="0" />
+                <BranchPoint vc="2" uspid="1244" ordinal="1" offset="55" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="19" uspid="1237" ordinal="0" offset="0" sl="138" sc="4" el="138" ec="43" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="5" sequenceCoverage="100" branchCoverage="87" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663415</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::OnTomatoDoneOrSquashed()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="19" uspid="1245" ordinal="0" offset="0" sl="147" sc="4" el="147" ec="26" />
+                <SequencePoint vc="19" uspid="1246" ordinal="1" offset="8" sl="149" sc="5" el="149" ec="56" />
+                <SequencePoint vc="9" uspid="1247" ordinal="2" offset="22" sl="150" sc="6" el="150" ec="46" />
+                <SequencePoint vc="19" uspid="1248" ordinal="3" offset="38" sl="152" sc="5" el="152" ec="53" />
+                <SequencePoint vc="10" uspid="1249" ordinal="4" offset="52" sl="153" sc="6" el="153" ec="144" />
+                <SequencePoint vc="19" uspid="1250" ordinal="5" offset="122" sl="157" sc="4" el="157" ec="37" />
+                <SequencePoint vc="3" uspid="1251" ordinal="6" offset="130" sl="157" sc="38" el="157" ec="61" />
+                <SequencePoint vc="19" uspid="1252" ordinal="7" offset="141" sl="158" sc="3" el="158" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="19" uspid="1253" ordinal="0" offset="6" path="0" />
+                <BranchPoint vc="0" uspid="1254" ordinal="1" offset="6" path="1" />
+                <BranchPoint vc="9" uspid="1255" ordinal="2" offset="20" path="0" />
+                <BranchPoint vc="10" uspid="1256" ordinal="3" offset="20" path="1" />
+                <BranchPoint vc="10" uspid="1257" ordinal="4" offset="50" path="0" />
+                <BranchPoint vc="9" uspid="1258" ordinal="5" offset="50" path="1" />
+                <BranchPoint vc="3" uspid="1259" ordinal="6" offset="128" path="0" />
+                <BranchPoint vc="16" uspid="1260" ordinal="7" offset="128" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="19" uspid="1245" ordinal="0" offset="0" sl="147" sc="4" el="147" ec="26" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663416</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::OnStarting()</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="27" uspid="1261" ordinal="0" offset="0" sl="162" sc="4" el="162" ec="25" />
+                <SequencePoint vc="1" uspid="1262" ordinal="1" offset="8" sl="162" sc="26" el="162" ec="37" />
+                <SequencePoint vc="27" uspid="1263" ordinal="2" offset="19" sl="163" sc="3" el="163" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="1264" ordinal="0" offset="6" path="0" />
+                <BranchPoint vc="26" uspid="1265" ordinal="1" offset="6" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="27" uspid="1261" ordinal="0" offset="0" sl="162" sc="4" el="162" ec="25" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663417</MetadataToken>
+              <Name>System.Boolean TomatoDoer.Model.TomatoTimer::&lt;get_CountTomatoesDone&gt;b__1(TomatoDoer.Model.TomatoTimeSpan)</Name>
+              <FileRef uid="43" />
+              <SequencePoints>
+                <SequencePoint vc="23" uspid="1266" ordinal="0" offset="0" sl="75" sc="48" el="75" ec="82" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="1266" ordinal="0" offset="0" sl="75" sc="48" el="75" ec="82" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663418</MetadataToken>
+              <Name>System.Void TomatoDoer.Model.TomatoTimer::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="1267" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.WinTimer</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663419</MetadataToken>
+              <Name>System.Void TomatoDoer.WinTimer::add_Tick(System.Action)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1269" ordinal="0" offset="38" path="0" />
+                <BranchPoint vc="0" uspid="1270" ordinal="1" offset="38" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="1268" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663420</MetadataToken>
+              <Name>System.Void TomatoDoer.WinTimer::remove_Tick(System.Action)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1272" ordinal="0" offset="38" path="0" />
+                <BranchPoint vc="0" uspid="1273" ordinal="1" offset="38" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="1271" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663421</MetadataToken>
+              <Name>System.Void TomatoDoer.WinTimer::.ctor()</Name>
+              <FileRef uid="44" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1274" ordinal="0" offset="0" sl="12" sc="3" el="12" ec="20" />
+                <SequencePoint vc="0" uspid="1275" ordinal="1" offset="6" sl="14" sc="4" el="14" ec="25" />
+                <SequencePoint vc="0" uspid="1276" ordinal="2" offset="17" sl="15" sc="4" el="15" ec="27" />
+                <SequencePoint vc="0" uspid="1277" ordinal="3" offset="33" sl="16" sc="4" el="16" ec="47" />
+                <SequencePoint vc="0" uspid="1278" ordinal="4" offset="56" sl="17" sc="3" el="17" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1274" ordinal="0" offset="0" sl="12" sc="3" el="12" ec="20" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663422</MetadataToken>
+              <Name>System.Void TomatoDoer.WinTimer::TimerTick(System.Object,System.EventArgs)</Name>
+              <FileRef uid="44" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1279" ordinal="0" offset="0" sl="21" sc="4" el="21" ec="21" />
+                <SequencePoint vc="0" uspid="1280" ordinal="1" offset="8" sl="21" sc="22" el="21" ec="29" />
+                <SequencePoint vc="0" uspid="1281" ordinal="2" offset="19" sl="22" sc="3" el="22" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1282" ordinal="0" offset="6" path="0" />
+                <BranchPoint vc="0" uspid="1283" ordinal="1" offset="6" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1279" ordinal="0" offset="0" sl="21" sc="4" el="21" ec="21" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663423</MetadataToken>
+              <Name>System.Boolean TomatoDoer.WinTimer::get_IsStarted()</Name>
+              <FileRef uid="44" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1284" ordinal="0" offset="0" sl="26" sc="10" el="26" ec="32" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1284" ordinal="0" offset="0" sl="26" sc="10" el="26" ec="32" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663424</MetadataToken>
+              <Name>System.Void TomatoDoer.WinTimer::Start()</Name>
+              <FileRef uid="44" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1285" ordinal="0" offset="0" sl="31" sc="4" el="31" ec="19" />
+                <SequencePoint vc="0" uspid="1286" ordinal="1" offset="11" sl="32" sc="3" el="32" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1285" ordinal="0" offset="0" sl="31" sc="4" el="31" ec="19" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663425</MetadataToken>
+              <Name>System.Void TomatoDoer.WinTimer::Stop()</Name>
+              <FileRef uid="44" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1287" ordinal="0" offset="0" sl="36" sc="4" el="36" ec="18" />
+                <SequencePoint vc="0" uspid="1288" ordinal="1" offset="11" sl="37" sc="3" el="37" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1287" ordinal="0" offset="0" sl="36" sc="4" el="36" ec="18" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.TaskbarProgress</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663426</MetadataToken>
+              <Name>System.Void TomatoDoer.TaskbarProgress::.ctor(TomatoDoer.Model.ITomatoTimer)</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1289" ordinal="0" offset="0" sl="12" sc="3" el="12" ec="45" />
+                <SequencePoint vc="0" uspid="1290" ordinal="1" offset="6" sl="14" sc="4" el="14" ec="19" />
+                <SequencePoint vc="0" uspid="1291" ordinal="2" offset="13" sl="15" sc="4" el="15" ec="58" />
+                <SequencePoint vc="0" uspid="1292" ordinal="3" offset="36" sl="16" sc="4" el="16" ec="82" />
+                <SequencePoint vc="0" uspid="1293" ordinal="4" offset="59" sl="17" sc="4" el="17" ec="50" />
+                <SequencePoint vc="0" uspid="1294" ordinal="5" offset="82" sl="20" sc="3" el="20" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1289" ordinal="0" offset="0" sl="12" sc="3" el="12" ec="45" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663427</MetadataToken>
+              <Name>System.Windows.Forms.Form TomatoDoer.TaskbarProgress::GetMainForm()</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1295" ordinal="0" offset="0" sl="24" sc="4" el="24" ec="61" />
+                <SequencePoint vc="0" uspid="1296" ordinal="1" offset="21" sl="25" sc="5" el="25" ec="42" />
+                <SequencePoint vc="0" uspid="1297" ordinal="2" offset="38" sl="26" sc="4" el="26" ec="21" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1298" ordinal="0" offset="6" path="0" />
+                <BranchPoint vc="0" uspid="1299" ordinal="1" offset="6" path="1" />
+                <BranchPoint vc="0" uspid="1300" ordinal="2" offset="19" path="0" />
+                <BranchPoint vc="0" uspid="1301" ordinal="3" offset="19" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1295" ordinal="0" offset="0" sl="24" sc="4" el="24" ec="61" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663428</MetadataToken>
+              <Name>System.Void TomatoDoer.TaskbarProgress::_Timer_Tick()</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1302" ordinal="0" offset="0" sl="31" sc="4" el="31" ec="160" />
+                <SequencePoint vc="0" uspid="1303" ordinal="1" offset="71" sl="32" sc="3" el="32" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1302" ordinal="0" offset="0" sl="31" sc="4" el="31" ec="160" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663429</MetadataToken>
+              <Name>System.Void TomatoDoer.TaskbarProgress::_Timer_TomatoDoneOrSquashed()</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1304" ordinal="0" offset="0" sl="36" sc="4" el="36" ec="145" />
+                <SequencePoint vc="0" uspid="1305" ordinal="1" offset="12" sl="37" sc="3" el="37" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1304" ordinal="0" offset="0" sl="36" sc="4" el="36" ec="145" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663430</MetadataToken>
+              <Name>System.Void TomatoDoer.TaskbarProgress::_Timer_Starting()</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1306" ordinal="0" offset="0" sl="41" sc="4" el="41" ec="141" />
+                <SequencePoint vc="0" uspid="1307" ordinal="1" offset="12" sl="42" sc="3" el="42" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1306" ordinal="0" offset="0" sl="41" sc="4" el="41" ec="141" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.FormsFactory</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663432</MetadataToken>
+              <Name>System.Windows.Forms.Form TomatoDoer.FormsFactory::ConstructAboutDialogForm()</Name>
+              <FileRef uid="46" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1308" ordinal="0" offset="0" sl="14" sc="4" el="14" ec="23" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1308" ordinal="0" offset="0" sl="14" sc="4" el="14" ec="23" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663433</MetadataToken>
+              <Name>System.Void TomatoDoer.FormsFactory::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1309" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.About</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="3" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663434</MetadataToken>
+              <Name>System.Void TomatoDoer.About::Dispose(System.Boolean)</Name>
+              <FileRef uid="47" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1310" ordinal="0" offset="0" sl="16" sc="4" el="16" ec="42" />
+                <SequencePoint vc="0" uspid="1311" ordinal="1" offset="11" sl="18" sc="5" el="18" ec="26" />
+                <SequencePoint vc="0" uspid="1312" ordinal="2" offset="22" sl="20" sc="4" el="20" ec="28" />
+                <SequencePoint vc="0" uspid="1313" ordinal="3" offset="29" sl="21" sc="3" el="21" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1314" ordinal="0" offset="1" path="0" />
+                <BranchPoint vc="0" uspid="1315" ordinal="1" offset="1" path="1" />
+                <BranchPoint vc="0" uspid="1316" ordinal="2" offset="9" path="0" />
+                <BranchPoint vc="0" uspid="1317" ordinal="3" offset="9" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1310" ordinal="0" offset="0" sl="16" sc="4" el="16" ec="42" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663435</MetadataToken>
+              <Name>System.Void TomatoDoer.About::InitializeComponent()</Name>
+              <FileRef uid="47" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1318" ordinal="0" offset="0" sl="31" sc="4" el="31" ec="51" />
+                <SequencePoint vc="0" uspid="1319" ordinal="1" offset="11" sl="32" sc="4" el="32" ec="59" />
+                <SequencePoint vc="0" uspid="1320" ordinal="2" offset="22" sl="33" sc="4" el="33" ec="55" />
+                <SequencePoint vc="0" uspid="1321" ordinal="3" offset="33" sl="34" sc="4" el="34" ec="51" />
+                <SequencePoint vc="0" uspid="1322" ordinal="4" offset="44" sl="35" sc="4" el="35" ec="55" />
+                <SequencePoint vc="0" uspid="1323" ordinal="5" offset="55" sl="36" sc="4" el="36" ec="59" />
+                <SequencePoint vc="0" uspid="1324" ordinal="6" offset="66" sl="37" sc="4" el="37" ec="65" />
+                <SequencePoint vc="0" uspid="1325" ordinal="7" offset="77" sl="38" sc="4" el="38" ec="25" />
+                <SequencePoint vc="0" uspid="1326" ordinal="8" offset="83" sl="42" sc="4" el="42" ec="32" />
+                <SequencePoint vc="0" uspid="1327" ordinal="9" offset="95" sl="43" sc="4" el="43" ec="163" />
+                <SequencePoint vc="0" uspid="1328" ordinal="10" offset="128" sl="44" sc="4" el="44" ec="59" />
+                <SequencePoint vc="0" uspid="1329" ordinal="11" offset="148" sl="45" sc="4" el="45" ec="32" />
+                <SequencePoint vc="0" uspid="1330" ordinal="12" offset="164" sl="46" sc="4" el="46" ec="56" />
+                <SequencePoint vc="0" uspid="1331" ordinal="13" offset="187" sl="47" sc="4" el="47" ec="29" />
+                <SequencePoint vc="0" uspid="1332" ordinal="14" offset="199" sl="48" sc="4" el="48" ec="36" />
+                <SequencePoint vc="0" uspid="1333" ordinal="15" offset="215" sl="52" sc="4" el="52" ec="36" />
+                <SequencePoint vc="0" uspid="1334" ordinal="16" offset="227" sl="53" sc="4" el="53" ec="66" />
+                <SequencePoint vc="0" uspid="1335" ordinal="17" offset="253" sl="54" sc="4" el="54" ec="40" />
+                <SequencePoint vc="0" uspid="1336" ordinal="18" offset="269" sl="55" sc="4" el="55" ec="60" />
+                <SequencePoint vc="0" uspid="1337" ordinal="19" offset="289" sl="56" sc="4" el="56" ec="33" />
+                <SequencePoint vc="0" uspid="1338" ordinal="20" offset="301" sl="57" sc="4" el="57" ec="35" />
+                <SequencePoint vc="0" uspid="1339" ordinal="21" offset="313" sl="58" sc="4" el="58" ec="50" />
+                <SequencePoint vc="0" uspid="1340" ordinal="22" offset="329" sl="59" sc="4" el="59" ec="122" />
+                <SequencePoint vc="0" uspid="1341" ordinal="23" offset="352" sl="63" sc="4" el="63" ec="70" />
+                <SequencePoint vc="0" uspid="1342" ordinal="24" offset="364" sl="64" sc="4" el="64" ec="62" />
+                <SequencePoint vc="0" uspid="1343" ordinal="25" offset="384" sl="65" sc="4" el="65" ec="35" />
+                <SequencePoint vc="0" uspid="1344" ordinal="26" offset="396" sl="66" sc="4" el="66" ec="36" />
+                <SequencePoint vc="0" uspid="1345" ordinal="27" offset="412" sl="67" sc="4" el="67" ec="34" />
+                <SequencePoint vc="0" uspid="1346" ordinal="28" offset="424" sl="68" sc="4" el="68" ec="58" />
+                <SequencePoint vc="0" uspid="1347" ordinal="29" offset="447" sl="69" sc="4" el="69" ec="31" />
+                <SequencePoint vc="0" uspid="1348" ordinal="30" offset="459" sl="70" sc="4" el="71" ec="38" />
+                <SequencePoint vc="0" uspid="1349" ordinal="31" offset="475" sl="72" sc="4" el="72" ec="78" />
+                <SequencePoint vc="0" uspid="1350" ordinal="32" offset="487" sl="76" sc="4" el="76" ec="32" />
+                <SequencePoint vc="0" uspid="1351" ordinal="33" offset="499" sl="77" sc="4" el="77" ec="163" />
+                <SequencePoint vc="0" uspid="1352" ordinal="34" offset="532" sl="78" sc="4" el="78" ec="60" />
+                <SequencePoint vc="0" uspid="1353" ordinal="35" offset="555" sl="79" sc="4" el="79" ec="32" />
+                <SequencePoint vc="0" uspid="1354" ordinal="36" offset="571" sl="80" sc="4" el="80" ec="55" />
+                <SequencePoint vc="0" uspid="1355" ordinal="37" offset="591" sl="81" sc="4" el="81" ec="29" />
+                <SequencePoint vc="0" uspid="1356" ordinal="38" offset="603" sl="82" sc="4" el="82" ec="30" />
+                <SequencePoint vc="0" uspid="1357" ordinal="39" offset="619" sl="86" sc="4" el="86" ec="70" />
+                <SequencePoint vc="0" uspid="1358" ordinal="40" offset="631" sl="87" sc="4" el="87" ec="63" />
+                <SequencePoint vc="0" uspid="1359" ordinal="41" offset="654" sl="88" sc="4" el="88" ec="35" />
+                <SequencePoint vc="0" uspid="1360" ordinal="42" offset="666" sl="89" sc="4" el="89" ec="36" />
+                <SequencePoint vc="0" uspid="1361" ordinal="43" offset="682" sl="90" sc="4" el="90" ec="34" />
+                <SequencePoint vc="0" uspid="1362" ordinal="44" offset="694" sl="91" sc="4" el="91" ec="58" />
+                <SequencePoint vc="0" uspid="1363" ordinal="45" offset="717" sl="92" sc="4" el="92" ec="31" />
+                <SequencePoint vc="0" uspid="1364" ordinal="46" offset="729" sl="93" sc="4" el="94" ec="28" />
+                <SequencePoint vc="0" uspid="1365" ordinal="47" offset="745" sl="95" sc="4" el="95" ec="77" />
+                <SequencePoint vc="0" uspid="1366" ordinal="48" offset="757" sl="99" sc="4" el="99" ec="36" />
+                <SequencePoint vc="0" uspid="1367" ordinal="49" offset="769" sl="100" sc="4" el="100" ec="64" />
+                <SequencePoint vc="0" uspid="1368" ordinal="50" offset="789" sl="101" sc="4" el="101" ec="40" />
+                <SequencePoint vc="0" uspid="1369" ordinal="51" offset="805" sl="102" sc="4" el="102" ec="60" />
+                <SequencePoint vc="0" uspid="1370" ordinal="52" offset="828" sl="103" sc="4" el="103" ec="33" />
+                <SequencePoint vc="0" uspid="1371" ordinal="53" offset="840" sl="104" sc="4" el="104" ec="35" />
+                <SequencePoint vc="0" uspid="1372" ordinal="54" offset="852" sl="105" sc="4" el="105" ec="64" />
+                <SequencePoint vc="0" uspid="1373" ordinal="55" offset="868" sl="106" sc="4" el="106" ec="122" />
+                <SequencePoint vc="0" uspid="1374" ordinal="56" offset="891" sl="110" sc="4" el="110" ec="42" />
+                <SequencePoint vc="0" uspid="1375" ordinal="57" offset="903" sl="111" sc="4" el="111" ec="71" />
+                <SequencePoint vc="0" uspid="1376" ordinal="58" offset="926" sl="112" sc="4" el="112" ec="52" />
+                <SequencePoint vc="0" uspid="1377" ordinal="59" offset="942" sl="113" sc="4" el="113" ec="65" />
+                <SequencePoint vc="0" uspid="1378" ordinal="60" offset="962" sl="114" sc="4" el="114" ec="39" />
+                <SequencePoint vc="0" uspid="1379" ordinal="61" offset="974" sl="115" sc="4" el="115" ec="41" />
+                <SequencePoint vc="0" uspid="1380" ordinal="62" offset="986" sl="116" sc="4" el="116" ec="43" />
+                <SequencePoint vc="0" uspid="1381" ordinal="63" offset="1002" sl="117" sc="4" el="117" ec="134" />
+                <SequencePoint vc="0" uspid="1382" ordinal="64" offset="1025" sl="121" sc="4" el="121" ec="65" />
+                <SequencePoint vc="0" uspid="1383" ordinal="65" offset="1046" sl="122" sc="4" el="122" ec="65" />
+                <SequencePoint vc="0" uspid="1384" ordinal="66" offset="1053" sl="123" sc="4" el="123" ec="56" />
+                <SequencePoint vc="0" uspid="1385" ordinal="67" offset="1074" sl="124" sc="4" el="124" ec="45" />
+                <SequencePoint vc="0" uspid="1386" ordinal="68" offset="1091" sl="125" sc="4" el="125" ec="39" />
+                <SequencePoint vc="0" uspid="1387" ordinal="69" offset="1108" sl="126" sc="4" el="126" ec="37" />
+                <SequencePoint vc="0" uspid="1388" ordinal="70" offset="1125" sl="127" sc="4" el="127" ec="37" />
+                <SequencePoint vc="0" uspid="1389" ordinal="71" offset="1142" sl="128" sc="4" el="128" ec="39" />
+                <SequencePoint vc="0" uspid="1390" ordinal="72" offset="1159" sl="129" sc="4" el="129" ec="35" />
+                <SequencePoint vc="0" uspid="1391" ordinal="73" offset="1176" sl="130" sc="4" el="130" ec="35" />
+                <SequencePoint vc="0" uspid="1392" ordinal="74" offset="1193" sl="131" sc="4" el="131" ec="76" />
+                <SequencePoint vc="0" uspid="1393" ordinal="75" offset="1200" sl="132" sc="4" el="132" ec="29" />
+                <SequencePoint vc="0" uspid="1394" ordinal="76" offset="1207" sl="133" sc="4" el="133" ec="29" />
+                <SequencePoint vc="0" uspid="1395" ordinal="77" offset="1214" sl="134" sc="4" el="134" ec="24" />
+                <SequencePoint vc="0" uspid="1396" ordinal="78" offset="1225" sl="135" sc="4" el="135" ec="24" />
+                <SequencePoint vc="0" uspid="1397" ordinal="79" offset="1236" sl="136" sc="4" el="136" ec="58" />
+                <SequencePoint vc="0" uspid="1398" ordinal="80" offset="1254" sl="137" sc="4" el="137" ec="29" />
+                <SequencePoint vc="0" uspid="1399" ordinal="81" offset="1261" sl="138" sc="4" el="138" ec="25" />
+                <SequencePoint vc="0" uspid="1400" ordinal="82" offset="1267" sl="140" sc="3" el="140" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1318" ordinal="0" offset="0" sl="31" sc="4" el="31" ec="51" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663436</MetadataToken>
+              <Name>System.Void TomatoDoer.About::.ctor()</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1401" ordinal="0" offset="0" sl="16" sc="3" el="16" ec="17" />
+                <SequencePoint vc="0" uspid="1402" ordinal="1" offset="6" sl="18" sc="4" el="18" ec="26" />
+                <SequencePoint vc="0" uspid="1403" ordinal="2" offset="12" sl="19" sc="3" el="19" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1401" ordinal="0" offset="0" sl="16" sc="3" el="16" ec="17" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663437</MetadataToken>
+              <Name>System.Void TomatoDoer.About::About_Load(System.Object,System.EventArgs)</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1404" ordinal="0" offset="0" sl="23" sc="4" el="23" ec="72" />
+                <SequencePoint vc="0" uspid="1405" ordinal="1" offset="16" sl="24" sc="4" el="24" ec="74" />
+                <SequencePoint vc="0" uspid="1406" ordinal="2" offset="59" sl="25" sc="3" el="25" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1404" ordinal="0" offset="0" sl="23" sc="4" el="23" ec="72" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663438</MetadataToken>
+              <Name>System.Void TomatoDoer.About::linkLabel2_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1407" ordinal="0" offset="0" sl="29" sc="4" el="29" ec="74" />
+                <SequencePoint vc="0" uspid="1408" ordinal="1" offset="11" sl="30" sc="3" el="30" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1407" ordinal="0" offset="0" sl="29" sc="4" el="29" ec="74" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663439</MetadataToken>
+              <Name>System.Void TomatoDoer.About::linkLabel1_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1409" ordinal="0" offset="0" sl="34" sc="4" el="34" ec="84" />
+                <SequencePoint vc="0" uspid="1410" ordinal="1" offset="11" sl="35" sc="3" el="35" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1409" ordinal="0" offset="0" sl="34" sc="4" el="34" ec="84" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663440</MetadataToken>
+              <Name>System.Void TomatoDoer.About::linkLabelAnalyze_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1411" ordinal="0" offset="0" sl="39" sc="4" el="39" ec="38" />
+                <SequencePoint vc="0" uspid="1412" ordinal="1" offset="6" sl="40" sc="4" el="40" ec="25" />
+                <SequencePoint vc="0" uspid="1413" ordinal="2" offset="14" sl="41" sc="3" el="41" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1411" ordinal="0" offset="0" sl="39" sc="4" el="39" ec="38" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.TomatoTimerFormPresenter</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663441</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerFormPresenter::.ctor(TomatoDoer.ITomatoTimerFormView,TomatoDoer.Model.ITomatoLog,TomatoDoer.Model.ITomatoTimer)</Name>
+              <FileRef uid="49" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="1414" ordinal="0" offset="0" sl="12" sc="3" el="12" ec="109" />
+                <SequencePoint vc="9" uspid="1415" ordinal="1" offset="6" sl="14" sc="4" el="14" ec="17" />
+                <SequencePoint vc="9" uspid="1416" ordinal="2" offset="13" sl="15" sc="4" el="15" ec="27" />
+                <SequencePoint vc="9" uspid="1417" ordinal="3" offset="20" sl="16" sc="4" el="16" ec="31" />
+                <SequencePoint vc="9" uspid="1418" ordinal="4" offset="27" sl="17" sc="4" el="17" ec="52" />
+                <SequencePoint vc="9" uspid="1419" ordinal="5" offset="50" sl="18" sc="3" el="18" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="9" uspid="1414" ordinal="0" offset="0" sl="12" sc="3" el="12" ec="109" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663442</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerFormPresenter::TomatoLogChanged(System.Object,System.EventArgs)</Name>
+              <FileRef uid="49" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="1420" ordinal="0" offset="0" sl="22" sc="4" el="22" ec="16" />
+                <SequencePoint vc="2" uspid="1421" ordinal="1" offset="6" sl="23" sc="3" el="23" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="1420" ordinal="0" offset="0" sl="22" sc="4" el="22" ec="16" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663443</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerFormPresenter::UpdateLog()</Name>
+              <FileRef uid="49" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="1422" ordinal="0" offset="0" sl="27" sc="4" el="27" ec="43" />
+                <SequencePoint vc="3" uspid="1423" ordinal="1" offset="11" sl="28" sc="4" el="28" ec="43" />
+                <SequencePoint vc="3" uspid="1424" ordinal="2" offset="33" sl="29" sc="4" el="29" ec="23" />
+                <SequencePoint vc="3" uspid="1425" ordinal="3" offset="44" sl="30" sc="4" el="30" ec="42" />
+                <SequencePoint vc="3" uspid="1426" ordinal="4" offset="55" sl="31" sc="3" el="31" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="1422" ordinal="0" offset="0" sl="27" sc="4" el="27" ec="43" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663444</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerFormPresenter::StartOrSquashTomatoButtonClick(System.Object,System.EventArgs)</Name>
+              <FileRef uid="49" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="1427" ordinal="0" offset="0" sl="35" sc="4" el="35" ec="31" />
+                <SequencePoint vc="1" uspid="1428" ordinal="1" offset="13" sl="37" sc="5" el="37" ec="27" />
+                <SequencePoint vc="2" uspid="1429" ordinal="2" offset="25" sl="41" sc="5" el="41" ec="38" />
+                <SequencePoint vc="1" uspid="1430" ordinal="3" offset="46" sl="42" sc="6" el="42" ec="32" />
+                <SequencePoint vc="1" uspid="1431" ordinal="4" offset="58" sl="44" sc="6" el="44" ec="58" />
+                <SequencePoint vc="1" uspid="1432" ordinal="5" offset="88" sl="46" sc="3" el="46" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="1433" ordinal="0" offset="11" path="0" />
+                <BranchPoint vc="2" uspid="1434" ordinal="1" offset="11" path="1" />
+                <BranchPoint vc="1" uspid="1435" ordinal="2" offset="44" path="0" />
+                <BranchPoint vc="1" uspid="1436" ordinal="3" offset="44" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="1427" ordinal="0" offset="0" sl="35" sc="4" el="35" ec="31" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663445</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoTimerFormPresenter::ResetButtonClick(System.Object,System.EventArgs)</Name>
+              <FileRef uid="49" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="1437" ordinal="0" offset="0" sl="50" sc="4" el="50" ec="37" />
+                <SequencePoint vc="2" uspid="1438" ordinal="1" offset="12" sl="51" sc="4" el="51" ec="25" />
+                <SequencePoint vc="2" uspid="1439" ordinal="2" offset="23" sl="52" sc="4" el="52" ec="23" />
+                <SequencePoint vc="2" uspid="1440" ordinal="3" offset="34" sl="53" sc="3" el="53" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="1437" ordinal="0" offset="0" sl="50" sc="4" el="50" ec="37" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.WinLogFile</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663446</MetadataToken>
+              <Name>System.Void TomatoDoer.WinLogFile::WriteAllText(System.String)</Name>
+              <FileRef uid="50" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1441" ordinal="0" offset="0" sl="15" sc="5" el="15" ec="46" />
+                <SequencePoint vc="0" uspid="1442" ordinal="1" offset="13" sl="17" sc="4" el="17" ec="39" />
+                <SequencePoint vc="0" uspid="1443" ordinal="2" offset="14" sl="19" sc="5" el="19" ec="73" />
+                <SequencePoint vc="0" uspid="1444" ordinal="3" offset="27" sl="21" sc="3" el="21" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1441" ordinal="0" offset="0" sl="15" sc="5" el="15" ec="46" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663447</MetadataToken>
+              <Name>System.String TomatoDoer.WinLogFile::ReadAllText()</Name>
+              <FileRef uid="50" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1445" ordinal="0" offset="0" sl="25" sc="4" el="25" ec="34" />
+                <SequencePoint vc="0" uspid="1446" ordinal="1" offset="12" sl="29" sc="6" el="29" ec="44" />
+                <SequencePoint vc="0" uspid="1447" ordinal="2" offset="25" sl="31" sc="5" el="31" ec="40" />
+                <SequencePoint vc="0" uspid="1448" ordinal="3" offset="26" sl="33" sc="6" el="33" ec="74" />
+                <SequencePoint vc="0" uspid="1449" ordinal="4" offset="39" sl="36" sc="4" el="36" ec="24" />
+                <SequencePoint vc="0" uspid="1450" ordinal="5" offset="45" sl="37" sc="3" el="37" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1451" ordinal="0" offset="10" path="0" />
+                <BranchPoint vc="0" uspid="1452" ordinal="1" offset="10" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1445" ordinal="0" offset="0" sl="25" sc="4" el="25" ec="34" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663448</MetadataToken>
+              <Name>System.Void TomatoDoer.WinLogFile::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1453" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663449</MetadataToken>
+              <Name>System.Void TomatoDoer.WinLogFile::.cctor()</Name>
+              <FileRef uid="50" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1454" ordinal="0" offset="0" sl="9" sc="3" el="9" ec="103" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1454" ordinal="0" offset="0" sl="9" sc="3" el="9" ec="103" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.TomatoException</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663450</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoException::.ctor()</Name>
+              <FileRef uid="51" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1455" ordinal="0" offset="0" sl="9" sc="3" el="9" ec="27" />
+                <SequencePoint vc="0" uspid="1456" ordinal="1" offset="6" sl="13" sc="3" el="13" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1455" ordinal="0" offset="0" sl="9" sc="3" el="9" ec="27" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663451</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoException::.ctor(System.String)</Name>
+              <FileRef uid="51" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="1457" ordinal="0" offset="0" sl="15" sc="3" el="15" ec="57" />
+                <SequencePoint vc="2" uspid="1458" ordinal="1" offset="7" sl="17" sc="3" el="17" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="1457" ordinal="0" offset="0" sl="15" sc="3" el="15" ec="57" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663452</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoException::.ctor(System.String,System.Exception)</Name>
+              <FileRef uid="51" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1459" ordinal="0" offset="0" sl="19" sc="3" el="19" ec="81" />
+                <SequencePoint vc="0" uspid="1460" ordinal="1" offset="8" sl="21" sc="3" el="21" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1459" ordinal="0" offset="0" sl="19" sc="3" el="19" ec="81" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663453</MetadataToken>
+              <Name>System.Void TomatoDoer.TomatoException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</Name>
+              <FileRef uid="51" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1461" ordinal="0" offset="0" sl="23" sc="3" el="25" ec="51" />
+                <SequencePoint vc="0" uspid="1462" ordinal="1" offset="8" sl="27" sc="3" el="27" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1461" ordinal="0" offset="0" sl="23" sc="3" el="25" ec="51" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.Properties.Settings</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="true" isSetter="false">
+              <MetadataToken>100663454</MetadataToken>
+              <Name>TomatoDoer.Properties.Settings TomatoDoer.Properties.Settings::get_Default()</Name>
+              <FileRef uid="52" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1463" ordinal="0" offset="0" sl="22" sc="17" el="22" ec="40" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1463" ordinal="0" offset="0" sl="22" sc="17" el="22" ec="40" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663455</MetadataToken>
+              <Name>System.String TomatoDoer.Properties.Settings::get_EvernoteUserEmail()</Name>
+              <FileRef uid="52" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1464" ordinal="0" offset="0" sl="31" sc="17" el="31" ec="62" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1464" ordinal="0" offset="0" sl="31" sc="17" el="31" ec="62" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663456</MetadataToken>
+              <Name>System.Void TomatoDoer.Properties.Settings::set_EvernoteUserEmail(System.String)</Name>
+              <FileRef uid="52" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1465" ordinal="0" offset="0" sl="34" sc="17" el="34" ec="51" />
+                <SequencePoint vc="0" uspid="1466" ordinal="1" offset="12" sl="35" sc="13" el="35" ec="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1465" ordinal="0" offset="0" sl="34" sc="17" el="34" ec="51" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663457</MetadataToken>
+              <Name>System.String TomatoDoer.Properties.Settings::get_EvernoteMailTag()</Name>
+              <FileRef uid="52" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1467" ordinal="0" offset="0" sl="43" sc="17" el="43" ec="60" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1467" ordinal="0" offset="0" sl="43" sc="17" el="43" ec="60" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663458</MetadataToken>
+              <Name>System.Void TomatoDoer.Properties.Settings::set_EvernoteMailTag(System.String)</Name>
+              <FileRef uid="52" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1468" ordinal="0" offset="0" sl="46" sc="17" el="46" ec="49" />
+                <SequencePoint vc="0" uspid="1469" ordinal="1" offset="12" sl="47" sc="13" el="47" ec="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1468" ordinal="0" offset="0" sl="46" sc="17" el="46" ec="49" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663459</MetadataToken>
+              <Name>System.String TomatoDoer.Properties.Settings::get_EvernoteMailNotebook()</Name>
+              <FileRef uid="52" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1470" ordinal="0" offset="0" sl="55" sc="17" el="55" ec="65" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1470" ordinal="0" offset="0" sl="55" sc="17" el="55" ec="65" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663460</MetadataToken>
+              <Name>System.Void TomatoDoer.Properties.Settings::set_EvernoteMailNotebook(System.String)</Name>
+              <FileRef uid="52" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1471" ordinal="0" offset="0" sl="58" sc="17" el="58" ec="54" />
+                <SequencePoint vc="0" uspid="1472" ordinal="1" offset="12" sl="59" sc="13" el="59" ec="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1471" ordinal="0" offset="0" sl="58" sc="17" el="58" ec="54" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663461</MetadataToken>
+              <Name>System.String TomatoDoer.Properties.Settings::get_EvernoteMailSubject()</Name>
+              <FileRef uid="52" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1473" ordinal="0" offset="0" sl="67" sc="17" el="67" ec="64" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1473" ordinal="0" offset="0" sl="67" sc="17" el="67" ec="64" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663462</MetadataToken>
+              <Name>System.Void TomatoDoer.Properties.Settings::set_EvernoteMailSubject(System.String)</Name>
+              <FileRef uid="52" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1474" ordinal="0" offset="0" sl="70" sc="17" el="70" ec="53" />
+                <SequencePoint vc="0" uspid="1475" ordinal="1" offset="12" sl="71" sc="13" el="71" ec="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1474" ordinal="0" offset="0" sl="70" sc="17" el="70" ec="53" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663463</MetadataToken>
+              <Name>System.Void TomatoDoer.Properties.Settings::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1476" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663464</MetadataToken>
+              <Name>System.Void TomatoDoer.Properties.Settings::.cctor()</Name>
+              <FileRef uid="52" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1477" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="147" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1477" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="147" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>TomatoDoer.Presentation.AnalyzeBox</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663465</MetadataToken>
+              <Name>System.Void TomatoDoer.Presentation.AnalyzeBox::.ctor()</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1478" ordinal="0" offset="0" sl="15" sc="3" el="15" ec="22" />
+                <SequencePoint vc="0" uspid="1479" ordinal="1" offset="6" sl="17" sc="4" el="17" ec="26" />
+                <SequencePoint vc="0" uspid="1480" ordinal="2" offset="12" sl="18" sc="3" el="18" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1478" ordinal="0" offset="0" sl="15" sc="3" el="15" ec="22" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663466</MetadataToken>
+              <Name>System.Void TomatoDoer.Presentation.AnalyzeBox::buttonOK_Click(System.Object,System.EventArgs)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1481" ordinal="0" offset="0" sl="22" sc="4" el="22" ec="58" />
+                <SequencePoint vc="0" uspid="1482" ordinal="1" offset="28" sl="23" sc="3" el="23" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1481" ordinal="0" offset="0" sl="22" sc="4" el="22" ec="58" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="17" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663467</MetadataToken>
+              <Name>System.String TomatoDoer.Presentation.AnalyzeBox::GetAnalyze(System.String)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1483" ordinal="0" offset="0" sl="27" sc="4" el="27" ec="38" />
+                <SequencePoint vc="0" uspid="1484" ordinal="1" offset="6" sl="29" sc="4" el="29" ec="53" />
+                <SequencePoint vc="0" uspid="1485" ordinal="2" offset="18" sl="30" sc="4" el="30" ec="44" />
+                <SequencePoint vc="0" uspid="1486" ordinal="3" offset="45" sl="31" sc="4" el="31" ec="25" />
+                <SequencePoint vc="0" uspid="1487" ordinal="4" offset="52" sl="33" sc="4" el="33" ec="55" />
+                <SequencePoint vc="0" uspid="1488" ordinal="5" offset="58" sl="35" sc="4" el="35" ec="53" />
+                <SequencePoint vc="0" uspid="1489" ordinal="6" offset="60" sl="38" sc="5" el="38" ec="48" />
+                <SequencePoint vc="0" uspid="1490" ordinal="7" offset="70" sl="40" sc="4" el="40" ec="24" />
+                <SequencePoint vc="0" uspid="1491" ordinal="8" offset="71" sl="42" sc="5" el="42" ec="61" />
+                <SequencePoint vc="0" uspid="1492" ordinal="9" offset="83" sl="43" sc="5" el="43" ec="39" />
+                <SequencePoint vc="0" uspid="1493" ordinal="10" offset="98" sl="46" sc="4" el="46" ec="31" />
+                <SequencePoint vc="0" uspid="1494" ordinal="11" offset="106" sl="48" sc="5" el="48" ec="56" />
+                <SequencePoint vc="0" uspid="1495" ordinal="12" offset="123" sl="52" sc="5" el="52" ec="49" />
+                <SequencePoint vc="0" uspid="1496" ordinal="13" offset="135" sl="53" sc="5" el="53" ec="54" />
+                <SequencePoint vc="0" uspid="1497" ordinal="14" offset="157" sl="54" sc="5" el="55" ec="85" />
+                <SequencePoint vc="0" uspid="1498" ordinal="15" offset="220" sl="56" sc="5" el="56" ec="26" />
+                <SequencePoint vc="0" uspid="1499" ordinal="16" offset="227" sl="59" sc="5" el="59" ec="88" />
+                <SequencePoint vc="0" uspid="1500" ordinal="17" offset="264" sl="60" sc="5" el="61" ec="57" />
+                <SequencePoint vc="0" uspid="1501" ordinal="18" offset="288" sl="62" sc="5" el="62" ec="26" />
+                <SequencePoint vc="0" uspid="1502" ordinal="19" offset="295" sl="63" sc="5" el="73" ec="8" />
+                <SequencePoint vc="0" uspid="1503" ordinal="20" offset="366" sl="74" sc="5" el="74" ec="96" />
+                <SequencePoint vc="0" uspid="1504" ordinal="21" offset="424" sl="75" sc="5" el="75" ec="26" />
+                <SequencePoint vc="0" uspid="1505" ordinal="22" offset="431" sl="76" sc="5" el="76" ec="100" />
+                <SequencePoint vc="0" uspid="1506" ordinal="23" offset="489" sl="78" sc="5" el="78" ec="26" />
+                <SequencePoint vc="0" uspid="1507" ordinal="24" offset="496" sl="79" sc="5" el="79" ec="26" />
+                <SequencePoint vc="0" uspid="1508" ordinal="25" offset="503" sl="106" sc="5" el="111" ec="15" />
+                <SequencePoint vc="0" uspid="1509" ordinal="26" offset="608" sl="114" sc="5" el="114" ec="55" />
+                <SequencePoint vc="0" uspid="1510" ordinal="27" offset="620" sl="116" sc="38" el="116" ec="84" />
+                <SequencePoint vc="0" uspid="1511" ordinal="28" offset="668" sl="116" sc="14" el="116" ec="34" />
+                <SequencePoint vc="0" uspid="1512" ordinal="29" offset="677" sl="118" sc="6" el="118" ec="68" />
+                <SequencePoint vc="0" uspid="1513" ordinal="30" offset="696" sl="119" sc="6" el="119" ec="27" />
+                <SequencePoint vc="0" uspid="1514" ordinal="31" offset="703" sl="120" sc="6" el="120" ec="80" />
+                <SequencePoint vc="0" uspid="1515" ordinal="32" offset="727" sl="121" sc="6" el="121" ec="27" />
+                <SequencePoint vc="0" uspid="1516" ordinal="33" offset="734" sl="122" sc="6" el="122" ec="118" />
+                <SequencePoint vc="0" uspid="1517" ordinal="34" offset="787" sl="123" sc="6" el="123" ec="27" />
+                <SequencePoint vc="0" uspid="1518" ordinal="35" offset="794" sl="124" sc="6" el="124" ec="112" />
+                <SequencePoint vc="0" uspid="1519" ordinal="36" offset="847" sl="125" sc="6" el="125" ec="27" />
+                <SequencePoint vc="0" uspid="1520" ordinal="37" offset="854" sl="126" sc="6" el="126" ec="127" />
+                <SequencePoint vc="0" uspid="1521" ordinal="38" offset="916" sl="128" sc="6" el="128" ec="43" />
+                <SequencePoint vc="0" uspid="1522" ordinal="39" offset="928" sl="129" sc="48" el="129" ec="92" />
+                <SequencePoint vc="0" uspid="1523" ordinal="40" offset="973" sl="129" sc="15" el="129" ec="44" />
+                <SequencePoint vc="0" uspid="1524" ordinal="41" offset="982" sl="131" sc="7" el="131" ec="69" />
+                <SequencePoint vc="0" uspid="1525" ordinal="42" offset="1001" sl="129" sc="45" el="129" ec="47" />
+                <SequencePoint vc="0" uspid="1526" ordinal="43" offset="1024" sl="133" sc="6" el="133" ec="27" />
+                <SequencePoint vc="0" uspid="1527" ordinal="44" offset="1031" sl="135" sc="6" el="135" ec="27" />
+                <SequencePoint vc="0" uspid="1528" ordinal="45" offset="1038" sl="116" sc="35" el="116" ec="37" />
+                <SequencePoint vc="0" uspid="1529" ordinal="46" offset="1064" sl="139" sc="5" el="139" ec="52" />
+                <SequencePoint vc="0" uspid="1530" ordinal="47" offset="1076" sl="141" sc="4" el="141" ec="30" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1531" ordinal="0" offset="104" path="0" />
+                <BranchPoint vc="0" uspid="1532" ordinal="1" offset="104" path="1" />
+                <BranchPoint vc="0" uspid="1533" ordinal="2" offset="233" path="0" />
+                <BranchPoint vc="0" uspid="1534" ordinal="3" offset="233" path="1" />
+                <BranchPoint vc="0" uspid="1535" ordinal="4" offset="301" path="0" />
+                <BranchPoint vc="0" uspid="1536" ordinal="5" offset="301" path="1" />
+                <BranchPoint vc="0" uspid="1537" ordinal="6" offset="335" path="0" />
+                <BranchPoint vc="0" uspid="1538" ordinal="7" offset="335" path="1" />
+                <BranchPoint vc="0" uspid="1539" ordinal="8" offset="379" path="0" />
+                <BranchPoint vc="0" uspid="1540" ordinal="9" offset="379" path="1" />
+                <BranchPoint vc="0" uspid="1541" ordinal="10" offset="444" path="0" />
+                <BranchPoint vc="0" uspid="1542" ordinal="11" offset="444" path="1" />
+                <BranchPoint vc="0" uspid="1543" ordinal="12" offset="509" path="0" />
+                <BranchPoint vc="0" uspid="1544" ordinal="13" offset="509" path="1" />
+                <BranchPoint vc="0" uspid="1545" ordinal="14" offset="543" path="0" />
+                <BranchPoint vc="0" uspid="1546" ordinal="15" offset="543" path="1" />
+                <BranchPoint vc="0" uspid="1547" ordinal="16" offset="577" path="0" />
+                <BranchPoint vc="0" uspid="1548" ordinal="17" offset="577" path="1" />
+                <BranchPoint vc="0" uspid="1549" ordinal="18" offset="627" path="0" />
+                <BranchPoint vc="0" uspid="1550" ordinal="19" offset="627" path="1" />
+                <BranchPoint vc="0" uspid="1551" ordinal="20" offset="867" path="0" />
+                <BranchPoint vc="0" uspid="1552" ordinal="21" offset="867" path="1" />
+                <BranchPoint vc="0" uspid="1553" ordinal="22" offset="935" path="0" />
+                <BranchPoint vc="0" uspid="1554" ordinal="23" offset="935" path="1" />
+                <BranchPoint vc="0" uspid="1555" ordinal="24" offset="1008" path="0" />
+                <BranchPoint vc="0" uspid="1556" ordinal="25" offset="1008" path="1" />
+                <BranchPoint vc="0" uspid="1557" ordinal="26" offset="1014" path="0" />
+                <BranchPoint vc="0" uspid="1558" ordinal="27" offset="1014" path="1" />
+                <BranchPoint vc="0" uspid="1559" ordinal="28" offset="1045" path="0" />
+                <BranchPoint vc="0" uspid="1560" ordinal="29" offset="1045" path="1" />
+                <BranchPoint vc="0" uspid="1561" ordinal="30" offset="1054" path="0" />
+                <BranchPoint vc="0" uspid="1562" ordinal="31" offset="1054" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1483" ordinal="0" offset="0" sl="27" sc="4" el="27" ec="38" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663468</MetadataToken>
+              <Name>System.Void TomatoDoer.Presentation.AnalyzeBox::Dispose(System.Boolean)</Name>
+              <FileRef uid="54" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1563" ordinal="0" offset="0" sl="16" sc="4" el="16" ec="42" />
+                <SequencePoint vc="0" uspid="1564" ordinal="1" offset="11" sl="18" sc="5" el="18" ec="26" />
+                <SequencePoint vc="0" uspid="1565" ordinal="2" offset="22" sl="20" sc="4" el="20" ec="28" />
+                <SequencePoint vc="0" uspid="1566" ordinal="3" offset="29" sl="21" sc="3" el="21" ec="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1567" ordinal="0" offset="1" path="0" />
+                <BranchPoint vc="0" uspid="1568" ordinal="1" offset="1" path="1" />
+                <BranchPoint vc="0" uspid="1569" ordinal="2" offset="9" path="0" />
+                <BranchPoint vc="0" uspid="1570" ordinal="3" offset="9" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1563" ordinal="0" offset="0" sl="16" sc="4" el="16" ec="42" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663469</MetadataToken>
+              <Name>System.Void TomatoDoer.Presentation.AnalyzeBox::InitializeComponent()</Name>
+              <FileRef uid="54" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1571" ordinal="0" offset="0" sl="31" sc="4" el="31" ec="58" />
+                <SequencePoint vc="0" uspid="1572" ordinal="1" offset="11" sl="32" sc="4" el="32" ec="54" />
+                <SequencePoint vc="0" uspid="1573" ordinal="2" offset="22" sl="33" sc="4" el="33" ec="65" />
+                <SequencePoint vc="0" uspid="1574" ordinal="3" offset="33" sl="34" sc="4" el="34" ec="25" />
+                <SequencePoint vc="0" uspid="1575" ordinal="4" offset="39" sl="38" sc="4" el="38" ec="155" />
+                <SequencePoint vc="0" uspid="1576" ordinal="5" offset="52" sl="39" sc="4" el="39" ec="78" />
+                <SequencePoint vc="0" uspid="1577" ordinal="6" offset="64" sl="40" sc="4" el="40" ec="68" />
+                <SequencePoint vc="0" uspid="1578" ordinal="7" offset="90" sl="41" sc="4" el="41" ec="44" />
+                <SequencePoint vc="0" uspid="1579" ordinal="8" offset="106" sl="42" sc="4" el="42" ec="61" />
+                <SequencePoint vc="0" uspid="1580" ordinal="9" offset="126" sl="43" sc="4" el="43" ec="35" />
+                <SequencePoint vc="0" uspid="1581" ordinal="10" offset="138" sl="44" sc="4" el="44" ec="38" />
+                <SequencePoint vc="0" uspid="1582" ordinal="11" offset="154" sl="45" sc="4" el="45" ec="53" />
+                <SequencePoint vc="0" uspid="1583" ordinal="12" offset="166" sl="49" sc="4" el="49" ec="151" />
+                <SequencePoint vc="0" uspid="1584" ordinal="13" offset="179" sl="50" sc="4" el="50" ec="64" />
+                <SequencePoint vc="0" uspid="1585" ordinal="14" offset="205" sl="51" sc="4" el="51" ec="36" />
+                <SequencePoint vc="0" uspid="1586" ordinal="15" offset="221" sl="52" sc="4" el="52" ec="57" />
+                <SequencePoint vc="0" uspid="1587" ordinal="16" offset="241" sl="53" sc="4" el="53" ec="31" />
+                <SequencePoint vc="0" uspid="1588" ordinal="17" offset="253" sl="54" sc="4" el="54" ec="35" />
+                <SequencePoint vc="0" uspid="1589" ordinal="18" offset="269" sl="55" sc="4" el="55" ec="49" />
+                <SequencePoint vc="0" uspid="1590" ordinal="19" offset="281" sl="56" sc="4" el="56" ec="72" />
+                <SequencePoint vc="0" uspid="1591" ordinal="20" offset="304" sl="60" sc="4" el="62" ec="58" />
+                <SequencePoint vc="0" uspid="1592" ordinal="21" offset="317" sl="63" sc="4" el="63" ec="68" />
+                <SequencePoint vc="0" uspid="1593" ordinal="22" offset="337" sl="64" sc="4" el="64" ec="48" />
+                <SequencePoint vc="0" uspid="1594" ordinal="23" offset="353" sl="65" sc="4" el="65" ec="65" />
+                <SequencePoint vc="0" uspid="1595" ordinal="24" offset="379" sl="66" sc="4" el="66" ec="37" />
+                <SequencePoint vc="0" uspid="1596" ordinal="25" offset="391" sl="67" sc="4" el="67" ec="68" />
+                <SequencePoint vc="0" uspid="1597" ordinal="26" offset="407" sl="71" sc="4" el="71" ec="38" />
+                <SequencePoint vc="0" uspid="1598" ordinal="27" offset="419" sl="72" sc="4" el="72" ec="65" />
+                <SequencePoint vc="0" uspid="1599" ordinal="28" offset="440" sl="73" sc="4" el="73" ec="65" />
+                <SequencePoint vc="0" uspid="1600" ordinal="29" offset="447" sl="74" sc="4" el="74" ec="42" />
+                <SequencePoint vc="0" uspid="1601" ordinal="30" offset="459" sl="75" sc="4" el="75" ec="56" />
+                <SequencePoint vc="0" uspid="1602" ordinal="31" offset="480" sl="76" sc="4" el="76" ec="43" />
+                <SequencePoint vc="0" uspid="1603" ordinal="32" offset="497" sl="77" sc="4" el="77" ec="37" />
+                <SequencePoint vc="0" uspid="1604" ordinal="33" offset="514" sl="78" sc="4" el="78" ec="41" />
+                <SequencePoint vc="0" uspid="1605" ordinal="34" offset="531" sl="79" sc="4" el="79" ec="82" />
+                <SequencePoint vc="0" uspid="1606" ordinal="35" offset="538" sl="80" sc="4" el="80" ec="29" />
+                <SequencePoint vc="0" uspid="1607" ordinal="36" offset="545" sl="81" sc="4" el="81" ec="29" />
+                <SequencePoint vc="0" uspid="1608" ordinal="37" offset="552" sl="82" sc="4" el="82" ec="29" />
+                <SequencePoint vc="0" uspid="1609" ordinal="38" offset="563" sl="83" sc="4" el="83" ec="26" />
+                <SequencePoint vc="0" uspid="1610" ordinal="39" offset="570" sl="84" sc="4" el="84" ec="31" />
+                <SequencePoint vc="0" uspid="1611" ordinal="40" offset="577" sl="85" sc="4" el="85" ec="37" />
+                <SequencePoint vc="0" uspid="1612" ordinal="41" offset="588" sl="86" sc="4" el="86" ec="29" />
+                <SequencePoint vc="0" uspid="1613" ordinal="42" offset="595" sl="88" sc="3" el="88" ec="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1571" ordinal="0" offset="0" sl="31" sc="4" el="31" ec="58" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663470</MetadataToken>
+              <Name>System.Double TomatoDoer.Presentation.AnalyzeBox::&lt;GetAnalyze&gt;b__0(TomatoLogParser.TomatoTimeSpanDescribed)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1614" ordinal="0" offset="0" sl="59" sc="50" el="59" ec="86" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1614" ordinal="0" offset="0" sl="59" sc="50" el="59" ec="86" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663471</MetadataToken>
+              <Name>System.DateTime TomatoDoer.Presentation.AnalyzeBox::&lt;GetAnalyze&gt;b__1(TomatoLogParser.TomatoTimeSpanDescribed)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1615" ordinal="0" offset="0" sl="65" sc="21" el="65" ec="61" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1615" ordinal="0" offset="0" sl="65" sc="21" el="65" ec="61" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663472</MetadataToken>
+              <Name>&lt;&gt;f__AnonymousType0`3&lt;System.DateTime,System.Double,System.Int32&gt; TomatoDoer.Presentation.AnalyzeBox::&lt;GetAnalyze&gt;b__2(System.Linq.IGrouping`2&lt;System.DateTime,TomatoLogParser.TomatoTimeSpanDescribed&gt;)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1616" ordinal="0" offset="0" sl="67" sc="14" el="72" ec="16" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1617" ordinal="0" offset="12" path="0" />
+                <BranchPoint vc="0" uspid="1618" ordinal="1" offset="12" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1616" ordinal="0" offset="0" sl="67" sc="14" el="72" ec="16" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663473</MetadataToken>
+              <Name>System.Double TomatoDoer.Presentation.AnalyzeBox::&lt;GetAnalyze&gt;b__4(&lt;&gt;f__AnonymousType0`3&lt;System.DateTime,System.Double,System.Int32&gt;)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1619" ordinal="0" offset="0" sl="74" sc="80" el="74" ec="93" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1619" ordinal="0" offset="0" sl="74" sc="80" el="74" ec="93" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663474</MetadataToken>
+              <Name>System.Int32 TomatoDoer.Presentation.AnalyzeBox::&lt;GetAnalyze&gt;b__5(&lt;&gt;f__AnonymousType0`3&lt;System.DateTime,System.Double,System.Int32&gt;)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1620" ordinal="0" offset="0" sl="76" sc="83" el="76" ec="97" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1620" ordinal="0" offset="0" sl="76" sc="83" el="76" ec="97" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663475</MetadataToken>
+              <Name>System.DateTime TomatoDoer.Presentation.AnalyzeBox::&lt;GetAnalyze&gt;b__6(TomatoLogParser.TomatoTimeSpanDescribed)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1621" ordinal="0" offset="0" sl="108" sc="14" el="108" ec="49" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1621" ordinal="0" offset="0" sl="108" sc="14" el="108" ec="49" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663476</MetadataToken>
+              <Name>System.String TomatoDoer.Presentation.AnalyzeBox::&lt;GetAnalyze&gt;b__7(TomatoLogParser.TomatoTimeSpanDescribed)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1622" ordinal="0" offset="0" sl="109" sc="20" el="109" ec="30" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1622" ordinal="0" offset="0" sl="109" sc="20" el="109" ec="30" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663477</MetadataToken>
+              <Name>System.Linq.IGrouping`2&lt;System.String,TomatoLogParser.TomatoTimeSpanDescribed&gt; TomatoDoer.Presentation.AnalyzeBox::&lt;GetAnalyze&gt;b__8(System.Linq.IGrouping`2&lt;System.String,TomatoLogParser.TomatoTimeSpanDescribed&gt;)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1623" ordinal="0" offset="0" sl="111" sc="13" el="111" ec="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1623" ordinal="0" offset="0" sl="111" sc="13" el="111" ec="14" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663478</MetadataToken>
+              <Name>System.Int32 TomatoDoer.Presentation.AnalyzeBox::&lt;GetAnalyze&gt;b__9(System.Linq.IGrouping`2&lt;System.String,TomatoLogParser.TomatoTimeSpanDescribed&gt;)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1624" ordinal="0" offset="0" sl="116" sc="74" el="116" ec="83" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1624" ordinal="0" offset="0" sl="116" sc="74" el="116" ec="83" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663479</MetadataToken>
+              <Name>System.Double TomatoDoer.Presentation.AnalyzeBox::&lt;GetAnalyze&gt;b__a(TomatoLogParser.TomatoTimeSpanDescribed)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1625" ordinal="0" offset="0" sl="126" sc="73" el="126" ec="109" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1625" ordinal="0" offset="0" sl="126" sc="73" el="126" ec="109" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663480</MetadataToken>
+              <Name>System.String TomatoDoer.Presentation.AnalyzeBox::&lt;GetAnalyze&gt;b__b(TomatoLogParser.TomatoTimeSpanDescribed)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1626" ordinal="0" offset="0" sl="129" sc="78" el="129" ec="91" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1626" ordinal="0" offset="0" sl="129" sc="78" el="129" ec="91" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663481</MetadataToken>
+              <Name>System.Double TomatoDoer.Presentation.AnalyzeBox::&lt;GetAnalyze&gt;b__3(TomatoLogParser.TomatoTimeSpanDescribed)</Name>
+              <FileRef uid="53" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1627" ordinal="0" offset="0" sl="70" sc="44" el="70" ec="80" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1627" ordinal="0" offset="0" sl="70" sc="44" el="70" ec="80" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>&lt;&gt;f__AnonymousType0`3</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663482</MetadataToken>
+              <Name>System.Void &lt;&gt;f__AnonymousType0`3::.ctor(&lt;Date&gt;j__TPar,&lt;HoursWorked&gt;j__TPar,&lt;TomatoesDone&gt;j__TPar)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1628" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663483</MetadataToken>
+              <Name>&lt;Date&gt;j__TPar &lt;&gt;f__AnonymousType0`3::get_Date()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1629" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663484</MetadataToken>
+              <Name>&lt;HoursWorked&gt;j__TPar &lt;&gt;f__AnonymousType0`3::get_HoursWorked()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1630" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663485</MetadataToken>
+              <Name>&lt;TomatoesDone&gt;j__TPar &lt;&gt;f__AnonymousType0`3::get_TomatoesDone()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1631" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663486</MetadataToken>
+              <Name>System.String &lt;&gt;f__AnonymousType0`3::ToString()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1632" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="4" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663487</MetadataToken>
+              <Name>System.Boolean &lt;&gt;f__AnonymousType0`3::Equals(System.Object)</Name>
+              <SequencePoints />
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="1634" ordinal="0" offset="8" path="0" />
+                <BranchPoint vc="0" uspid="1635" ordinal="1" offset="8" path="1" />
+                <BranchPoint vc="0" uspid="1636" ordinal="2" offset="32" path="0" />
+                <BranchPoint vc="0" uspid="1637" ordinal="3" offset="32" path="1" />
+                <BranchPoint vc="0" uspid="1638" ordinal="4" offset="56" path="0" />
+                <BranchPoint vc="0" uspid="1639" ordinal="5" offset="56" path="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="1633" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663488</MetadataToken>
+              <Name>System.Int32 &lt;&gt;f__AnonymousType0`3::GetHashCode()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1640" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

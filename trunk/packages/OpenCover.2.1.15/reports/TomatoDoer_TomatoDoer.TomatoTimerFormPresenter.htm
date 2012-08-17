@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><title>TomatoDoer.TomatoTimerFormPresenter - Coverage Report</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="report.css" />
+
+</head><body><div class="container"><h1>Summary</h1><table class="overview">
+<colgroup>
+<col width="130" />
+<col />
+</colgroup>
+<tr><th>Class:</th><td>TomatoDoer.TomatoTimerFormPresenter</td></tr><tr><th>Assembly:</th><td>TomatoDoer</td></tr><tr><th>File(s):</th><td><a href="#FcodingTomatoDoerTomatoDoerPresentationTomatoTimerFormPresentercs">F:\coding\TomatoDoer\TomatoDoer\Presentation\TomatoTimerFormPresenter.cs</a></td></tr><tr><th>Coverage:</th><td>100%</td></tr><tr><th>Covered lines:</th><td>23</td></tr><tr><th>Coverable lines:</th><td>23</td></tr><tr><th>Total lines:</th><td>57</td></tr></table>
+<h1>Metrics</h1><table class="overview">
+<tr>
+<th>Method</th><th>Cyclomatic Complexity</th><th>Sequence Coverage</th><th>Branch Coverage</th></tr>
+<tr><td>.ctor(...)</td><td>1</td><td>100</td><td>100</td></tr><tr><td>ResetButtonClick(...)</td><td>1</td><td>100</td><td>100</td></tr><tr><td>StartOrSquashTomatoButtonClick(...)</td><td>3</td><td>100</td><td>100</td></tr><tr><td>TomatoLogChanged(...)</td><td>1</td><td>100</td><td>100</td></tr><tr><td>UpdateLog()</td><td>1</td><td>100</td><td>100</td></tr></table>
+<h1>File(s)</h1><h2 id="FcodingTomatoDoerTomatoDoerPresentationTomatoTimerFormPresentercs">F:\coding\TomatoDoer\TomatoDoer\Presentation\TomatoTimerFormPresenter.cs</h2><table>
+<tr>
+<th></th><th>#</th><th>Line</th><th>Coverage</th></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>1</code></td><td class="light"><code>using&nbsp;System;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>2</code></td><td class="light"><code>using&nbsp;TomatoDoer.Model;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>3</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>4</code></td><td class="light"><code>namespace&nbsp;TomatoDoer</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>5</code></td><td class="light"><code>{</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>6</code></td><td class="light"><code>&nbsp;&nbsp;public&nbsp;class&nbsp;TomatoTimerFormPresenter</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>7</code></td><td class="light"><code>&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>8</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;readonly&nbsp;ITomatoTimerFormView&nbsp;_View;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>9</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;readonly&nbsp;ITomatoLog&nbsp;_TomatoLog;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>10</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;readonly&nbsp;ITomatoTimer&nbsp;_TomatoTimer;</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>11</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">9</td><td class="right"><code>12</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;TomatoTimerFormPresenter(ITomatoTimerFormView&nbsp;view,&nbsp;ITomatoLog&nbsp;tomatoLog,&nbsp;ITomatoTimer&nbsp;tomatoTimer)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>13</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">9</td><td class="right"><code>14</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_View&nbsp;=&nbsp;view;</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">9</td><td class="right"><code>15</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_TomatoLog&nbsp;=&nbsp;tomatoLog;</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">9</td><td class="right"><code>16</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_TomatoTimer&nbsp;=&nbsp;tomatoTimer;</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">9</td><td class="right"><code>17</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_View.BindTomatoTimer(_TomatoTimer,&nbsp;_TomatoLog);</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">9</td><td class="right"><code>18</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>19</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>20</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;TomatoLogChanged(object&nbsp;sender,&nbsp;EventArgs&nbsp;eventArgs)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>21</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">2</td><td class="right"><code>22</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UpdateLog();</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">2</td><td class="right"><code>23</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>24</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>25</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;UpdateLog()</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>26</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">3</td><td class="right"><code>27</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_TomatoLog.SuspendUpdateNotification();</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">3</td><td class="right"><code>28</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_TomatoLog.OverwriteAll(_View.LogText);</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">3</td><td class="right"><code>29</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_TomatoLog.Flush();</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">3</td><td class="right"><code>30</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_TomatoLog.ResumeUpdateNotification();</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">3</td><td class="right"><code>31</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>32</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>33</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;StartOrSquashTomatoButtonClick(object&nbsp;sender,&nbsp;EventArgs&nbsp;eventArgs)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>34</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">3</td><td class="right"><code>35</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(_TomatoTimer.IsStarted)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>36</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">1</td><td class="right"><code>37</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_TomatoTimer.Squash();</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>38</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>39</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>40</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">2</td><td class="right"><code>41</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(_View.TomatoDuration&nbsp;==&nbsp;null)</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">1</td><td class="right"><code>42</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_TomatoTimer.StartTimer();</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>43</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">1</td><td class="right"><code>44</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_TomatoTimer.StartTimer(_View.TomatoDuration.Value);</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>45</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">1</td><td class="right"><code>46</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>47</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>48</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;ResetButtonClick(object&nbsp;sender,&nbsp;EventArgs&nbsp;eventArgs)</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>49</code></td><td class="light"><code>&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">2</td><td class="right"><code>50</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_View.ResetButtonVisible&nbsp;=&nbsp;false;</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">2</td><td class="right"><code>51</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_TomatoTimer.Reset();</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">2</td><td class="right"><code>52</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_View.ResetTitle();</code></td></tr>
+<tr>
+<td class="green">&nbsp;</td><td class="leftmargin right">2</td><td class="right"><code>53</code></td><td><code>&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>54</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>55</code></td><td class="light"><code></code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>56</code></td><td class="light"><code>&nbsp;&nbsp;}</code></td></tr>
+<tr>
+<td class="gray">&nbsp;</td><td class="leftmargin right"></td><td class="right"><code>57</code></td><td class="light"><code>}</code></td></tr>
+</table>
+<div class="footer">Generated by: ReportGenerator 1.2.4.0<br />18.01.2012 - 20:23:29<br /><a href="http://www.palmmedia.de">www.palmmedia.de</a></div></div></body></html>
