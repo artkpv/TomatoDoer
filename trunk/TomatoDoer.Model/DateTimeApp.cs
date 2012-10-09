@@ -1,5 +1,4 @@
-using System;
-
+﻿using System;
 namespace TomatoDoer.Model
 {
 	public static class DateTimeApp
@@ -10,7 +9,6 @@ namespace TomatoDoer.Model
 			get { return _Now ?? DateTime.Now; }
 			set { _Now = value; }
 		}
-
 
 	}
 }

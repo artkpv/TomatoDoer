@@ -1,8 +1,8 @@
-﻿namespace TomatoDoer
-{
-	public interface ILogFile
-	{
-		void WriteAllText(string logText);
-		string ReadAllText();
-	}
+﻿namespace TomatoDoer
+{
+	public interface ILogFile
+	{
+		void WriteAllText(string logText);
+		string ReadAllText();
+	}
 }

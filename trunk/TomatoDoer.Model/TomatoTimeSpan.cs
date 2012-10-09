@@ -1,6 +1,5 @@
-using System;
+﻿using System;
 using System.Globalization;
-
 namespace TomatoDoer.Model
 {
 	/// <summary>
@@ -19,18 +18,15 @@ namespace TomatoDoer.Model
 		{
 			get { return GetTimeRemains(DateTimeApp.Now); }
 		}
-
 		public TomatoTimeSpan(TimeSpan duration, DateTime? endTime) : this()
 		{
 			Duration = duration;
 			EndTime = endTime;
 			StartTime = endTime - duration;
 		}
-
 		public TimeSpan GetTimeRemains(DateTime nowTimePoint)
 		{
 			var state = GetState(nowTimePoint);
-
 			switch (state)
 			{
 				case ETomatoState.Ended :
@@ -45,12 +41,10 @@ namespace TomatoDoer.Model
 					throw new NotImplementedException();
 			}
 		}
-
 		public ETomatoState State
 		{
 			get { return GetState(DateTimeApp.Now); }
 		}
-
 		/// <summary>
 		/// Gets state of tomato on its time span for specified time point
 		/// </summary>
@@ -59,17 +53,14 @@ namespace TomatoDoer.Model
 		public ETomatoState GetState(DateTime nowTimePoint)
 		{
 			if (StartTime == null || StartTime.Value > nowTimePoint) return ETomatoState.Ready;
-
 			TimeSpan elapsedTillNow = nowTimePoint - StartTime.Value;
 			TimeSpan elapsedTillEnd = (EndTime.HasValue && EndTime >= StartTime ? EndTime.Value - StartTime.Value : TimeSpan.MaxValue);
 			TimeSpan elapsed = elapsedTillEnd < elapsedTillNow ? elapsedTillEnd : elapsedTillNow;
-
 			if (elapsed < Duration.Duration())
 				if (EndTime == null || EndTime < StartTime) return ETomatoState.Started;
 				else return ETomatoState.Squashed;
 			else return ETomatoState.Ended;
 		}
-
 		public override string ToString()
 		{
 			return string.Format("TomatoTimeSpan of ({0}). Started: {1}. Ended: {2}.",
@@ -78,7 +69,6 @@ namespace TomatoDoer.Model
 			                     (EndTime.HasValue ? EndTime.Value.ToString(CultureInfo.InvariantCulture) : "n/a")
 								 );
 		}
-
 
 	}
 }

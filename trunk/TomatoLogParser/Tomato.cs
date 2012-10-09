@@ -1,5 +1,4 @@
-using System;
-
+﻿using System;
 namespace TomatoLogParser
 {
 	public struct Tomato
@@ -10,7 +9,6 @@ namespace TomatoLogParser
 		{
 			get { return Time.TimeOfDay.Hours; }
 		}
-
 		public string Task;
 		public int TomatoNumber;
 	}

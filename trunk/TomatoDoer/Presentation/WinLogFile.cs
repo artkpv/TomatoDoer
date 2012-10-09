@@ -1,13 +1,11 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Windows.Forms;
-
 namespace TomatoDoer
 {
 	public class WinLogFile : ILogFile
 	{
 		private static string _LogFilePath = Path.Combine(Application.StartupPath, "TomatoDoerLogFile.log");
-
 		public void WriteAllText(string logText)
 		{
 			try
@@ -19,7 +17,6 @@ namespace TomatoDoer
 				MessageBox.Show("Failed to read log file. Unauthorized to access.");
 			}
 		}
-
 		public string ReadAllText()
 		{
 			if (File.Exists(_LogFilePath))

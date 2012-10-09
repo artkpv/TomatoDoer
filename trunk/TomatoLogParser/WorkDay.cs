@@ -1,6 +1,5 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
-
 namespace TomatoLogParser
 {
 	public class WorkDay
@@ -17,7 +16,6 @@ namespace TomatoLogParser
 				return (int)Math.Round((lastTomatoEndTime - firstTomatoStartTime).TotalHours);
 			}
 		}
-
 		public DateTime? DateOfDay
 		{
 			get
