@@ -85,19 +85,7 @@ namespace TomatoDoer.Tests.Unit
 			_Presenter.ResetButtonClick(null, null);
 			_TomatoTimerMock.VerifyAllExpectations();
 		}
-		[TestMethod]
-		public void Presenter_Should_Inerst_Log_Analysis()
-		{
-			//todo
-			//arrange
-			Expect.Call(_ViewMock.LogText);
-			
-			//act
-			_Presenter.CallLogAnalysis();
-			
-			//assert
-			_ViewMock.VerifyAllExpectations();
-		}
+
 		[TestMethod]
 		public void Start_New_Tomato_Beginning_From_Last_By_No_Break_Button_After_5_Minutes()
 		{
@@ -110,6 +98,7 @@ namespace TomatoDoer.Tests.Unit
 			//assert
 			_TomatoTimerMock.VerifyAllExpectations();
 		}
+
 		[TestMethod]
 		public void Start_New_Tomato_Beginning_From_Last_By_No_Break_Button_After_10_Minutes()
 		{
