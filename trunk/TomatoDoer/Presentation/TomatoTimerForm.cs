@@ -132,7 +132,7 @@ namespace TomatoDoer
 			{
 				MessageBox.Show("Message to evernote was successfully sent.", "Success", MessageBoxButtons.OK,
 				                MessageBoxIcon.Information);
-				sendToEvernoteToolStripMenuItem.ToolTipText = "Last sent at " + DateTimeApp.Now.ToShortTimeString();
+				sendToEvernoteToolStripMenuItem.ToolTipText = "Last sent at " + DateTimeApp.Instance.Now.ToShortTimeString();
 			}
 			sendToEvernoteToolStripMenuItem.Text = "Send to evernote";
 			sendToEvernoteToolStripMenuItem.Enabled = true;
@@ -176,7 +176,7 @@ namespace TomatoDoer
 				message.To.Add(Settings.Default.EvernoteUserEmail);
 				message.Body = LogText;
 				message.Subject = string.Format("{0} {1} {2}",
-					string.Format(Settings.Default.EvernoteMailSubject, _Timer.CountTomatoesDone, DateTimeApp.Now.ToShortDateString()),
+					string.Format(Settings.Default.EvernoteMailSubject, _Timer.CountTomatoesDone, DateTimeApp.Instance.Now.ToShortDateString()),
 					!string.IsNullOrWhiteSpace(Settings.Default.EvernoteMailNotebook) ? "@" + Settings.Default.EvernoteMailNotebook : null,
 					!string.IsNullOrWhiteSpace(Settings.Default.EvernoteMailTag) ? "#" + Settings.Default.EvernoteMailTag : null);
 				client.SendCompleted += new SendCompletedEventHandler(SendCompletedCallback);

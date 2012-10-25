@@ -91,7 +91,7 @@ namespace TomatoDoer.Tests.Unit
 		{
 			//arrange
 			_TomatoTimerMock.StartTimer(new TimeSpan(0, 25, 0));
-			DateTimeApp.Now = DateTime.Now.AddMinutes(30);
+			DateTimeApp.Instance.FreezeTimeAt( DateTime.Now.AddMinutes(30));
 			_TomatoTimerMock.Expect(timer => timer.StartTimer(new TimeSpan(0, 20, 0)));
 			//act
 			_Presenter.StartNewTomatoWithoutBreak();
@@ -104,7 +104,7 @@ namespace TomatoDoer.Tests.Unit
 		{
 			//arrange
 			_TomatoTimerMock.StartTimer(new TimeSpan(0, 25, 0));
-			DateTimeApp.Now = DateTime.Now.AddMinutes(35);
+			DateTimeApp.Instance.FreezeTimeAt(DateTime.Now.AddMinutes(35));
 			_TomatoTimerMock.Expect(timer => timer.StartTimer(new TimeSpan(0, 15, 0)));
 			//act
 			_Presenter.StartNewTomatoWithoutBreak();

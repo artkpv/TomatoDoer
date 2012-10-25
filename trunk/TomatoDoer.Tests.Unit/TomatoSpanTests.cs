@@ -12,7 +12,7 @@ namespace TomatoDoer.Tests.Unit
 		[TestMethod]
 		public void Returns_Time_Remains()
 		{
-			DateTimeApp.Now = DateTime.Now;
+			DateTimeApp.Instance.FreezeTimeAt(DateTime.Now);
 			//arrange
 			var span = new TomatoTimeSpan()
 			{

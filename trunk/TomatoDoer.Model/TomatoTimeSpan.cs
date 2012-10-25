@@ -16,9 +16,9 @@ namespace TomatoDoer.Model
 		
 		public TimeSpan TimeRemains
 		{
-			get { return GetTimeRemains(DateTimeApp.Now); }
+			get { return GetTimeRemains(DateTimeApp.Instance.Now); }
 		}
-		public TomatoTimeSpan(TimeSpan duration, DateTime? endTime) : this()
+		public TomatoTimeSpan(TimeSpan duration, DateTime? endTime = null) : this()
 		{
 			Duration = duration;
 			EndTime = endTime;
@@ -43,7 +43,7 @@ namespace TomatoDoer.Model
 		}
 		public ETomatoState State
 		{
-			get { return GetState(DateTimeApp.Now); }
+			get { return GetState(DateTimeApp.Instance.Now); }
 		}
 		/// <summary>
 		/// Gets state of tomato on its time span for specified time point

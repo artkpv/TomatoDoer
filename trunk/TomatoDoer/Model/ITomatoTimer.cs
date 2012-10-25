@@ -18,5 +18,6 @@ namespace TomatoDoer.Model
 		void StartTimer(TimeSpan tomatoDuration);
 		void Squash();
 		void Reset();
+		TomatoTimeSpan? LastTomatoDone { get; }
 	}
 }

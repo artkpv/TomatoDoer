@@ -32,7 +32,7 @@ namespace TomatoLogParser
 				                                  CultureInfo.CurrentCulture);
 				int tomatoNumber = int.Parse(matchedTomatoDone.Groups["number"].Value);
 				//todo: Fix this feature!
-				if (endTime > DateTimeApp.Now)
+				if (endTime > DateTimeApp.Instance.Now)
 					endTime = endTime.AddYears(-1);
 				string tomatoDescription = GetTomatoUpperDescription(matchedTomatoDone.Index, clearedLog);
 				

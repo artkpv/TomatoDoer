@@ -52,7 +52,7 @@ namespace TomatoDoer
 		{
 			var analyze = new StringBuilder();
 			analyze.Append("Analysis of TomatoDoer log at ");
-			analyze.Append(DateTimeApp.Now.ToString());
+			analyze.Append(DateTimeApp.Instance.Now.ToString());
 			analyze.AppendLine();
 			var parser = new TomatoLogParser.TomatoLogParser();
 			List<TomatoTimeSpanDescribed> spansParsed = null;
@@ -75,11 +75,11 @@ namespace TomatoDoer
 		}
 		public void StartNewTomatoWithoutBreak()
 		{
-//			TomatoTimeSpan lastTomato = _TomatoTimer.LastTomato;
-//			if(lastTomato.State == ETomatoState.Ended)
+//			TomatoTimeSpan? lastTomato = _TomatoTimer.LastTomatoDone;
+//			if(lastTomato.HasValue && lastTomato.Value.State == ETomatoState.Ended)
 //			{
-//				TimeSpan timeLeft = DateTimeApp.Now - lastTomato.EndTime.Value;
-//				if(timeLeft > lastTomato.Duration)
+//				TimeSpan timeLeft = DateTimeApp.Instance.Now - lastTomato.Value.EndTime.Value;
+//				if(timeLeft > lastTomato.Value.Duration)
 //					_TomatoTimer.
 //				_TomatoTimer.StartTimer(new TimeSpan(0, 20, 0));
 //			}

@@ -20,7 +20,7 @@ namespace TomatoDoer.Model
 		}
 		public void Write(string testMessage)
 		{
-			DateTime logTime = DateTimeApp.Now;
+			DateTime logTime = DateTimeApp.Instance.Now;
 			_Builder.AppendFormat(
 				"{0} {1}: {2}",
 				_Builder.Length > 0 ? Environment.NewLine : string.Empty,

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Text.RegularExpressions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rhino.Mocks;
@@ -274,7 +275,7 @@ TomatoDoer
 		{
 			_TomatoTimer.StartTimer(new TimeSpan(0, 0, 1));
 			_TomatoTimer.Squash();
-			DateTimeApp.Now = DateTime.Now.AddMinutes(1);
+			DateTimeApp.Instance.FreezeTimeAt( DateTime.Now.AddMinutes(1));
 			Assert.AreEqual(0, _TomatoTimer.CountTomatoesDone);
 		}
 
@@ -287,7 +288,7 @@ TomatoDoer
 			_TimerStub.RaiseTickEvent();
 			_TomatoTimer.StartTimer(defaultTomatoDuration);
 			_TimerStub.RaiseTickEvent();
-			DateTimeApp.Now = DateTime.Now.AddMinutes(40);
+			DateTimeApp.Instance.FreezeTimeAt(DateTime.Now.AddMinutes(40));
 			_TimerStub.RaiseTickEvent();
 
 			Assert.AreEqual(defaultTomatoDuration, _TomatoTimer.CountTotalTime());
@@ -298,5 +299,65 @@ TomatoDoer
 		{
 			Assert.AreEqual(new TimeSpan(), _TomatoTimer.CountTotalTime());
 		}
+
+		[TestMethod]
+		public void Timer_Returns_Last_Tomato_Done()
+		{
+			TimeSpan lastTomatoDuration = new TimeSpan(0, 12, 0);
+
+			//act
+			_TomatoTimer.StartTimer(new TimeSpan(0, 25, 0));
+			_TimerStub.RaiseTickEvent();
+			DateTimeApp.Instance.FreezeTimeAt(DateTime.Now.AddMinutes(26));
+			_TimerStub.RaiseTickEvent();
+			_TomatoTimer.StartTimer(lastTomatoDuration);
+			_TimerStub.RaiseTickEvent();
+			DateTimeApp.Instance.FreezeTimeAt( DateTime.Now.AddMinutes(13));
+			_TimerStub.RaiseTickEvent();
+
+			//assert
+			Assert.IsNotNull(_TomatoTimer.LastTomatoDone);
+			Assert.AreEqual( lastTomatoDuration , _TomatoTimer.LastTomatoDone.Value.Duration);
+		}
+		
+		[TestMethod]
+		public void Timer_Should_Continue_A_Tomato()
+		{
+			
+			DateTimeApp.Instance.FreezeTimeAt(DateTimeApp.Instance.Now);
+			TimeSpan tomatoDuration	= new TimeSpan(0, 0, 25);
+			TomatoTimeSpan tomatoToContinue = new TomatoTimeSpan()
+			{
+				Duration = tomatoDuration,
+				StartTime = DateTimeApp.Instance.Now.AddMinutes(-5)
+			};
+
+			//act
+			_TomatoTimer.ContinueTomato(tomatoToContinue);
+			_TimerStub.RaiseTickEvent();
+			DateTimeApp.Instance.FreezeTimeAt(DateTimeApp.Instance.Now.AddMinutes(21));
+			_TimerStub.RaiseTickEvent();
+			
+			//assert
+			var lastTomato = _TomatoTimer.LastTomatoDone;
+			Assert.IsNotNull(lastTomato);
+			Assert.AreEqual(lastTomato.Value.State, ETomatoState.Ended);
+
+			Assert.AreEqual(lastTomato.Value.Duration, tomatoDuration);
+
+		}
+
+		[TestMethod]
+		[ExpectedException(typeof (TomatoException))]
+		public void Could_Not_Continue_Two_Tomatoes_At_The_Same_Time()
+		{
+			_TomatoTimer.ContinueTomato(
+				new TomatoTimeSpan(TomatoTimeSpan.MediumTomatoSpan)
+				{
+					StartTime = DateTimeApp.Instance.FreezeTimeAt(DateTime.Now.AddMinutes(-1))
+				});
+			_TomatoTimer.ContinueTomato(new TomatoTimeSpan(TomatoTimeSpan.MediumTomatoSpan));
+		}
+
 	}
 }

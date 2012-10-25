@@ -66,6 +66,15 @@ namespace TomatoDoer.Model
 		{
 			get { return  _TomatoTimeSpan.State; }
 		}
+
+		public TomatoTimeSpan? LastTomatoDone
+		{
+			get
+			{
+				return _TomatoHistory.LastOrDefault();
+			}
+		}
+
 		private void TimerTick()
 		{
 			if (_TomatoTimeSpan.State != ETomatoState.Started) StopTimer();
@@ -84,7 +93,7 @@ namespace TomatoDoer.Model
 		private void InitializeNewTomatoTimeSpan(TimeSpan tomatoDuration)
 		{
 			_TomatoTimeSpan.Duration = tomatoDuration;
-			_TomatoTimeSpan.StartTime = DateTimeApp.Now;
+			_TomatoTimeSpan.StartTime = DateTimeApp.Instance.Now;
 			_TomatoTimeSpan.EndTime = null;
 		}
 		public void Squash()
@@ -101,7 +110,7 @@ namespace TomatoDoer.Model
 		}
 		private void StopTimer()
 		{
-			_TomatoTimeSpan.EndTime = DateTimeApp.Now;
+			_TomatoTimeSpan.EndTime = DateTimeApp.Instance.Now;
 			_TomatoHistory.Add(_TomatoTimeSpan);
 			OnTomatoDoneOrSquashed();
 			if (_Timer.IsStarted) _Timer.Stop();
@@ -130,6 +139,16 @@ namespace TomatoDoer.Model
 			foreach (var spans in _TomatoHistory.Where(s => s.State == ETomatoState.Ended))
 				total += spans.Duration;
 			return total;
+		}
+		
+		public void ContinueTomato(TomatoTimeSpan tomatoToContinue)
+		{
+			if (IsStarted)
+				throw new TomatoException("Can't start new tomato. There is a started tomato already.");
+			_TomatoTimeSpan = tomatoToContinue;
+			TomatoDuration = _TomatoTimeSpan.Duration;
+			_Timer.Start();
+			OnStarting();
 		}
 	}
 }

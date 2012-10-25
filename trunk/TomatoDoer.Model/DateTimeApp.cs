@@ -1,13 +1,24 @@
 ﻿using System;
 namespace TomatoDoer.Model
 {
-	public static class DateTimeApp
+	public class DateTimeApp
 	{
-		private static DateTime? _Now = null; 
-		public static DateTime Now
+		private DateTime? _FreezedTime = null;
+		private static DateTimeApp _Instance;
+
+		public DateTime Now
 		{
-			get { return _Now ?? DateTime.Now; }
-			set { _Now = value; }
+			get { return _FreezedTime ?? DateTime.Now; }
+		}
+		
+		public DateTime FreezeTimeAt(DateTime dateTimeToFreezeAt)
+		{
+			return (_FreezedTime = dateTimeToFreezeAt).Value;
+		}
+
+		public static DateTimeApp Instance
+		{
+			get { return _Instance ?? (_Instance = new DateTimeApp()); }
 		}
 
 	}
