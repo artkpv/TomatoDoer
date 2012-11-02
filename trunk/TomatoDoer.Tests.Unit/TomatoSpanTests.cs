@@ -2,14 +2,14 @@
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using TomatoDoer.Model;
 namespace TomatoDoer.Tests.Unit
 {
-	[TestClass]
+	[TestFixture]
 	public class TomatoSpanTests
 	{
-		[TestMethod]
+		[Test]
 		public void Returns_Time_Remains()
 		{
 			DateTimeApp.Instance.FreezeTimeAt(DateTime.Now);

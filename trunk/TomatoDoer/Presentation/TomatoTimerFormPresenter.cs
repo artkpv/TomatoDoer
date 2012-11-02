@@ -73,16 +73,9 @@ namespace TomatoDoer
 		{
 			_View.LogText = GetAnalyze(_View.LogText);
 		}
-		public void StartNewTomatoWithoutBreak()
+		public void ContinueTomato(TimeSpan tomatoToBeContinuedTimeSpan)
 		{
-//			TomatoTimeSpan? lastTomato = _TomatoTimer.LastTomatoDone;
-//			if(lastTomato.HasValue && lastTomato.Value.State == ETomatoState.Ended)
-//			{
-//				TimeSpan timeLeft = DateTimeApp.Instance.Now - lastTomato.Value.EndTime.Value;
-//				if(timeLeft > lastTomato.Value.Duration)
-//					_TomatoTimer.
-//				_TomatoTimer.StartTimer(new TimeSpan(0, 20, 0));
-//			}
+			_TomatoTimer.ContinueTomato(new TomatoTimeSpan(){Duration=tomatoToBeContinuedTimeSpan});
 		}
 	}
 }

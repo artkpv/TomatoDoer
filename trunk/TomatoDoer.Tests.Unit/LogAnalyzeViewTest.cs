@@ -1,22 +1,22 @@
 ﻿using System.Linq;
+using NUnit.Framework;
 using TomatoDoer.Model;
 using TomatoDoer.Presentation;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit;
 using System;
 using TomatoLogParser;
 using System.Collections.Generic;
+
 namespace TomatoDoer.Tests.Unit
 {
-    
-    
     /// <summary>
     ///This is a test class for LogAnalyzeViewTest and is intended
     ///to contain all LogAnalyzeViewTest Unit Tests
     ///</summary>
-	[TestClass()]
+	[TestFixture()]
 	public class LogAnalyzeViewTest
 	{
-		[TestMethod]
+		[Test]
 		public void TomatoesShouldBeGroupedByWorkingSequences()
 		{
 			List<TomatoTimeSpanDescribed> spans =
@@ -47,7 +47,7 @@ namespace TomatoDoer.Tests.Unit
 			var sequences = view.GetWorkingSequences(spans);
 			Assert.AreEqual(2, sequences.Count());
 		}
-		[TestMethod]
+		[Test]
 		public void SequencesGroupedByDateOfFirstTomato()
 		{
 			List<TomatoTimeSpanDescribed> spans =
@@ -70,7 +70,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.AreEqual(DateTime.Parse("2011-10-01"), sequences.First().Key);
 		}
 
-		[TestMethod]
+		[Test]
 		public void ManyTasksTest()
 		{
 			string log =

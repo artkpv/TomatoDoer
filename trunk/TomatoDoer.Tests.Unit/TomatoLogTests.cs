@@ -1,51 +1,58 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Rhino.Mocks;
+using Moq;
+using NUnit.Framework;
 using TomatoDoer.Model;
 namespace TomatoDoer.Tests.Unit
 {
-	[TestClass]
+	[TestFixture]
 	public class TomatoLogTests
 	{
-		private ILogFile _LogFile;
+		private Mock<ILogFile> _LogFile;
 		private TomatoLog _Log;
-		[TestInitialize]
+		
+		[SetUp]
 		public  void InitializeTest()
 		{
-			_LogFile = MockRepository.GenerateMock<ILogFile>();
-			_Log = new TomatoLog(_LogFile);
+			_LogFile = new Mock<ILogFile>();
+			_Log = new TomatoLog(_LogFile.Object);
 		}
-		[TestMethod]
+		[Test]
 		public void Could_Write()
 		{
 			string testMessage = "Test message";
 			_Log.Write(testMessage);
-			StringAssert.Matches(_Log.Text, new Regex(@"\d{1,2} \w{3,3} \d\d\:\d\d\:\d\d\: " + testMessage));
+			StringAssert.IsMatch(@"\d{1,2} \w{3,3} \d\d\:\d\d\:\d\d\: " + testMessage, _Log.Text);
 		}
-		[TestMethod]
+		[Test]
 		public void Could_Flush_To_Disk()
 		{
 			string testMessage = "Test message";
 			_Log.Write(testMessage);
+
+			//act
 			_Log.Flush();
-			IList<object[]> argumentsForCallsMadeOn = _LogFile.GetArgumentsForCallsMadeOn(file => file.WriteAllText(string.Empty));
-			Assert.AreEqual(1, argumentsForCallsMadeOn.Count);
-			Assert.AreEqual(1, argumentsForCallsMadeOn[0].Length);
-			StringAssert.Contains((string)argumentsForCallsMadeOn[0][0], testMessage);
+
+			_LogFile.Verify(lf=>lf.WriteAllText(It.IsRegex(testMessage)));
 		}
-		[TestMethod]
+
+		[Test]
 		public void Could_Load_From_Disk()
 		{
 			string testMessage = @"01 apr 13:20:20: Test message1
 01 apr 13:30:20: Test message2";
-			_LogFile.Stub(file => file.ReadAllText()).Return(testMessage);
+			_LogFile.Setup(file => file.ReadAllText()).Returns(testMessage);
 			_Log.Write("Something was here");
+
+			//act
 			_Log.Load();
+
+			//assert
 			Assert.AreEqual(testMessage, _Log.Text);
 		}
-		[TestMethod]
+
+		[Test]
 		public void Could_Notify_Updating()
 		{
 			bool wasNotified = false;

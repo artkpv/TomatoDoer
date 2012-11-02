@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Windows.Forms;
-using Rhino.Mocks;
+using Moq;
+
 namespace TomatoDoer.Tests.Unit
 {
 	public class TestableFormsFactory : IFormsFactory
 	{
 		public Form ConstructAboutDialogForm()
 		{
-			return MockRepository.GenerateMock<Form>();
+			return new Mock<Form>().Object;
 		}
 	}
 }

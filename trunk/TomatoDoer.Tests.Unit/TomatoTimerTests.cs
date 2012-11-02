@@ -1,30 +1,30 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Rhino.Mocks;
+using Moq;
+using NUnit.Framework;
 using TomatoDoer.Model;
 namespace TomatoDoer.Tests.Unit
 {
-	[TestClass]
+	[TestFixture]
 	public class TomatoTimerTests
 	{
 		private InMemoryTimer _TimerStub;
-		private ITomatoLog _TomatoLog;
+		private Mock<ITomatoLog> _TomatoLog;
 		private TomatoTimer _TomatoTimer;
 
-		[TestInitialize]
+		[SetUp]
 		public void InitializeTests()
 		{
 			//arrange
 			_TimerStub = new InMemoryTimer();
 
-			_TomatoLog = MockRepository.GenerateMock<ITomatoLog>();
+			_TomatoLog = new Mock<ITomatoLog>();
 
-			_TomatoTimer = new TomatoTimer(_TimerStub, _TomatoLog);
+			_TomatoTimer = new TomatoTimer(_TimerStub, _TomatoLog.Object);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Could_Be_Started()
 		{
 			//act 
@@ -34,7 +34,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.IsTrue(_TomatoTimer.IsStarted);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Could_Be_Squashed()
 		{
 			//act
@@ -45,7 +45,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.IsFalse(_TomatoTimer.IsStarted);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Could_Be_Reset()
 		{
 			//act 
@@ -61,7 +61,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.AreEqual(0, _TomatoTimer.CountTomatoesDone);
 		}
 
-		[TestMethod]
+		[Test]
 		[ExpectedException(typeof (TomatoException))]
 		public void Could_Not_Start_Two_Tomatoes_At_The_Same_Time()
 		{
@@ -70,7 +70,7 @@ namespace TomatoDoer.Tests.Unit
 			_TomatoTimer.StartTimer();
 		}
 
-		[TestMethod]
+		[Test]
 		[ExpectedException(typeof (TomatoException))]
 		public void Could_Not_Squash_Ended_Tomato()
 		{
@@ -81,7 +81,7 @@ namespace TomatoDoer.Tests.Unit
 			_TomatoTimer.Squash();
 		}
 
-		[TestMethod]
+		[Test]
 		public void Timer_Should_Display_Progress()
 		{
 			//act 
@@ -92,7 +92,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.AreEqual(1, _TomatoTimer.TomatoTimeRemains.Minutes);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Should_Return_Number_Of_Done_Tomatoes()
 		{
 			_TomatoTimer.TomatoDuration = new TimeSpan(0, 0, 0);
@@ -108,7 +108,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.AreEqual(3, _TomatoTimer.CountTomatoesDone);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Inner_Timer_Could_Be_Started()
 		{
 			//arrange 
@@ -119,7 +119,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.IsTrue(_TimerStub.IsStarted);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Inner_Timer_Stopped_If_Tomato_Squashed()
 		{
 			//act
@@ -130,7 +130,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.IsFalse(_TimerStub.IsStarted);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Inner_Timer_Stopped_If_Reseting()
 		{
 			_TomatoTimer.StartTimer();
@@ -138,7 +138,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.IsFalse(_TimerStub.IsStarted);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Should_Report_Started()
 		{
 			bool wasStarted = false;
@@ -147,7 +147,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.IsTrue(wasStarted);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Should_Report_Tick()
 		{
 			bool isTickDone = false;
@@ -157,7 +157,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.IsTrue(isTickDone);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Should_Report_Ending_Somewhere()
 		{
 			bool wasTomatoDone = false;
@@ -168,7 +168,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.IsTrue(wasTomatoDone);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Should_Report_Squashing()
 		{
 			bool wasTomatoSquashed = false;
@@ -179,7 +179,7 @@ namespace TomatoDoer.Tests.Unit
 			Assert.IsTrue(wasTomatoSquashed);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Should_Not_Tick_If_Null_Tomato()
 		{
 			bool hasTick = false;
@@ -190,29 +190,26 @@ namespace TomatoDoer.Tests.Unit
 			Assert.IsFalse(hasTick);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Timer_Should_Log_Tomato_Done()
 		{
+			//act
 			_TomatoTimer.StartTimer(new TimeSpan(0, 0, 0));
 			_TimerStub.RaiseTickEvent();
-			var arguments = _TomatoLog.GetArgumentsForCallsMadeOn(log => log.Write(null));
-			Assert.AreEqual(1, arguments.Count);
-			Assert.AreEqual(1, arguments[0].Length);
-			StringAssert.Matches((string) arguments[0][0], new Regex(@"Tomato \d+ was done \(\d\d\:\d\d\)\."));
+
+			//assert
+			_TomatoLog.Verify(l=>l.Write(It.IsRegex(@"Tomato \d+ was done \(\d\d\:\d\d\)\.")));
 		}
 
-		[TestMethod]
+		[Test]
 		public void Timer_Should_Log_Tomato_Squashed()
 		{
 			_TomatoTimer.StartTimer(new TimeSpan(0, 10, 0));
 			_TomatoTimer.Squash();
-			var arguments = _TomatoLog.GetArgumentsForCallsMadeOn(log => log.Write(null));
-			Assert.AreEqual(1, arguments.Count);
-			Assert.AreEqual(1, arguments[0].Length);
-			StringAssert.Matches((string) arguments[0][0], new Regex(@"Tomato was squashed\."));
+			_TomatoLog.Verify(l=>l.Write(It.IsRegex(@"Tomato was squashed\.")));
 		}
 
-		[TestMethod]
+		[Test]
 		public void Timer_Should_Not_Increase_Number_Of_Done_Tomatoes_When_Reset()
 		{
 			int was = _TomatoTimer.CountTomatoesDone;
@@ -220,20 +217,20 @@ namespace TomatoDoer.Tests.Unit
 			Assert.AreEqual(was, _TomatoTimer.CountTomatoesDone);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Timer_Should_Not_Write_To_Log_Twice_About_Ending_After_ENd_Tick_And_Reset()
 		{
 			_TomatoTimer.TomatoDuration = new TimeSpan(0, 0, 0);
+			
+			//act
 			_TomatoTimer.StartTimer();
 			_TimerStub.RaiseTickEvent();
 			_TomatoTimer.Reset();
 
-			var callsOfWrite = _TomatoLog.GetArgumentsForCallsMadeOn(l => l.Write(null));
-
-			Assert.AreEqual(1, callsOfWrite.Count);
+			_TomatoLog.Verify(l=>l.Write(It.IsAny<string>()), Times.Once());
 		}
 
-		[TestMethod]
+		[Test]
 		public void Timer_Ended_Duration_Remains_The_Last_Specified()
 		{
 			var tomatoDuration = new TimeSpan(0, 0, 0, 0);
@@ -245,22 +242,23 @@ namespace TomatoDoer.Tests.Unit
 			Assert.AreEqual(tomatoDuration, _TomatoTimer.TomatoDuration);
 		}
 
-		[TestMethod]
+		[Test]
 		public void History_Of_Spans_Updates_On_log_Updated()
 		{
-			_TomatoLog.Stub(t => t.Text).Return(@"
+			_TomatoLog.SetupGet(l => l.Text).Returns(@"
 TomatoDoer
  28 июл 22:43:14: Tomato 1 was done.
 ");
+			//act
 			_TomatoLog.Raise(t => t.Updated += null);
 
 			Assert.AreEqual(1, _TomatoTimer.CountTomatoesDone);
 		}
 
-		[TestMethod]
+		[Test]
 		public void History_Of_Spans_Updates_Spans_Times()
 		{
-			_TomatoLog.Stub(t => t.Text).Return(@"
+			_TomatoLog.SetupGet(l => l.Text).Returns(@"
 TomatoDoer
  28 июл 22:43:14: Tomato 1 was done (22:00).
  28 июл 23:43:14: Tomato 2 was done (10:00).
@@ -270,7 +268,7 @@ TomatoDoer
 			Assert.AreEqual(new TimeSpan(0, 32, 0), _TomatoTimer.CountTotalTime());
 		}
 
-		[TestMethod]
+		[Test]
 		public void Timer_Should_Not_Count_Tomato_Reset()
 		{
 			_TomatoTimer.StartTimer(new TimeSpan(0, 0, 1));
@@ -279,7 +277,7 @@ TomatoDoer
 			Assert.AreEqual(0, _TomatoTimer.CountTomatoesDone);
 		}
 
-		[TestMethod]
+		[Test]
 		public void Timer_Counts_Total_Time_Duration()
 		{
 			var defaultTomatoDuration = new TimeSpan(0, 25, 0);
@@ -294,13 +292,13 @@ TomatoDoer
 			Assert.AreEqual(defaultTomatoDuration, _TomatoTimer.CountTotalTime());
 		}
 
-		[TestMethod]
+		[Test]
 		public void Timer_Dont_Spend_Time_When_No_Tomato_Done()
 		{
 			Assert.AreEqual(new TimeSpan(), _TomatoTimer.CountTotalTime());
 		}
 
-		[TestMethod]
+		[Test]
 		public void Timer_Returns_Last_Tomato_Done()
 		{
 			TimeSpan lastTomatoDuration = new TimeSpan(0, 12, 0);
@@ -320,7 +318,7 @@ TomatoDoer
 			Assert.AreEqual( lastTomatoDuration , _TomatoTimer.LastTomatoDone.Value.Duration);
 		}
 		
-		[TestMethod]
+		[Test]
 		public void Timer_Should_Continue_A_Tomato()
 		{
 			
@@ -347,7 +345,7 @@ TomatoDoer
 
 		}
 
-		[TestMethod]
+		[Test]
 		[ExpectedException(typeof (TomatoException))]
 		public void Could_Not_Continue_Two_Tomatoes_At_The_Same_Time()
 		{
