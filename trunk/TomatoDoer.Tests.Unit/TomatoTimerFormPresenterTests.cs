@@ -107,7 +107,7 @@ namespace TomatoDoer.Tests.Unit
 
 			_Presenter.ContinueTomato(tomatoToBeContinuedTimeSpan);
 
-			_TomatoTimerMock.Verify(tt=>tt.ContinueTomato(It.Is((TomatoTimeSpan tts)=>tts.Duration.Equals(tomatoToBeContinuedTimeSpan))));
+			_TomatoTimerMock.Verify(tt=>tt.ContinueTomato(tomatoToBeContinuedTimeSpan));
 		}
 
 		

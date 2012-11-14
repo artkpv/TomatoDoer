@@ -19,6 +19,6 @@ namespace TomatoDoer.Model
 		void Squash();
 		void Reset();
 		TomatoTimeSpan? LastTomatoDone { get; }
-		void ContinueTomato(TomatoTimeSpan tomatoToContinue);
+		void ContinueTomato(TimeSpan timeSpanToContinue);
 	}
 }

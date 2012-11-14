@@ -24,5 +24,16 @@ namespace TomatoDoer.Tests.Unit
 			//assert
 			Assert.AreEqual(20, minutes);
 		}
+
+		[Test]
+		public void ShouldInitializeCorrectly()
+		{
+			var span = new TomatoTimeSpan(TomatoTimeSpan.MediumTomatoSpan);
+
+			//assert
+			Assert.That(span.Duration, Is.EqualTo(TomatoTimeSpan.MediumTomatoSpan));
+			Assert.That(span.EndTime, Is.Null);
+			Assert.That(span.StartTime, Is.Null);
+		}
 	}
 }

@@ -69,7 +69,7 @@ namespace TomatoDoer
 		void timer_TomatoDone()
 		{
 			StartOrSquashButton.Text = "Start";
-			
+			ContinueButton.Visible = true;
 			maskedTextBox1.Enabled = true;
 			TomatoDuration = _Timer.TomatoDuration;
 			ResetTitle();
@@ -77,6 +77,7 @@ namespace TomatoDoer
 		void timer_Starting()
 		{
 			StartOrSquashButton.Text = "Squash";
+			ContinueButton.Visible = false;
 			maskedTextBox1.Enabled = false;
 		}
 		void timer_Tick()
@@ -209,6 +210,10 @@ namespace TomatoDoer
 		private void largeDurationToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			TomatoDuration = TomatoTimeSpan.BigTomatoSpan;
+		}
+
+		private void buttonContinue_Click (object sender, EventArgs e) {
+			_Presenter.ContinueTomato(TomatoDuration.Value);
 		}
 
 	}

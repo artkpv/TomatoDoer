@@ -286,7 +286,9 @@ TomatoDoer
 			_TimerStub.RaiseTickEvent();
 			_TomatoTimer.StartTimer(defaultTomatoDuration);
 			_TimerStub.RaiseTickEvent();
-			DateTimeApp.Instance.FreezeTimeAt(DateTime.Now.AddMinutes(40));
+			// TODO: With the following line it fails (DateTimeApp is shared among tests?):
+			//DateTimeApp.Instance.FreezeTimeAt(DateTime.Now.AddMinutes(40)); 
+			DateTimeApp.Instance.FreezeTimeAt(DateTimeApp.Instance.Now.AddMinutes(40)); 
 			_TimerStub.RaiseTickEvent();
 
 			Assert.AreEqual(defaultTomatoDuration, _TomatoTimer.CountTotalTime());
@@ -317,29 +319,40 @@ TomatoDoer
 			Assert.IsNotNull(_TomatoTimer.LastTomatoDone);
 			Assert.AreEqual( lastTomatoDuration , _TomatoTimer.LastTomatoDone.Value.Duration);
 		}
-		
+
 		[Test]
-		public void Timer_Should_Continue_A_Tomato()
+		public void On_Continue_SHould_Start_A_New_Tomato_If_No_Last_Tomato()
 		{
-			
-			DateTimeApp.Instance.FreezeTimeAt(DateTimeApp.Instance.Now);
-			TimeSpan tomatoDuration	= new TimeSpan(0, 0, 25);
-			TomatoTimeSpan tomatoToContinue = new TomatoTimeSpan()
-			{
-				Duration = tomatoDuration,
-				StartTime = DateTimeApp.Instance.Now.AddMinutes(-5)
-			};
+			TimeSpan tomatoDuration = TomatoTimeSpan.MediumTomatoSpan;
 
 			//act
-			_TomatoTimer.ContinueTomato(tomatoToContinue);
+			_TomatoTimer.ContinueTomato(tomatoDuration);
 			_TimerStub.RaiseTickEvent();
-			DateTimeApp.Instance.FreezeTimeAt(DateTimeApp.Instance.Now.AddMinutes(21));
+
+			//assert
+			Assert.That(_TomatoTimer.IsStarted, Is.True);
+			Assert.That(_TomatoTimer.TomatoDuration, Is.EqualTo(tomatoDuration));
+		}
+		
+		[Test]
+		public void Timer_Should_Continue_A_Tomato_From_A_Last_One()
+		{
+			//
+			var tomatoDuration = TomatoTimeSpan.MediumTomatoSpan;
+
+			//act
+			_TomatoTimer.StartTimer(tomatoDuration);
+			DateTimeApp.Instance.FreezeTimeAt(DateTimeApp.Instance.Now.AddMinutes(30));
+			_TimerStub.RaiseTickEvent();
+			_TomatoTimer.ContinueTomato(tomatoDuration);
+			_TimerStub.RaiseTickEvent();
+			DateTimeApp.Instance.FreezeTimeAt(DateTimeApp.Instance.Now.AddMinutes(20).AddSeconds(1));
 			_TimerStub.RaiseTickEvent();
 			
 			//assert
 			var lastTomato = _TomatoTimer.LastTomatoDone;
 			Assert.IsNotNull(lastTomato);
-			Assert.AreEqual(lastTomato.Value.State, ETomatoState.Ended);
+			Assert.That(lastTomato.Value.State, Is.EqualTo(ETomatoState.Ended));
 
 			Assert.AreEqual(lastTomato.Value.Duration, tomatoDuration);
 
@@ -349,13 +362,35 @@ TomatoDoer
 		[ExpectedException(typeof (TomatoException))]
 		public void Could_Not_Continue_Two_Tomatoes_At_The_Same_Time()
 		{
-			_TomatoTimer.ContinueTomato(
-				new TomatoTimeSpan(TomatoTimeSpan.MediumTomatoSpan)
-				{
-					StartTime = DateTimeApp.Instance.FreezeTimeAt(DateTime.Now.AddMinutes(-1))
-				});
-			_TomatoTimer.ContinueTomato(new TomatoTimeSpan(TomatoTimeSpan.MediumTomatoSpan));
+			_TomatoTimer.ContinueTomato(TomatoTimeSpan.MediumTomatoSpan);
+			_TomatoTimer.ContinueTomato(TomatoTimeSpan.MediumTomatoSpan);
 		}
 
+		[Test]
+		public void Continue_Tomato_Should_Start_Timer()
+		{
+			_TomatoTimer.ContinueTomato(TomatoTimeSpan.MediumTomatoSpan);
+			Assert.That(_TomatoTimer.IsStarted, Is.True);
+		}
+
+		[Test]
+		public void ShouldStartUsualTomatoOnContinueIfItWasRunNow()
+		{
+			//act
+			_TomatoTimer.ContinueTomato(TomatoTimeSpan.MediumTomatoSpan);
+			_TimerStub.RaiseTickEvent();
+			DateTimeApp.Instance.FreezeTimeAt(DateTimeApp.Instance.Now.AddMinutes(25).AddSeconds(1));
+			_TimerStub.RaiseTickEvent();
+
+			//Assert
+			_TomatoLog.Verify(tl => tl.Write(It.IsAny<string>()));
+			Assert.IsNotNull(_TomatoTimer.LastTomatoDone.HasValue);
+			Assert.That(_TomatoTimer.LastTomatoDone.Value.Duration, Is.EqualTo(TomatoTimeSpan.MediumTomatoSpan));
+		}
+		[Test]
+		public void On_COntinue_Should_Log_Done_Tomato_If_Large_Duration()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }

@@ -75,7 +75,7 @@ namespace TomatoDoer
 		}
 		public void ContinueTomato(TimeSpan tomatoToBeContinuedTimeSpan)
 		{
-			_TomatoTimer.ContinueTomato(new TomatoTimeSpan(){Duration=tomatoToBeContinuedTimeSpan});
+			_TomatoTimer.ContinueTomato(tomatoToBeContinuedTimeSpan);
 		}
 	}
 }

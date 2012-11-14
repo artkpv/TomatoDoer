@@ -43,6 +43,7 @@
 			this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.richTextBoxLog = new System.Windows.Forms.RichTextBox();
+			this.ContinueButton = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
@@ -77,7 +78,7 @@
             this.helpToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.Size = new System.Drawing.Size(285, 24);
+			this.menuStrip1.Size = new System.Drawing.Size(380, 24);
 			this.menuStrip1.TabIndex = 7;
 			this.menuStrip1.Text = "menuStrip1";
 			// 
@@ -96,7 +97,7 @@
 			this.exportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sendToEvernoteToolStripMenuItem});
 			this.exportToolStripMenuItem.Name = "exportToolStripMenuItem";
-			this.exportToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.exportToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
 			this.exportToolStripMenuItem.Text = "Export";
 			// 
 			// sendToEvernoteToolStripMenuItem
@@ -109,14 +110,14 @@
 			// analyzeLogToolStripMenuItem
 			// 
 			this.analyzeLogToolStripMenuItem.Name = "analyzeLogToolStripMenuItem";
-			this.analyzeLogToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.analyzeLogToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
 			this.analyzeLogToolStripMenuItem.Text = "Analyze log";
 			this.analyzeLogToolStripMenuItem.Click += new System.EventHandler(this.CallAnalysisOfLog);
 			// 
 			// quitToolStripMenuItem
 			// 
 			this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-			this.quitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.quitToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
 			this.quitToolStripMenuItem.Text = "Quit";
 			this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
 			// 
@@ -162,7 +163,7 @@
 			// aboutToolStripMenuItem
 			// 
 			this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-			this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
 			this.aboutToolStripMenuItem.Text = "About";
 			this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
 			// 
@@ -173,15 +174,26 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.richTextBoxLog.Location = new System.Drawing.Point(22, 77);
 			this.richTextBoxLog.Name = "richTextBoxLog";
-			this.richTextBoxLog.Size = new System.Drawing.Size(240, 350);
+			this.richTextBoxLog.Size = new System.Drawing.Size(335, 350);
 			this.richTextBoxLog.TabIndex = 8;
 			this.richTextBoxLog.Text = "";
+			// 
+			// ContinueButton
+			// 
+			this.ContinueButton.Location = new System.Drawing.Point(268, 27);
+			this.ContinueButton.Name = "ContinueButton";
+			this.ContinueButton.Size = new System.Drawing.Size(89, 44);
+			this.ContinueButton.TabIndex = 9;
+			this.ContinueButton.Text = "Continue";
+			this.ContinueButton.UseVisualStyleBackColor = true;
+			this.ContinueButton.Click += new System.EventHandler(this.buttonContinue_Click);
 			// 
 			// TomatoTimerForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(285, 439);
+			this.ClientSize = new System.Drawing.Size(380, 439);
+			this.Controls.Add(this.ContinueButton);
 			this.Controls.Add(this.richTextBoxLog);
 			this.Controls.Add(this.menuStrip1);
 			this.Controls.Add(this.StartOrSquashButton);
@@ -190,7 +202,7 @@
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MainMenuStrip = this.menuStrip1;
 			this.MaximizeBox = false;
-			this.MinimumSize = new System.Drawing.Size(301, 477);
+			this.MinimumSize = new System.Drawing.Size(396, 477);
 			this.Name = "TomatoTimerForm";
 			this.Text = "Tomato doer";
 			((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
@@ -198,6 +210,7 @@
 			this.menuStrip1.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
+
 		}
 		#endregion
 		private System.Windows.Forms.Button StartOrSquashButton;
@@ -216,5 +229,6 @@
 		private System.Windows.Forms.ToolStripMenuItem smallDurationToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem mediumDurationToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem largeDurationToolStripMenuItem;
+		private System.Windows.Forms.Button ContinueButton;
 	}
 }

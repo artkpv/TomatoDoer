@@ -141,11 +141,12 @@ namespace TomatoDoer.Model
 			return total;
 		}
 		
-		public void ContinueTomato(TomatoTimeSpan tomatoToContinue)
+		public void ContinueTomato(TimeSpan timeSpanToContinue)
 		{
 			if (IsStarted)
 				throw new TomatoException("Can't start new tomato. There is a started tomato already.");
-			_TomatoTimeSpan = tomatoToContinue;
+			_TomatoTimeSpan = new TomatoTimeSpan(timeSpanToContinue);
+			_TomatoTimeSpan.StartTime = LastTomatoDone.HasValue ? LastTomatoDone.Value.EndTime : DateTimeApp.Instance.Now;
 			TomatoDuration = _TomatoTimeSpan.Duration;
 			_Timer.Start();
 			OnStarting();
