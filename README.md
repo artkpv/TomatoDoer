@@ -2,7 +2,7 @@
 
 Simple timer for Pomodoro Technique under Windows and .NET 4 
 
-[Screenshot of v0.4.1](https://raw.github.com/w1ld/TomatoDoer/master/misc/Screenshot.v0.4.1.png)
+![Screenshot of v0.4.1](https://raw.github.com/w1ld/TomatoDoer/master/misc/Screenshot.v0.4.1.png)
 
 ### Features
 
