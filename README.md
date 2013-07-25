@@ -15,6 +15,8 @@ Simple timer for Pomodoro Technique under Windows and .NET 4
 
 ### Requirements
 
+- [Microsoft .NET Framework 4](http://www.microsoft.com/en-us/download/details.aspx?id=17718)
+
 ### Links 
 
 - Pomodoro technique, http://www.pomodorotechnique.com
