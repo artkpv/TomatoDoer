@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Windows.Forms;
+using Liensberger;
 using TomatoDoer.Model;
 using TomatoDoer.Presentation;
 using TomatoLogParser;
@@ -8,6 +11,7 @@ namespace TomatoDoer
 {
 	public class TomatoTimerFormPresenter
 	{
+        private KeyboardHook _Hook = new KeyboardHook();
 		private readonly ITomatoTimerFormView _View;
 		private readonly ITomatoLog _TomatoLog;
 		private readonly ITomatoTimer _TomatoTimer;
@@ -17,8 +21,40 @@ namespace TomatoDoer
 			_TomatoLog = tomatoLog;
 			_TomatoTimer = tomatoTimer;
 			_View.BindTomatoTimer(_TomatoTimer, _TomatoLog);
+		    InstallHooks();
 		}
-		public void TomatoLogChanged(object sender, EventArgs eventArgs)
+
+	    private void InstallHooks()
+	    {
+            _Hook.KeyPressed+=_Hook_KeyPressed;
+
+	        string keyboardShortcutStartOrSquash = Properties.Settings.Default.KeyboardShortcut_StartOrSquash;
+            if (!string.IsNullOrWhiteSpace(keyboardShortcutStartOrSquash))
+            {
+                var split = keyboardShortcutStartOrSquash.Split('+');
+                IEnumerable<string> modifierKeysMatches = split.Where(k => Enum.GetNames(typeof (KeyboardHook.ModifierKeys)).Contains(k, StringComparer.InvariantCultureIgnoreCase));
+
+                var modifierKeys = modifierKeysMatches
+                     .Select(s => (KeyboardHook.ModifierKeys)Enum.Parse(typeof (KeyboardHook.ModifierKeys), s));
+
+                var keys = split.Except(modifierKeysMatches).Where(
+                    k =>
+                    Enum.GetNames(typeof (Keys))
+                        .Contains(k, StringComparer.InvariantCultureIgnoreCase))
+                     .Select(s => (Keys)Enum.Parse(typeof (Keys), s));
+
+                if(modifierKeys.Any() || keys.Any())
+                    _Hook.RegisterHotKey( modifierKeys.Aggregate(KeyboardHook.ModifierKeys.None, (keys1, u) => keys1 |u),
+                        keys.Aggregate(Keys.None,(keys1, i) => keys1 | i) );
+            }
+	    }
+
+	    private void _Hook_KeyPressed(object sender, KeyboardHook.KeyPressedEventArgs e)
+	    {
+            StartOrSquashTomatoButtonClick(this,EventArgs.Empty);
+	    }
+
+	    public void TomatoLogChanged(object sender, EventArgs eventArgs)
 		{
 			UpdateLog();
 		}

@@ -78,6 +78,9 @@
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="..\External\keyboardhook\4404150\KeyboardHook.cs">
+      <Link>KeyboardHook.cs</Link>
+    </Compile>
     <Compile Include="Presentation\FormsFactory.cs" />
     <Compile Include="Presentation\ILogFile.cs" />
     <Compile Include="Model\ITimer.cs" />
