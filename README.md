@@ -18,6 +18,10 @@ Simple timer for Pomodoro Technique under Windows and .NET 4
 
 - [Microsoft .NET Framework 4](http://www.microsoft.com/en-us/download/details.aspx?id=17718)
 
+### Releases
+
+- [v0.4.1  ](./releases/tomatodoer.v0.4.1.zip)
+
 ### Links 
 
 - Pomodoro technique, http://www.pomodorotechnique.com
@@ -39,3 +43,5 @@ The TomatoDoer is licensed under [WTFPL](http://www.wtfpl.net/).
 	   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
 	  0. You just DO WHAT THE FUCK YOU WANT TO.
+
+
