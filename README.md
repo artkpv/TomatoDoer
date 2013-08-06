@@ -4,7 +4,7 @@ Simple timer for Pomodoro Technique under Windows and .NET 4
 
 ![Screenshot of v0.4.1](https://raw.github.com/w1ld/TomatoDoer/master/misc/Screenshot.v0.4.1.png)
 
-### Features
+### Features 
 
 - Count down timer for your pomidoroes
 - Windows7 progress in progress bar
@@ -12,7 +12,8 @@ Simple timer for Pomodoro Technique under Windows and .NET 4
 - Log of tomatoes done - saved, editable
 - Export to Evernote by email
 - Log analyzing (grouping by labels — #labeltemplate)
-
+- Popup notification on pomodoro ended or started (0.4.2)
+- Global hotkey to start and stop pomodoro (0.4.2)
 
 ### Requirements
 

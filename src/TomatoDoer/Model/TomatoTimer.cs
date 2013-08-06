@@ -110,10 +110,10 @@ namespace TomatoDoer.Model
 		}
 		private void StopTimer()
 		{
+			if (_Timer.IsStarted) _Timer.Stop();
 			_TomatoTimeSpan.EndTime = DateTimeApp.Instance.Now;
 			_TomatoHistory.Add(_TomatoTimeSpan);
 			OnTomatoDoneOrSquashed();
-			if (_Timer.IsStarted) _Timer.Stop();
 		}
 		private void OnTomatoDoneOrSquashed()
 		{

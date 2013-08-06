@@ -9,6 +9,7 @@ using System.Text;
 using System.Media;
 using System.Windows.Forms;
 using System.IO;
+using DiffuseDlgDemo;
 using TomatoDoer.Model;
 using TomatoDoer.Presentation;
 using TomatoDoer.Properties;
@@ -27,6 +28,7 @@ namespace TomatoDoer
 			richTextBoxLog.TextChanged += _Presenter.TomatoLogChanged;
 			StartOrSquashButton.Click += _Presenter.StartOrSquashTomatoButtonClick;
 		}
+
 		public void ResetTitle()
 		{
 			
@@ -73,12 +75,14 @@ namespace TomatoDoer
 			maskedTextBox1.Enabled = true;
 			TomatoDuration = _Timer.TomatoDuration;
 			ResetTitle();
+            
 		}
 		void timer_Starting()
 		{
 			StartOrSquashButton.Text = "Squash";
 			ContinueButton.Visible = false;
 			maskedTextBox1.Enabled = false;
+
 		}
 		void timer_Tick()
 		{
