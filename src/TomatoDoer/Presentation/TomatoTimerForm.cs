@@ -20,13 +20,15 @@ namespace TomatoDoer
 		private TomatoTimerFormPresenter _Presenter;
 		private ITomatoTimer _Timer = null;
 		private ITomatoLog _Log;
-		public TomatoTimerForm()
+
+	    public TomatoTimerForm()
 		{
 			InitializeComponent();
 			maskedTextBox1.Validating += TomatoDurationValidated;
 			_Presenter = new TomatoTimerFormPresenter(this, TomatoLog.Instance, TomatoTimer.Instance);
 			richTextBoxLog.TextChanged += _Presenter.TomatoLogChanged;
 			StartOrSquashButton.Click += _Presenter.StartOrSquashTomatoButtonClick;
+
 		}
 
 		public void ResetTitle()
@@ -218,7 +220,19 @@ namespace TomatoDoer
 
 		private void buttonContinue_Click (object sender, EventArgs e) {
 			_Presenter.ContinueTomato(TomatoDuration.Value);
-		}
+        }
+
+        private void notifyIconTomato_MouseDoubleClick (object sender, MouseEventArgs e)
+        {
+
+
+            // Set the WindowState to normal if the form is minimized.
+            if (this.WindowState == FormWindowState.Minimized)
+                this.WindowState = FormWindowState.Normal;
+
+            // Activate the form.
+            this.Activate();
+        }
 
 	}
 }

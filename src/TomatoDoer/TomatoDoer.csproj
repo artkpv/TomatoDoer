@@ -155,7 +155,7 @@
   <ItemGroup>
     <None Include="Resources\Tomato-Sauce.ico" />
     <Content Include="DiffuseDlg\images.jpg" />
-    <Content Include="Tomato-Sauce.ico" />
+    <Content Include="appicon.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TomatoDoer.Model\TomatoDoer.Model.csproj">

@@ -25,23 +25,7 @@ namespace TomatoDoer
 			_View.BindTomatoTimer(_TomatoTimer, _TomatoLog);
 		    InstallHooks();
 
-            _TomatoTimer.TomatoDoneOrSquashed += _TomatoTimer_TomatoDoneOrSquashed;
-            _TomatoTimer.Starting += _TomatoTimer_Starting;
 		}
-
-        void _TomatoTimer_Starting ()
-        {
-		    var notification = new Notification();
-            notification.SetMessage(string.Format("Pomodoro started "));
-		    notification.Show();
-        }
-
-        void _TomatoTimer_TomatoDoneOrSquashed ()
-        {
-		    var notification = new Notification();
-            notification.SetMessage(string.Format("Pomodoro ended"));
-		    notification.Show();
-        }
 
 	    private void InstallHooks()
 	    {
