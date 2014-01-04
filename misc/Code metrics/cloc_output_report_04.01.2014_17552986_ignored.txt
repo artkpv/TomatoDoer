@@ -1,0 +1,174 @@
+..\..\src: zero sized file
+..\..\src/External: zero sized file
+..\..\src/External/Rhino.Mocks-3.6: zero sized file
+..\..\src/External/Rhino.Mocks-3.6/Rhino.Mocks.xml: --exclude-lang=XML
+..\..\src/External/Rhino.Mocks-3.6/acknowledgements.txt: listed in $Not_Code_Extension{txt}
+..\..\src/External/Rhino.Mocks-3.6/license.txt: listed in $Not_Code_Extension{txt}
+..\..\src/External/keyboardhook: zero sized file
+..\..\src/External/keyboardhook/4404150: zero sized file
+..\..\src/External/keyboardhook/4404150/.git: zero sized file
+..\..\src/External/keyboardhook/4404150/.git/HEAD: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/config: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/description: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/hooks: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/hooks/applypatch-msg.sample: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/hooks/commit-msg.sample: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/hooks/post-commit.sample: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/hooks/post-receive.sample: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/hooks/post-update.sample: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/hooks/pre-applypatch.sample: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/hooks/pre-commit.sample: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/hooks/pre-rebase.sample: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/hooks/prepare-commit-msg.sample: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/hooks/update.sample: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/index: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/info: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/info/exclude: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/logs: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/logs/HEAD: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/logs/refs: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/logs/refs/heads: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/logs/refs/heads/master: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/logs/refs/remotes: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/logs/refs/remotes/origin: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/logs/refs/remotes/origin/HEAD: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/objects: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/objects/38: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/objects/38/79016e905b8a9bff2313bf789f9e59ba0c366b: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/objects/60: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/objects/60/f6a530f8ce75730ed61a1e8baec7d6a3edc0bf: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/objects/76: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/objects/76/d975f51b9dbe1128be85e17ac128f21b00f1b0: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/objects/d9: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/objects/d9/332f66e8bc8b1e3802d2f2ba4e3d5cdf7e6721: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/objects/info: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/objects/pack: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/packed-refs: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/refs: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/refs/heads: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/refs/heads/master: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/refs/remotes: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/refs/remotes/origin: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/refs/remotes/origin/HEAD: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/.git/refs/tags: --exclude-dir=.git
+..\..\src/External/keyboardhook/4404150/KeyboardHook.cs: listed in exclusion file exclude_file.txt
+..\..\src/Local.testsettings: language unknown (#3)
+..\..\src/TestResults: zero sized file
+..\..\src/TestResults/wild_AKA 2011-12-31 01_45_12.trx: language unknown (#3)
+..\..\src/TestResults/wild_AKA 2012-01-10 17_31_31.trx: language unknown (#3)
+..\..\src/TomatoDoer: zero sized file
+..\..\src/TomatoDoer.Model: zero sized file
+..\..\src/TomatoDoer.Model/Properties: zero sized file
+..\..\src/TomatoDoer.Model/TomatoDoer.Model.csproj: --exclude-lang=MSBuild scripts
+..\..\src/TomatoDoer.Model/bin: zero sized file
+..\..\src/TomatoDoer.Model/bin/Debug: zero sized file
+..\..\src/TomatoDoer.Model/bin/Release: zero sized file
+..\..\src/TomatoDoer.Model/obj: zero sized file
+..\..\src/TomatoDoer.Model/obj/Debug: zero sized file
+..\..\src/TomatoDoer.Model/obj/Release: zero sized file
+..\..\src/TomatoDoer.Tests.Unit: zero sized file
+..\..\src/TomatoDoer.Tests.Unit/Properties: zero sized file
+..\..\src/TomatoDoer.Tests.Unit/TomatoDoer.Tests.Unit.csproj: --exclude-lang=MSBuild scripts
+..\..\src/TomatoDoer.Tests.Unit/TomatoDoer.Tests.Unit.csproj.user: language unknown (#3)
+..\..\src/TomatoDoer.Tests.Unit/bin: zero sized file
+..\..\src/TomatoDoer.Tests.Unit/bin/Debug: zero sized file
+..\..\src/TomatoDoer.Tests.Unit/bin/Release: zero sized file
+..\..\src/TomatoDoer.Tests.Unit/obj: zero sized file
+..\..\src/TomatoDoer.Tests.Unit/obj/Debug: zero sized file
+..\..\src/TomatoDoer.Tests.Unit/obj/Release: zero sized file
+..\..\src/TomatoDoer.sln: language unknown (#3)
+..\..\src/TomatoDoer.sln.DotSettings.user: language unknown (#3)
+..\..\src/TomatoDoer/DiffuseDlg: zero sized file
+..\..\src/TomatoDoer/DiffuseDlg/Notification.resx: language unknown (#3)
+..\..\src/TomatoDoer/DiffuseDlg/TransDialog.resx: language unknown (#3)
+..\..\src/TomatoDoer/Model: zero sized file
+..\..\src/TomatoDoer/Presentation: zero sized file
+..\..\src/TomatoDoer/Presentation/About.resx: language unknown (#3)
+..\..\src/TomatoDoer/Presentation/TomatoTimerForm.resx: language unknown (#3)
+..\..\src/TomatoDoer/Properties: zero sized file
+..\..\src/TomatoDoer/Properties/Resources.resx: language unknown (#3)
+..\..\src/TomatoDoer/Properties/Settings.settings: language unknown (#3)
+..\..\src/TomatoDoer/Resources: zero sized file
+..\..\src/TomatoDoer/TomatoDoer.csproj: --exclude-lang=MSBuild scripts
+..\..\src/TomatoDoer/TomatoDoer.csproj.user: duplicate of ..\..\src/TomatoDoer.Tests.Unit/TomatoDoer.Tests.Unit.csproj.user
+..\..\src/TomatoDoer/bin: zero sized file
+..\..\src/TomatoDoer/bin/Debug: zero sized file
+..\..\src/TomatoDoer/bin/Release: zero sized file
+..\..\src/TomatoDoer/obj: zero sized file
+..\..\src/TomatoDoer/obj/Debug: zero sized file
+..\..\src/TomatoDoer/obj/Release: zero sized file
+..\..\src/TomatoDoer/obj/x86: zero sized file
+..\..\src/TomatoLogParser: zero sized file
+..\..\src/TomatoLogParser.Tests.Unit: zero sized file
+..\..\src/TomatoLogParser.Tests.Unit/Properties: zero sized file
+..\..\src/TomatoLogParser.Tests.Unit/TomatoLogParser.Tests.Unit.csproj: --exclude-lang=MSBuild scripts
+..\..\src/TomatoLogParser.Tests.Unit/bin: zero sized file
+..\..\src/TomatoLogParser.Tests.Unit/bin/Debug: zero sized file
+..\..\src/TomatoLogParser.Tests.Unit/bin/Release: zero sized file
+..\..\src/TomatoLogParser.Tests.Unit/obj: zero sized file
+..\..\src/TomatoLogParser.Tests.Unit/obj/Debug: zero sized file
+..\..\src/TomatoLogParser.Tests.Unit/obj/Release: zero sized file
+..\..\src/TomatoLogParser/Properties: zero sized file
+..\..\src/TomatoLogParser/TomatoLogParser.csproj: --exclude-lang=MSBuild scripts
+..\..\src/TomatoLogParser/bin: zero sized file
+..\..\src/TomatoLogParser/bin/Debug: zero sized file
+..\..\src/TomatoLogParser/bin/Release: zero sized file
+..\..\src/TomatoLogParser/obj: zero sized file
+..\..\src/TomatoLogParser/obj/Debug: zero sized file
+..\..\src/TomatoLogParser/obj/Release: zero sized file
+..\..\src/TomatoTimer.vsmdi: language unknown (#3)
+..\..\src/TraceAndTestImpact.testsettings: language unknown (#3)
+..\..\src/_ReSharper.TomatoDoer: zero sized file
+..\..\src/packages: zero sized file
+..\..\src/packages/Evernote.Core.0.5.0: zero sized file
+..\..\src/packages/Evernote.Core.0.5.0/lib: zero sized file
+..\..\src/packages/Evernote.Core.0.5.0/lib/net40: zero sized file
+..\..\src/packages/Evernote.Core.0.5.0/lib/sl4-wp71: zero sized file
+..\..\src/packages/Moq.4.0.10827: zero sized file
+..\..\src/packages/Moq.4.0.10827/License.txt: listed in exclusion file exclude_file.txt
+..\..\src/packages/Moq.4.0.10827/Moq.4.0.10827.nuspec: listed in exclusion file exclude_file.txt
+..\..\src/packages/Moq.4.0.10827/lib: zero sized file
+..\..\src/packages/Moq.4.0.10827/lib/NET35: zero sized file
+..\..\src/packages/Moq.4.0.10827/lib/NET35/Moq.xml: listed in exclusion file exclude_file.txt
+..\..\src/packages/Moq.4.0.10827/lib/NET40: zero sized file
+..\..\src/packages/Moq.4.0.10827/lib/NET40/Moq.xml: listed in exclusion file exclude_file.txt
+..\..\src/packages/Moq.4.0.10827/lib/Silverlight4: zero sized file
+..\..\src/packages/Moq.4.0.10827/lib/Silverlight4/Moq.Silverlight.xml: listed in exclusion file exclude_file.txt
+..\..\src/packages/NUnit.2.6.2: zero sized file
+..\..\src/packages/NUnit.2.6.2/NUnit.2.6.2.nuspec: listed in exclusion file exclude_file.txt
+..\..\src/packages/NUnit.2.6.2/lib: zero sized file
+..\..\src/packages/NUnit.2.6.2/lib/nunit.framework.xml: listed in exclusion file exclude_file.txt
+..\..\src/packages/NUnit.2.6.2/license.txt: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15: zero sized file
+..\..\src/packages/OpenCover.2.1.15/License.rtf: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/TestResult.xml: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/TestResults: zero sized file
+..\..\src/packages/OpenCover.2.1.15/TestResults/wild_AKA 2012-01-18 20_22_40: zero sized file
+..\..\src/packages/OpenCover.2.1.15/TestResults/wild_AKA 2012-01-18 20_22_40/Out: zero sized file
+..\..\src/packages/OpenCover.2.1.15/doc: zero sized file
+..\..\src/packages/OpenCover.2.1.15/doc/Usage.rtf: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/opencovertests.xml: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports: zero sized file
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.About.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.FormsFactory.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.Model.TomatoLog.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.Model.TomatoTimer.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.Presentation.AnalyzeBox.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.Program.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.Properties.Resources.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.Properties.Settings.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.SoundProgress.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.TaskbarProgress.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.TomatoException.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.TomatoTimerForm.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.TomatoTimerFormPresenter.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.WinLogFile.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/TomatoDoer_TomatoDoer.WinTimer.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/index.htm: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/reports/report.css: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/run.bat: listed in exclusion file exclude_file.txt
+..\..\src/packages/OpenCover.2.1.15/x64: zero sized file
+..\..\src/packages/OpenCover.2.1.15/x86: zero sized file
+..\..\src/packages/ReportGenerator.1.2.4.0: zero sized file
+..\..\src/packages/ReportGenerator.1.2.4.0/LICENSE.txt: listed in exclusion file exclude_file.txt
+..\..\src/packages/ReportGenerator.1.2.4.0/Readme.txt: listed in exclusion file exclude_file.txt
