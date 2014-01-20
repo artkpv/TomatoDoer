@@ -5,13 +5,13 @@ using System.Windows.Forms;
 using TomatoDoer.Model;
 namespace TomatoDoer
 {
-	class Program
+    public static class Program
 	{
 	    /// <summary>
 	    /// The main entry point for the application.
 	    /// </summary>
 	    [STAThread]
-	    private static void Main(out Form formMain)
+	    private static void Main()
 	    {
 	        Application.EnableVisualStyles();
 	        Application.SetCompatibleTextRenderingDefault(false);
@@ -20,7 +20,7 @@ namespace TomatoDoer
 
 	         new TaskbarProgress(TomatoTimer.Instance);
 	        TomatoLog.Instance.Load();
-	        formMain = new TomatoTimerForm();
+	        var formMain = new TomatoTimerForm();
 	        var applicationContext = new ApplicationContext();
 	        applicationContext.MainForm = formMain;
 	        Application.Run(applicationContext);
